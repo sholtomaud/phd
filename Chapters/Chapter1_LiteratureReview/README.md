@@ -2,11 +2,17 @@
 
 ## Methods of risk assessment 
 
+|----|-----|-----|
+|#|Name|Typical Industry|
+|----|-----|-----|
+
 ## Methods of risk management
 
-### Adaptive 
-
-### Precautionary
+|----|-----|-----|
+|#|Name|Typical Industry|
+|1.|Adaptive ||
+|1.|Precautionary ||
+|----|-----|-----|
 
 ## Uncertainty and risk
 

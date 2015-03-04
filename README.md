@@ -2,23 +2,13 @@
 By Sholto Maud
 
 ## Analytic Goals
-1. 
-2. 
-3. 
-
-# Technical Goals
-1. 
-2.
-3.
-
-## Analytic Goals
-Ivestigate method for feeding uncertainty into risk calculations
-Ivestigate method for evaluating dynamic risk
+1. Ivestigate method for feeding uncertainty into risk calculations
+2. Ivestigate method for evaluating dynamic risk
 
 ## Technical Goals
-Data systems for the presentation of a consistent visualisation
-Establish risking webservices
-Consume the risking webservices through the presentation layer
+1. Data systems for the presentation of a consistent visualisation
+2. Establish risking webservices
+3. Consume the risking webservices through the presentation layer
 
 ## TODO:
 

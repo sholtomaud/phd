@@ -29,11 +29,12 @@ With respects
 |2.|Precautionary ||
 
 ## Uncertainty and risk
-1 How do we feed the uncertainty of our data into the associate risks
-2 Are there different types of risk that need to be evaluated differently and fed into the risk calculation differently?
-3 Is the typical risk matrix appropriate for all circumstances?
-4 Should risk accompany the risk only
-5 Is there a 
+
+1. How do we feed the uncertainty of our data into the associate risks
+2. Are there different types of risk that need to be evaluated differently and fed into the risk calculation differently?
+3. Is the typical risk matrix appropriate for all circumstances?
+4. Should risk accompany the risk only
+5. Is there a 
 
 ## Visualisation
 

@@ -4,12 +4,14 @@
 
 Are there different types of risk?
 
-* Static vs Dynamic Risk
-* Technical
-* Compliance
-* Liability
+* Static vs Dynamic -> asset changing risk status over time
+* Technical/Operational
+* Compliance/Legal
 * Bus Factor
-* Political/social (social license)
+* Political/social -> social license
+* Strategic 
+* Financial
+* Environmental/Health & Safety
 
 ## Methods of risk assessment 
 

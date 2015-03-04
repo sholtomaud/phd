@@ -15,6 +15,7 @@ Are there different types of risk?
 * Model Risk
 * Environmental/Health & Safety
 * Data Quality Risk
+* Reliability Engineering
 
 ## Methods of risk assessment 
 

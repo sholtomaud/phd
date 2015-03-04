@@ -5,8 +5,7 @@
 Are there different types of risk?
 
 * Static vs Dynamic -> asset changing risk status over time
-* Risk Intensity -> 
-
+* Risk Intensity -> analogy which might be used to incorporate uncertainty
 * Technical/Operational
 * Compliance/Legal
 * Bus Factor

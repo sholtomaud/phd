@@ -12,20 +12,22 @@ Doctoral Thesis by Sholto Maud
 
 # TODO:
 
-## BITBUCKET
+### Literature Review
+
+### Bitbucket
 * API for being able to send tasks/issues in from CLI
 
-## ANSIBLE
+### Ansible
 * SSH-keygen webuser
 * add key to BITBUCKET
 * MONGODB
 * mongod
 
-## GAFFA
+### Gaffa
 * Simple GWDB form upload from ZIP
 * Versioning - dated
 
-## H2NODE
+### H2node
 * Data architecture
 * Transformation in
 * Transformation out

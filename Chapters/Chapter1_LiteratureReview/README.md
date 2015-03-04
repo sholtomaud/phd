@@ -5,21 +5,29 @@
 Are there different types of risk?
 
 * Static vs Dynamic -> asset changing risk status over time
+* Risk Intensity -> 
+
 * Technical/Operational
 * Compliance/Legal
 * Bus Factor
 * Political/social -> social license
 * Strategic 
 * Financial
+* Model Risk
 * Environmental/Health & Safety
+* Data Quality Risk
 
 ## Methods of risk assessment 
-
-With respects 
 
 |#|Method|Typical Industry|
 |:----|-----|-----|
 |1.| ||
+
+### Hetrogenous methods
+
+* Can we have one size fits all for a generic methodology?
+* Do we need to select each risk method according to the scenario/context?
+* 
 
 ## Methods of risk management
 
@@ -33,14 +41,13 @@ With respects
 1. How do we feed the uncertainty of our data into the associate risks
 2. Are there different types of risk that need to be evaluated differently and fed into the risk calculation differently?
 3. Is the typical risk matrix appropriate for all circumstances?
-4. Should risk accompany the risk only
-5. Is there a 
+4. Should uncertainty only just accompany the risk as a second value?
 
-## Visualisation
+## Visualisation of Risk
 
 * Analogy of google maps with the uncertainty of the GPS location
-* "Point/dot" is the estimated location, and the surrounding circle is the uncertainty of the location
-
+* LatLong point is the estimated location, and the surrounding circle is the uncertainty of the location
+* Could 
 
 ## Gaps
 

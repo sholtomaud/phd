@@ -18,4 +18,10 @@ gulp.task('default', function() {
   // place code for your default task here
 });
 
+gulp.task('rmarkdown', function() {
+  gulp.src('README.Rmd')
+    .pipe(rmarkdown())
+    .pipe(gulp.dest('docx/README'));
+});
+
 gulp.task('default', ['docx']);

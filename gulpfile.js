@@ -1,21 +1,11 @@
 var gulp = require('gulp');
-var pandoc = require('gulp-pandoc');
-
-gulp.task('docx', function() {
-  gulp.src('README.md')
-    .pipe(pandoc({
-      from: 'markdown',
-      to: 'docx',
-      ext: '.docx',
-      args: ['-s -S --biblio Library.bib --csl chicago-author-date.csl README.md']
-
-    }))
-    .pipe(gulp.dest('docx/README'));
-});
-
+var pandoc = require('gulp-rmarkdown');
 
 gulp.task('default', function() {
-  // place code for your default task here
+  gulp.src('/Chapters/Chapter1_LiteratureReview/README.md')
+  	.pipe(
+
+  	)
 });
 
 gulp.task('default', ['docx']);

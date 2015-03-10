@@ -1,5 +1,10 @@
 # Literature Review
 
+## Abstract
+
+This review covers the current legislative approaches in Australia to the management of risk associated with unconventional energy production. A brief historical survey is given to introduce the context of legislative discussion and various associated concepts, as a way of leading into the technical context, gap identification and recommendations for future work.
+
+
 ## Introduction
 
 In the last few years unconverntional energy (UE) production has been considered a significant potential economic resource for Australia. Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations, along with what is known as "tight gas" {{Ref CEDA 2012 p.7}}. 
@@ -16,7 +21,42 @@ The notion of scaling precautionary or corrective (so-called "make good") action
 
 
 
-As a part of this flexibility, Beckers et al recommend that adaptive methodologies include the temporal aspect within risk assessment (2013, p.iii), with the ability to track long term effects. This type of recommendation implies a long term monitoring effort with associated hydrology data storage technologies for meta-data, and timeseries data.
+
+Critical Reviews 
+
+
+
+Legisltaive Enhancements
+
+
+
+Risk Assessment
+
+(1) This section applies if the chief executive reasonably believes a water bore can no longer supply a reasonable quantity or quality of water for its authorised use or purpose.
+bore assessment includes an assessment of a water bore to establish—
+
+(a) whether it can supply a reasonable quantity or quality of water for its authorised use or purpose; and
+(b) the reason for any reduced capacity of the water bore to supply the reasonable quantity or quality of water.
+
+http://www5.austlii.edu.au/au/legis/qld/consol_act/wa200083/s418.html
+
+
+Make Good Measures
+
+ensuring the bore owner has access to a reasonable quantity and quality of water for the bore's authorised use or purpose;
+Examples—
+bore enhancement by deepening the bore or improving its pumping capacity
+constructing a new bore
+providing a supply of an equivalent amount of water of a suitable quality by piping it from an alternative source
+(b) carrying out a plan to monitor the bore, including, for example, by undertaking periodic bore assessments;
+(c) giving the bore owner monetary or non-monetary compensation for the bore's impaired capacity.
+
+http://www5.austlii.edu.au/au/legis/qld/consol_act/wa200083/s421.html
+
+
+
+
+As a part of this flexibility, Beckers et al recommend that adaptive methodologies include the temporal aspect within risk assessment (2013, p.iii), with the ability to track long term effects. This type of recommendation implies a long term monitoring effort with associated hydrology data storage technologies for meta-data, and timeseries data. And in addition to these usual types of data, the temportal aspect of risk should also thereofre be stored. 
 
 
 
@@ -28,19 +68,16 @@ The
 
 
 
-## Conclusions
+## Conclusions and Future Work
 
 This review has focuses on the regulatory frameworks which have been concieved to provide effective management of the risks associated with Unconventional Energy production.
 
+The design intent of the legislative concepts appears to necessitate a technical legislative framework to store and integrate many different dtata types over time. Such a framework is the main interest for future work. The three novel technical goals of that work envisiaged are; 
 
-It is suggested that a proof of concept be undertaken, exploring a technical framework by which the temporal component can be integrated into precautionary measures, which are either relaxed or enhanced in response.
+1. Proof of concept for a technical framework, which enables;
+2. The integration of the temporal component of risk into precautionary and adaptive measures, and
+3. The integration of model uncertainty into the calculation of risk.
 
-Along with integrating model uncertainty into the calculation of risk.
-
-
-The concept introduced within this technical framework is that of DYNAMIC RISK. Risk which changes over time. The concept of Dynamic Risk acknowledges that the components that go to makeup a risk calcualtion themselves change over time, which in turn makes risk a timeseries. 
-
-As is elaborated in Chapter 2 of this work, included within dynamic risk calculations are consequence (measured in Dollars), probability, and uncertainty. Each of these can change as more or less information becomes available, or as other factors vary, such as changes in licensing values and allocations in response to prevailing climate conditions, such as a drought for example.
 
 
 {{corporateName=Department of Natural Resources and Mines;  jurisdiction=Queensland;  address=PO Box 15216, City East. “Environmental Assessments and Conditions.” Collection; Text, February 6, 2012. https://www.business.qld.gov.au/industry/csg-lng-industry/water-environmental-management-csg/environmental-assessments-conditions.}}

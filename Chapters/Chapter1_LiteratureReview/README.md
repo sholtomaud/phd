@@ -7,14 +7,14 @@ This review covers the current legislative approaches in Australia to the manage
 
 ## Introduction
 
-In the last few years unconverntional energy (UE) production has been considered a significant potential economic resource for Australia. Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations, along with what is known as "tight gas" {{Ref CEDA 2012 p.7}}. 
+In the last few years unconverntional energy (UE) production has been considered a significant potential economic resource for Australia. Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations, along with what is known as "tight gas" [@Taylor2012, p.7]. 
 
-As noted by Professor Martin {{Ref CEDA 2012 p.5}} in the Committee for Economic Development of Australia (CEDA) report, property rights and water management are key issues for unconventional energy production. For water management specifically, Martin recommended that; 
+As noted by Professor Martin [@Taylor2012, p.5] in the Committee for Economic Development of Australia (CEDA) report, property rights and water management are key issues for unconventional energy production. For water management specifically, Martin recommended that; 
 
-* Water allocation and licensing frameworks needed to be enhanced to include water that is produced, and consumed by UE producers {{Ibid.}} 
+* Water allocation and licensing frameworks needed to be enhanced to include water that is produced, and consumed by UE producers [@Taylor2012, p.5] 
 * Due to the potential for irreversible damage to environmental systems, including hydrological systems, UE producers develop a robust risk management framework with strong precautionary principles 
 
-Within the latter of these two concepts, Taylor recommended that UE users of water resources should carry the costs associated with any impacts of energy production activities, and that precautionary measures be scaled according to information available about impacts {{CEDA 2012, p.11}}. 
+Within the latter of these two concepts, Taylor recommended that UE users of water resources should carry the costs associated with any impacts of energy production activities, and that precautionary measures be scaled according to information available about impacts [@Taylor2012, p.11]. 
 
 The notion of scaling precautionary or corrective (so-called "make good") actions in response to information is encompassed in the concept of Adaptive Environmental Management (AEM), and the associated Groundwater Model Multi Criteria Analysis (GMMCA). Both of these concepts aim to enable regulatory flexibility, and to refine and improve risk mapping over time. {{Beckers et al 2013 - Beckers, Jos, Troy Cook, and Adam Butcher. “Groundwater Risks Associated with Coal Seam Gas Development in the Surat and Southern Bowen Basins - Final Report.” WorleyParsons Resource and Energy, 2013.
 }}. 
@@ -27,6 +27,10 @@ Critical Reviews
 
 
 Legisltaive Enhancements
+
+
+Risks
+
 
 
 
@@ -144,3 +148,7 @@ Identified below are many different types of risk associated with different disc
 ## Gaps
 
 ## Technical methods
+
+# References
+
+

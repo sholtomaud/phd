@@ -4,8 +4,7 @@ date:   2015-03-10 13:12:00
 author: Sholto Maud
 output: 
   html_document:
-    pandoc_args: ["-s", "-S", "--biblio", "Library.bib", "--csl", "chicago-author-date.csl"]
-
+    pandoc_args: ["-s", "-S", "--biblio", "Library.bib", "--csl", "chicago-author-date.csl", "-o", "index.html"]
 ---
 
 ## Abstract

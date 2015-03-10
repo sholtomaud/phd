@@ -2,10 +2,16 @@
 
 ## What is Risk?
 
-Are there different types of risk?
+Risk is the product of probability and consequence
+
+
+
+## Types of Risk
+
+Identified below are many different types of risk associated with different disciplines and contexts.
 
 * Static vs Dynamic -> asset changing risk status over time
-* Risk Intensity -> analogy which might be used to incorporate uncertainty
+* Risk Intensity/Density -> analogy which might be used to incorporate uncertainty
 * Technical/Operational
 * Compliance/Legal
 * Bus Factor

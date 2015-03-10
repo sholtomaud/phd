@@ -1,4 +1,9 @@
-# Literature Review
+---
+layout: post
+title:  "Literature Review"
+date:   2015-03-10 13:12:00
+author: Sholto Maud
+---
 
 ## Abstract
 
@@ -16,25 +21,29 @@ As noted by Professor Martin [@Taylor2012, p.5] in the Committee for Economic De
 
 Within the latter of these two concepts, Taylor recommended that UE users of water resources should carry the costs associated with any impacts of energy production activities, and that precautionary measures be scaled according to information available about impacts [@Taylor2012, p.11]. 
 
-The notion of scaling precautionary or corrective (so-called "make good") actions in response to information is encompassed in the concept of Adaptive Environmental Management (AEM), and the associated Groundwater Model Multi Criteria Analysis (GMMCA). Both of these concepts aim to enable regulatory flexibility, and to refine and improve risk mapping over time. {{Beckers et al 2013 - Beckers, Jos, Troy Cook, and Adam Butcher. “Groundwater Risks Associated with Coal Seam Gas Development in the Surat and Southern Bowen Basins - Final Report.” WorleyParsons Resource and Energy, 2013.
-}}. 
+The notion of scaling precautionary or corrective (so-called "make good") actions in response to information is encompassed in the concept of Adaptive Environmental Management (AEM), and the associated Groundwater Model Multi Criteria Analysis (GMMCA)[@Beckers2013]. Both of these concepts aim to enable regulatory flexibility, and to refine and improve risk mapping over time. 
+
+## Markdown Testing
+![This is the caption](./../images/AttwoodOdum.png)
+
+
+
+## Critical Reviews 
+
+
+
+## Legisltaive Enhancements
+
+
+## Risks
 
 
 
 
-Critical Reviews 
+### Risk Assessment
 
+In the Terms of Reference for Activity 5 of the CSG Feasibility Study, a hybrid Groundwater Model and Multi Criteria Analysis (GMMCA) risk assessment methodology was developed [@Beckers2013].
 
-
-Legisltaive Enhancements
-
-
-Risks
-
-
-
-
-Risk Assessment
 
 (1) This section applies if the chief executive reasonably believes a water bore can no longer supply a reasonable quantity or quality of water for its authorised use or purpose.
 bore assessment includes an assessment of a water bore to establish—

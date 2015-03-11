@@ -3,46 +3,35 @@ layout: post
 title:  "Literature Review"
 date:   2015-03-10 13:12:00
 author: Sholto Maud
-output: docx
+output: 
+  word_document:
+    pandoc_args: ["-s", "-S", "--biblio", "Library.bib", "--csl", "chicago-author-date.csl", "-o", "index.html"]
 ---
 
 ## Abstract
 
 This review covers the current legislative approaches in Australia to the management of risk associated with unconventional energy production. A brief historical survey is given to introduce the context of legislative discussion and various associated concepts, as a way of leading into the technical context, gap identification and recommendations for future work.
 
-
 ## Introduction
 
-In the last few years unconverntional energy (UE) production has been considered a significant potential economic resource for Australia. Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations, along with what is known as "tight gas" [@Taylor2012, p.7]. 
+In the last few years unconventional energy (UE) production has been considered a significant potential economic resource for Australia. Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations, along with what is known as "tight gas" [@Taylor2012, p.7]. 
 
-As noted by Professor Martin [@Taylor2012, p.5] in the Committee for Economic Development of Australia (CEDA) report, property rights and water management are key issues for unconventional energy production. For water management specifically, Martin recommended that; 
+As noted by Professor Martin in the Committee for Economic Development of Australia (CEDA) report, property rights and water management are key issues for unconventional energy production [@Taylor2012, p.5]. For water management specifically, Martin recommended that; 
 
-* Water allocation and licensing frameworks needed to be enhanced to include water that is produced, and consumed by UE producers [@Taylor2012, p.5] 
+* Water allocation and licensing frameworks needed to be enhanced to include water that is produced, and consumed by UE producers 
 * Due to the potential for irreversible damage to environmental systems, including hydrological systems, UE producers develop a robust risk management framework with strong precautionary principles 
 
 Within the latter of these two concepts, Taylor recommended that UE users of water resources should carry the costs associated with any impacts of energy production activities, and that precautionary measures be scaled according to information available about impacts [@Taylor2012, p.11]. 
 
-The notion of scaling precautionary or corrective (so-called "make good") actions in response to information is encompassed in the concept of Adaptive Environmental Management (AEM), and the associated Groundwater Model Multi Criteria Analysis (GMMCA)[@Beckers2013]. Both of these concepts aim to enable regulatory flexibility, and to refine and improve risk mapping over time. 
+The notion of scaling precautionary or corrective (so-called "make good") actions in response to information is encompassed in the concept of Adaptive Environmental Management (AEM). In the context of groundwater a Groundwater Model Multi Criteria Analysis (GMMCA) was proposed as an enhanced a Multi Criteria Analysis (MCA) designed to incorporate geological, hydrological, environmental and economic attributes within the AEM paradigm [@Beckers2013]. Both the GMMCA, and the concept of scaling precaution have the intent to enable regulatory flexibility, and to refine and improve risk mapping over time [@Beckers2013]. 
 
-## Markdown Testing
-![This is the caption](./../images/AttwoodOdum.png)
+The attempt to integrate these enhancements in Australia has highlighted legislative and technical gaps. It is the intention of this review to document some of these gaps as noted in the literature, and within the technical community. Finally, potential solutions are proposed as a goals for future research with specific interest in the visualisation of risk as a management tool.
 
-This is an r evaluation `r 1 + 1`
+## Legislative Enhancements
 
-
-
-
-## Critical Reviews 
-
-
-
-## Legisltaive Enhancements
 
 
 ## Risks
-
-
-
 
 ### Risk Assessment
 
@@ -50,7 +39,7 @@ In the Terms of Reference for Activity 5 of the CSG Feasibility Study, a hybrid 
 
 
 (1) This section applies if the chief executive reasonably believes a water bore can no longer supply a reasonable quantity or quality of water for its authorised use or purpose.
-bore assessment includes an assessment of a water bore to establish—
+bore assessment includes an assessment of a water bore to establish —
 
 (a) whether it can supply a reasonable quantity or quality of water for its authorised use or purpose; and
 (b) the reason for any reduced capacity of the water bore to supply the reasonable quantity or quality of water.
@@ -58,10 +47,13 @@ bore assessment includes an assessment of a water bore to establish—
 http://www5.austlii.edu.au/au/legis/qld/consol_act/wa200083/s418.html
 
 
-Make Good Measures
+### Make Good Measures
+
+The gap identified by the literature appears to be the connection between GMMCA risk assessment and the make good measures. 
+
 
 ensuring the bore owner has access to a reasonable quantity and quality of water for the bore's authorised use or purpose;
-Examples—
+Examples —
 bore enhancement by deepening the bore or improving its pumping capacity
 constructing a new bore
 providing a supply of an equivalent amount of water of a suitable quality by piping it from an alternative source
@@ -80,7 +72,31 @@ As a part of this flexibility, Beckers et al recommend that adaptive methodologi
 
 ## Technical Context
 
-The 
+The prevailing Technical Context (TC) might be characterised by three different approaches to the task of providing a data system capable of meeting the requirements of risk management.
+
+``` 
+1. in-house technical  
+2. out-sourced vendor  
+3. hybrid 
+
+```
+
+In #3, the hybrid situation, the data system is typically maintained by a team of subject experts together with a system administrator.
+
+### Vendors
+
+
+### In-house
+
+
+### Hybrid
+
+
+
+
+
+### Technical Challenges
+provides some difficult in integrating 
 
 
 
@@ -158,10 +174,7 @@ Identified below are many different types of risk associated with different disc
 * LatLong point is the estimated location, and the surrounding circle is the uncertainty of the location
 * Could 
 
-## Gaps
-
 ## Technical methods
-
 # References
 
 

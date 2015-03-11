@@ -14,11 +14,11 @@ This review covers the current legislative and technical approaches in Australia
 
 ## Introduction
 
-In the last few years unconverntional energy (UE) production has been considered a significant potential economic resource for Australia. Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations, along with what is known as "tight gas" [@Taylor2012, p.7]. 
+In the last few years unconventional energy (UE) production has been considered a significant potential economic resource for Australia. Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations, along with what is known as "tight gas" [@Taylor2012, p.7]. 
 
-As noted by Professor Martin [@Taylor2012, p.5] in the Committee for Economic Development of Australia (CEDA) report, property rights and water management are key issues for unconventional energy production. For water management specifically, Martin recommended that; 
+As noted by Professor Martin in the Committee for Economic Development of Australia (CEDA) report, property rights and water management are key issues for unconventional energy production [@Taylor2012, p.5] . For water management specifically, Martin recommended that; 
 
-* Water allocation and licensing frameworks needed to be enhanced to include water that is produced, and consumed by UE producers [@Taylor2012, p.5] 
+* Water allocation and licensing frameworks needed to be enhanced to include water that is produced, and consumed by UE producers 
 * Due to the potential for irreversible damage to environmental systems, including hydrological systems, UE producers develop a robust risk management framework with strong precautionary principles 
 
 Within the latter of these two concepts, Taylor recommended that UE users of water resources should carry the costs associated with any impacts of energy production activities, and that precautionary measures be scaled according to information available about impacts [@Taylor2012, p.11]. 
@@ -26,9 +26,12 @@ Within the latter of these two concepts, Taylor recommended that UE users of wat
 The notion of scaling precautionary or corrective (so-called "make good") actions in response to information is encompassed in the concept of Adaptive Environmental Management (AEM), and the associated Groundwater Model Multi Criteria Analysis (GMMCA). GMMCA is a Multi Criteria Analysis
 (MCA) enhanced to incorporate geological, hydrological, environmental and economic attributes [@Beckers2013]. Both the GMMCA, and the concept of scaling precaution had the intent to enable regulatory flexibility, and to refine and improve risk mapping over time. 
 
+The attempt to integrate these enhancements in Australia has highlighted legislative and technical gaps. It is the intention of this review to identify the main gaps as noted in the literature, and within the technical community, and to posit potential solutions as a part of future research work.
+
+
 ## Critical Reviews 
 
-## Legisltaive Enhancements
+## Legislative Enhancements
 
 ## Risks
 
@@ -38,7 +41,7 @@ In the Terms of Reference for Activity 5 of the CSG Feasibility Study, a hybrid 
 
 
 (1) This section applies if the chief executive reasonably believes a water bore can no longer supply a reasonable quantity or quality of water for its authorised use or purpose.
-bore assessment includes an assessment of a water bore to establish—
+bore assessment includes an assessment of a water bore to establish —
 
 (a) whether it can supply a reasonable quantity or quality of water for its authorised use or purpose; and
 (b) the reason for any reduced capacity of the water bore to supply the reasonable quantity or quality of water.
@@ -46,10 +49,13 @@ bore assessment includes an assessment of a water bore to establish—
 http://www5.austlii.edu.au/au/legis/qld/consol_act/wa200083/s418.html
 
 
-## Make Good Measures
+### Make Good Measures
+
+The gap identified by the literature appears to be the connection between GMMCA risk assessment and the make good measures. 
+
 
 ensuring the bore owner has access to a reasonable quantity and quality of water for the bore's authorised use or purpose;
-Examples—
+Examples —
 bore enhancement by deepening the bore or improving its pumping capacity
 constructing a new bore
 providing a supply of an equivalent amount of water of a suitable quality by piping it from an alternative source

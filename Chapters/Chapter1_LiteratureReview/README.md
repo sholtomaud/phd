@@ -5,7 +5,7 @@ date:   2015-03-10 13:12:00
 author: Sholto Maud
 output: 
   word_document:
-    pandoc_args: ["-s", "-S", "--biblio", "Library.bib", "--csl", "chicago-author-date.csl", "-o", "index.html"]
+    pandoc_args: ["-s", "-S", "--biblio", "Library.bib", "--csl", "chicago-author-date.csl"]
 ---
 
 ## Abstract
@@ -21,9 +21,28 @@ As noted by Professor Martin in the Committee for Economic Development of Austra
 * Water allocation and licensing frameworks needed to be enhanced to include water that is produced, and consumed by UE producers 
 * Due to the potential for irreversible damage to environmental systems, including hydrological systems, UE producers develop a robust risk management framework with strong precautionary principles 
 
-Within the latter of these two concepts, Taylor recommended that UE users of water resources should carry the costs associated with any impacts of energy production activities, and that precautionary measures be scaled according to information available about impacts [@Taylor2012, p.11]. 
+These views appear to have broad support and are shared across the water industry, with the National Water Commission (NWC) [@Howe2010], the State of Queensland Department of Natural Resources and Mines (NRM) [@Beckers2013], all promoting a rigorous and consistent management approach to risk management. 
+
+The interest in this review is where the rubber hits the road, and the proverbial "devil in the details". This is to say, that at a high level the requirement for a robust risk management framework is not in dispute. However the implementation at the technical level presents difficulties. The author of this review was 'at the coal face', so to speak, during the attempt to implement such systems, and so the interest here is in reviewing the lower level system requirements generated from the higher level requirement of developing a robust risk management framework. 
+
+It is anticipated that in conducting this review, gaps and technical requirements will be generated, and these will become the proposed subject of future research effort.
+
+### Cumulative Effects
+
+With reference to the two recommendations made above, Taylor [Ibid] went on to suggest that where UE producers use water resources, they should carry the costs associated with any impacts from activities. However in the context of groundwater, these costs may have the potential to persist beyond the life cycle of the UE production, and so this raises concern over the temporal extent of liability. The term "cumulative effect" is used to conceptualise this temporal extent of liability. 
+
+Cumulative effects are effects that are successive or incremental over time [@Howe2010]. Whilst Taylor's discussion was framed within the context of negative effects, the concept of cumulative effect was designed not to have pejorative content, but to recognise that cumulative effects on society, the economy and the environment can be conceived as either positive or negative, or a combination of the two at any one time. 
+
+In a legal context, this raises the question of whether such cumulative effects are held as unavoidable, or whether liability is *res ipsa loquitur*; where negligence is attributed by the evidence of cumulative impact, rather than by breach of duty [@Schremmer2011]. The resolution of this question has legal consequence in the calculation of risk, and in the perceived risk, since the granting the status of unavoidable, would appear to reduce liability claims by the plaintiff, and the associated risk of the operation. 
+
+
+
+
 
 The notion of scaling precautionary or corrective (so-called "make good") actions in response to information is encompassed in the concept of Adaptive Environmental Management (AEM). In the context of groundwater a Groundwater Model Multi Criteria Analysis (GMMCA) was proposed as an enhanced a Multi Criteria Analysis (MCA) designed to incorporate geological, hydrological, environmental and economic attributes within the AEM paradigm [@Beckers2013]. Both the GMMCA, and the concept of scaling precaution have the intent to enable regulatory flexibility, and to refine and improve risk mapping over time [@Beckers2013]. 
+
+For Taylor precautionary measures be scaled according to information available about impacts [@Taylor2012, p.11]. As a part of this flexibility, Beckers et al recommend that adaptive methodologies include the temporal aspect within risk assessment (2013, p.iii), with the ability to track long term effects. This type of recommendation implies a long term monitoring effort with associated hydrology data storage technologies for meta-data, and timeseries data. And in addition to these usual types of data, the temportal aspect of risk should also thereofre be stored. 
+
 
 The attempt to integrate these enhancements in Australia has highlighted legislative and technical gaps. It is the intention of this review to document some of these gaps as noted in the literature, and within the technical community. Finally, potential solutions are proposed as a goals for future research with specific interest in the visualisation of risk as a management tool.
 
@@ -32,6 +51,19 @@ The attempt to integrate these enhancements in Australia has highlighted legisla
 
 
 ## Risks
+
+The risks cited in the literature are tabulated below:
+
+|#|Asset at Risk | Hazard | Source | Reference |
+|:----|-----|-----|-----|-----|
+|1.|Aquifer |Disturbance and irreparable damage| Construction |[@Randall2012, p.155]|
+|2.|Groundwater |Methane migration | Operations |[@Randall2012, p.155]|
+|3.|Groundwater |Contamination | Soil | [@Randall2012, p.155]|
+|4.|Groundwater |Contamination | Fracking fluid  | [@Randall2012, p.155]|
+|5.|Groundwater |Contamination | Machinary  | [@Randall2012, p.155]|
+|6.|Landmass |Subsidence | Gas extraction and lowering water tables creating voids | [@Randall2012, p.155]|
+|7.|Ecosystems | Habitat loss | Construction & operations  | [@Randall2012, p.155]|
+
 
 ### Risk Assessment
 
@@ -63,9 +95,6 @@ providing a supply of an equivalent amount of water of a suitable quality by pip
 http://www5.austlii.edu.au/au/legis/qld/consol_act/wa200083/s421.html
 
 
-
-
-As a part of this flexibility, Beckers et al recommend that adaptive methodologies include the temporal aspect within risk assessment (2013, p.iii), with the ability to track long term effects. This type of recommendation implies a long term monitoring effort with associated hydrology data storage technologies for meta-data, and timeseries data. And in addition to these usual types of data, the temportal aspect of risk should also thereofre be stored. 
 
 
 

@@ -8,11 +8,11 @@ output:
     pandoc_args: ["-s", "-S", "--biblio", "Library.bib", "--csl", "chicago-author-date.csl"]
 ---
 
-## Abstract
+# Abstract
 
 This review covers the current legislative approaches in Australia to the management of risk associated with unconventional energy production. A brief historical survey is given to introduce the context of legislative discussion and various associated concepts, as a way of leading into the technical context, gap identification and recommendations for future work.
 
-## Introduction
+# Introduction
 
 In the last few years unconventional energy (UE) production has been considered a significant potential economic resource for Australia. Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations, along with what is known as "tight gas" [@Taylor2012, p.7]. 
 
@@ -21,19 +21,108 @@ As noted by Professor Martin in the Committee for Economic Development of Austra
 * Water allocation and licensing frameworks needed to be enhanced to include water that is produced, and consumed by UE producers 
 * Due to the potential for irreversible damage to environmental systems, including hydrological systems, UE producers develop a robust risk management framework with strong precautionary principles 
 
-These views appear to have broad support and are shared across the water industry, with the National Water Commission (NWC) [@Howe2010], the State of Queensland Department of Natural Resources and Mines (NRM) [@Beckers2013], all promoting a rigorous and consistent management approach to risk management. 
+These views, and the support for a National framework appear to have broad support and are shared with the water industry [@Beckers2013, @Howe2010, @Hunter2013], and in Australia have culminated in the National Harmonsied Regulatory Framework [@SCER2013].
+
+
+The National Water Commission (NWC) , the State of Queensland Department of Natural Resources and Mines (NRM) [], 
+
+all promote a rigorous and consistent approach to risk management. 
 
 The interest in this review is where the rubber hits the road, and the proverbial "devil in the details". This is to say, that at a high level the requirement for a robust risk management framework is not in dispute. However the implementation at the technical level presents difficulties. The author of this review was 'at the coal face', so to speak, during the attempt to implement such systems, and so the interest here is in reviewing the lower level system requirements generated from the higher level requirement of developing a robust risk management framework. 
 
 It is anticipated that in conducting this review, gaps and technical requirements will be generated, and these will become the proposed subject of future research effort.
+To contextualise these requirements further, the concepts risk, risk management framework, make good and liability will be addressed.
+
+# Risk & risk management frameworks
+
+In the Terms of Reference for Activity 5 of the CSG Feasibility Study, a hybrid Groundwater Model and Multi Criteria Analysis (GMMCA) risk assessment methodology was developed [@Beckers2013].
+
+
+## Risk
+
+The standard definition of Risk (R) is the product of Consequence (C) and Probability (p): 
+
+$$
+ \begin{aligned}
+ \R = C * p 
+ \end{aligned}
+$$
+
+## Frameworks
+
+In order for the framework to achieve these goals, it is important that it provides
+comprehensive references to the scientific information and data framework it intends on
+using, or indeed any scientific information it has consulted. Demonstrable scientific
+underpinning will assist in community and industry education, and improvement in
+developing and implementing leading practices [@Hunter2013]. 
+
+practical steps to measure, share and analyse environmental data across
+jurisdictions [@ANEDO2013]. 
+
+
+As noted in the Harmonisation Framework, QLD applies an adaptive management approach. In this approach, defined trigger thresholds are used to initiate the make-good process [@SCER2013, p.47]. 
+
+
+
+
+
+## Strict Liability
+
+With reference to the two recommendations made above, Taylor [Ibid] went on to suggest that where UE producers use water resources, they should carry the costs associated with any impacts from activities. This view concurs with the views of landholders, who wish to receive appropriate compensation and payments [@VFF2013, ]. 
+
+
+Strict liability is the imposition of liability on a party without a finding of fault. The question is whether UE producers have  would therefore be afforded to the tortfeasor. 
+
+
+
+
+In this context the NWC recommended that that bonds and sureties should deal with uncertainty and the timeframes associated with potential impacts [@NWC2010]. As the NWC noted, these time frames may potentially extend past 100 years, which is well-beyond the expected life-span of the CSG recovery process.
+
+
+
+
+"This includes impacts such as long-term reductions in adjacent aquifer
+ pressures and levels, and impacts on environmental assets that are not adequately
+ protected by current ‘make good’ mechanisms" [@NWC2010].
+
+
+
+"risk assessment model must include a
+definition of ‘unacceptable impacts’ to the environment and human health and
+any projects falling in this category should not be allowed to proceed. Risk
+assessment should not be undertaken by the proponent but by an independent
+third party."  ... “Verification of key system elements” should not rely on appraisal by “in house
+representatives” but rather only “independent third-party professional[s]”. [@Boudicca2013]
+
+
+
+
+## Connection between Risk, Liability and Make Good
+
+
+## What is a risk management framework?
+
+
+## Make Good
+
 
 ### Cumulative Effects
 
-With reference to the two recommendations made above, Taylor [Ibid] went on to suggest that where UE producers use water resources, they should carry the costs associated with any impacts from activities. However in the context of groundwater, these costs may have the potential to persist beyond the life cycle of the UE production, and so this raises concern over the temporal extent of liability. The term "cumulative effect" is used to conceptualise this temporal extent of liability. 
+
+
+ As noted by the National Water Comission (NWC), in the context of groundwater, these costs may have the potential to persist beyond the life cycle of the UE production  
+
+
+ This raises concern over the temporal extent of liability. The tort "civil wrong"
+
+
+ The term "cumulative effect" is used to conceptualise this temporal extent of liability. 
 
 Cumulative effects are effects that are successive or incremental over time [@Howe2010]. Whilst Taylor's discussion was framed within the context of negative effects, the concept of cumulative effect was designed not to have pejorative content, but to recognise that cumulative effects on society, the economy and the environment can be conceived as either positive or negative, or a combination of the two at any one time. 
 
-In a legal context, this raises the question of whether such cumulative effects are held as unavoidable, or whether liability is *res ipsa loquitur*; where negligence is attributed by the evidence of cumulative impact, rather than by breach of duty [@Schremmer2011]. The resolution of this question has legal consequence in the calculation of risk, and in the perceived risk, since the granting the status of unavoidable, would appear to reduce liability claims by the plaintiff, and the associated risk of the operation. 
+In a legal context, this raises the question of whether such cumulative effects are held as unavoidable, or whether liability is *res ipsa loquitur*: That is, where negligence is attributed by the evidence of cumulative impact, rather than by breach of duty [@Schremmer2011]. 
+
+The resolution of this question has legal consequence in the calculation of risk, and in the perceived risk, since the granting the status of unavoidable, would appear to reduce liability claims by the plaintiff, and the associated risk of the operation. 
 
 
 
@@ -41,7 +130,9 @@ In a legal context, this raises the question of whether such cumulative effects 
 
 The notion of scaling precautionary or corrective (so-called "make good") actions in response to information is encompassed in the concept of Adaptive Environmental Management (AEM). In the context of groundwater a Groundwater Model Multi Criteria Analysis (GMMCA) was proposed as an enhanced a Multi Criteria Analysis (MCA) designed to incorporate geological, hydrological, environmental and economic attributes within the AEM paradigm [@Beckers2013]. Both the GMMCA, and the concept of scaling precaution have the intent to enable regulatory flexibility, and to refine and improve risk mapping over time [@Beckers2013]. 
 
-For Taylor precautionary measures be scaled according to information available about impacts [@Taylor2012, p.11]. As a part of this flexibility, Beckers et al recommend that adaptive methodologies include the temporal aspect within risk assessment (2013, p.iii), with the ability to track long term effects. This type of recommendation implies a long term monitoring effort with associated hydrology data storage technologies for meta-data, and timeseries data. And in addition to these usual types of data, the temportal aspect of risk should also thereofre be stored. 
+
+
+For Taylor precautionary measures be scaled according to information available about impacts [@Taylor2012, p.11]. As a part of this flexibility, Beckers et al recommend that adaptive methodologies include the temporal aspect within risk assessment [@Beckers2013, p.iii], with the ability to track long term effects. This type of recommendation implies a long term monitoring effort with associated hydrology data storage technologies for meta-data, and timeseries data. And in addition to these usual types of data, the temportal aspect of risk should also thereofre be stored. 
 
 
 The attempt to integrate these enhancements in Australia has highlighted legislative and technical gaps. It is the intention of this review to document some of these gaps as noted in the literature, and within the technical community. Finally, potential solutions are proposed as a goals for future research with specific interest in the visualisation of risk as a management tool.
@@ -50,7 +141,16 @@ The attempt to integrate these enhancements in Australia has highlighted legisla
 
 
 
-## Risks
+# Risk
+
+## Risk Management 
+
+According to Baker et al, risk management consists of risk analysis, evaluation and control [@Baker1998].
+
+
+
+
+
 
 The risks cited in the literature are tabulated below:
 
@@ -65,23 +165,90 @@ The risks cited in the literature are tabulated below:
 |7.|Ecosystems | Habitat loss | Construction & operations  | [@Randall2012, p.155]|
 
 
-### Risk Assessment
+## Risk Assessment
 
-In the Terms of Reference for Activity 5 of the CSG Feasibility Study, a hybrid Groundwater Model and Multi Criteria Analysis (GMMCA) risk assessment methodology was developed [@Beckers2013].
-
-
-(1) This section applies if the chief executive reasonably believes a water bore can no longer supply a reasonable quantity or quality of water for its authorised use or purpose.
-bore assessment includes an assessment of a water bore to establish —
-
-(a) whether it can supply a reasonable quantity or quality of water for its authorised use or purpose; and
-(b) the reason for any reduced capacity of the water bore to supply the reasonable quantity or quality of water.
-
-http://www5.austlii.edu.au/au/legis/qld/consol_act/wa200083/s418.html
+The field of Risk Assessment is broad, however two general approaches have been recogonised as quantitative and qualitative
 
 
-### Make Good Measures
+### Qualitative Risk Assessment
 
+Qualitative assessments of risk are based on expert opinion. Risk is assigned in relative terms based on the expert's estimation. Risk is described as low-high, and the assignment of the consequence a best estimate. Baker et al. note that this method of assessment is inclined to be subjective and so suggest that they may lead to inconsistencies and non-repeatable outcomes [@Baker1998]. 
+
+#### Connectivity Risk Assessment 
+
+An example of a qualitative assessment of risk is the Spring Connectivity risk assessment contained in the Underground Water Impact Report (UWIR) [@QWC2012, p.78]. The UWIR was generated by the Queensland State Water Commission in a multi-party spring management workshop with experts, researchers, PTH's and Commonwealth Government agencies . 
+
+
+{{Insert Risk Results as table}}
+
+
+
+### Quantitative Risk Assessment
+
+Quantitative techniques are normally mathematically and/or computationally based [@Baker1998].
+
+#### Make Good Agreements (MGA) and Make Good Measures (MGM)
+
+"A make good agreement is an arrangement between a tenure holder and water bore owner" [@EHP2013, p.2]. Make good measures applies if the relevant authority believes that a bore is impaired. 
+A make good measure is the measure a petroleum tenure holder will take if a bore has an impaired capacity. [@EHP2013, p.2]. An impairment will (should) be documents in a bore report, and can be when a bore no longer supplies a reasonable quantity or quality of water for its authorised use or purpose, with the ultimate arbiter being the governing chief executive [@QSG2000].
+
+As noted by the EHP, these measures can include works on the bore, such as deepening, where the costs of words is borne by the petroleum tenure holder (PTH). Or alternately, the petroleum tenure holder may provide the water bore owner monetary compensation.
+
+
+#### Make Good Risk in Unit Technical Cost
+
+For landholders and the PTH, the dollar consequence of any impairment to a bore is quantified in the MGM. Hence the risk, in this instance is the probability of the impairment, and the MGM dollar cost: 
+
+\[
+	R_{MG} = p_i . C_{MGM}\label{ref1}
+\]
+
+For simplicity sake, when calculating the Unit Technical Cost (UTC) of operations, C_MGM is set to the dollar value of the groundwater bore license. MGM works on the bore may exceed the license value in some cases, however some impairments are difficult to predict *a priori*, and so the bore license value assumes *de facto* liability for UTC calculations. 
+
+# Risk and Liability
+
+There are gaps in the approaches above, the main issue in arriving at a unified risk framework appears to be: 
 The gap identified by the literature appears to be the connection between GMMCA risk assessment and the make good measures. 
+
+Whilst they have their place as a behavioral heuristic in the enforcement of safety procedures, the qualitative risk assessment methodology, with risk levels assigned through expert opinion, does not typically have a dollar value attached. This makes NPV and PV estimations of financial liability difficult to quantify. 
+
+In the case of ecology, one approach originally suggested by systems ecologist H.T.Odum was to put a dollar value on ecosystem services. 
+  
+
+In the calculation above, Make Good Risk (R_MG) has a dollar value attached. In the case of repair works, the cost of MGM's can only truly be known *ex post facto*, for example, after an invoice has been received. -- [Footnote] To the knowledge of the author, there is no provision in the Harmonised Risk Management Framework (HRMF) for the recovery of data on MGM costs. This makes *post hoc* analysis a difficult task.-- However most stakeholders are not interested in *post hoc* analysis, but rather, the *ex ante* liability, the liability before the event to calculate ROI, and determine resource economics. 
+
+This is especially the case for a PTH in the calculation of UTC, which typically includes decommissioning costs, and, in the case of CSG, any MGM costs. The default case mentioned above, of assigning C_MGM to the bore license value is one way of quantifying *ex ante* liability. Whether or not the license value has parity with MGM costs is moot, until such time as an MGM is fully executed. 
+
+Pegging Make Good Risk to the bore license value transfers the burden of consequence calculation to the license issuer. 
+
+
+
+
+That value det
+
+
+
+
+1. The translation of *consequence* in dollar terms
+2. A 
+
+If there is no connection between 
+
+
+
+
+amount of the 
+
+
+
+
+
+
+
+
+
+
+As noted by the harmonsation framwork [@SCER2013, p.47], in the Queensland Water Act make good reparations are not scaled to to the size of impacts on water bores
 
 
 ensuring the bore owner has access to a reasonable quantity and quality of water for the bore's authorised use or purpose;
@@ -111,6 +278,17 @@ The prevailing Technical Context (TC) might be characterised by three different 
 ```
 
 In #3, the hybrid situation, the data system is typically maintained by a team of subject experts together with a system administrator.
+
+
+Whilst there are many data software applications currently available within the industry (Aquarius is one), typically at a State Government level the Hydstra(TM) data system developed and maintained by Kisters Pty Ltd, is the defacto standard for rainfall and stream level data. Some States or Local Government entities use different software systems, however Hydstra is predominantly the main system.  
+
+Hydstra is also used at the national level within the BoM, however two other systems are also used; the in-house AWRIS2 developed as apart of the hydrographic modernisation project, and the WISKI(TM) system manufactured by the European branch of Kisters (Kisters AGM). 
+
+The situation is a little more diverse when it comes to Groundwater and Water Quality. There are several systems such as Equis, EnviroSys, HydSys, and in Queensland there is the well-known Ground Water Database (GWDB) developed and maintainted in-house within the QLD NRM. An inventory of all the known systems is available below.
+
+
+Each different State Government 
+
 
 ### Vendors
 
@@ -152,6 +330,29 @@ Coal Seam CSG exploration and production (hereafter, CSG operations) raise commu
 
 Risk is the product of probability and consequence
 
+The national water commission identified the following potential risks to sustainable water management:
+
+Extracting large volumes of low-quality water will impact on connected surface and
+groundwater systems, some of which may already be fully or overallocated, including the
+Great Artesian Basin and Murray-Darling Basin.
+Impacts on other water users and the environment may occur due to the dramatic
+depressurisation of the coal seam, including:
+o changes in pressures of adjacent aquifers with consequential changes in water
+availability
+o reductions in surface water flows in connected systems
+o land subsidence over large areas, affecting surface water systems, ecosystems,
+irrigation and grazing lands.
+The production of large volumes of treated waste water, if released to surface water
+systems, could alter natural flow patterns and have significant impacts on water quality, and
+river and wetland health. There is an associated risk that, if the water is overly treated, ‘clean
+water’ pollution of naturally turbid systems may occur.
+The practice of hydraulic fracturing, or fraccing, to increase gas output, has the potential to
+induce connection and cross-contamination between aquifers, with impacts on groundwater
+quality.
+The reinjection of treated waste water into other aquifers has the potential to change the
+beneficial use characteristics of those aquifers. 
+[@NWC2010]
+
 
 
 ## Types of Risk
@@ -177,6 +378,9 @@ Identified below are many different types of risk associated with different disc
 |:----|-----|-----|
 |1.| ||
 
+
+
+
 ### Hetrogenous methods
 
 * Can we have one size fits all for a generic methodology?
@@ -185,10 +389,10 @@ Identified below are many different types of risk associated with different disc
 
 ## Methods of risk management
 
-|#|Method|Typical Industry|
-|:----|-----|-----|
-|1.|Adaptive | |
-|2.|Precautionary ||
+|#|Method|Typical Industry| References |
+|:----|-----|-----|-------|
+|1.|Adaptive | | |
+|2.|Precautionary | | [@NWC2010] |
 
 ## Uncertainty and risk
 
@@ -204,6 +408,8 @@ Identified below are many different types of risk associated with different disc
 * Could 
 
 ## Technical methods
+
+
 # References
 
 

@@ -10,7 +10,7 @@ output:
 
 # Abstract
 
-This review covers the current legislative approaches in Australia to the management of risk associated with unconventional energy production. A brief historical survey is given to introduce the context of legislative discussion and various associated concepts, as a way of leading into the technical context, gap identification and recommendations for future work.
+This review aims to identify the appropriate requirements for an unconventional energy production risk management framework, where the asset at risk is groundwater. It covers the current legislative approaches to the management of risk within the recent Australian experience of Coal Seam Gas. 
 
 # Introduction
 
@@ -23,7 +23,12 @@ As noted by Professor Martin in the Committee for Economic Development of Austra
 
 These views, and the support for a National approach to a Risk management framework appear to have broad support and are shared with the water industry [@Beckers2013, @Howe2010, @Hunter2013]. In Australia this momentum has culminated in the National Harmonsied Regulatory Framework [@SCER2013].
 
+In addressing the Queensland context the Harmonisation Framework says "This policy focuses on the management and use of produced water under the EP Act, and does not vary the requirements of the Water Act, such as ‘making good’ any relevant impacts on water bores that may result from an operation to extract natural gas from coals seams."
+
 The interest in this review is where the rubber hits the road, and the proverbial "devil in the details". This is to say, that at a high level the requirement for a robust risk management framework is not in dispute. However the implementation at the technical level presents difficulties. The author of this review was 'at the coal face', so to speak, during the attempt to implement such systems, and so the interest here is in reviewing the lower level system requirements generated from the higher level requirement of developing a robust risk management framework. 
+
+
+
 
 It is anticipated that in conducting this review, gaps and technical requirements will be generated, and these will become the proposed subject of future research effort.
 To contextualise these requirements further, the concepts risk, risk management framework, make good and liability will be addressed.
@@ -54,7 +59,7 @@ The field of Risk Assessment is broad, however two general approaches have been 
 the standard generic calculation of Risk (R) is through the product of the Probability of some event X (P(X)) and the Consequence (C) of that event occurring.
 
 \[
-	R = P(\mathit{X}) . C \label{ref1}
+  \mathit{R} = \mathit{P}(\mathit{X}) \bullet \mathit{C} \label{ref1}
 \]
 
 
@@ -82,24 +87,24 @@ Resistance (*r*) and load (*l*) are two central concepts to the definition of ri
  
 In this context, risk is then defined as the probability of the load exceeding the resistance - the probability of failure. Reliability is the inverse. That is, the probability of the resistance exceeding the load - the probability of survival [@Mays2010, p.387].
 
-Where *r* = resistance and *l* = load, reliability (*R*) is then defined as: 
+Where $\mathit{r}$ = resistance and $\mathit{l}$ = load, reliability ( $\mathit{R}$ ) is then defined as: 
 
 \[
-	\mathit{R} = \mathit{P}(\mathit{r}>\mathit{l}) = \mathit{P}(\mathit{r}-\mathit{l}>0) 
+  \mathit{R} = \mathit{P}( \mathit{r} > \mathit{l} ) = \mathit{P}( \mathit{r} - \mathit{l} > 0 ) 
 \]
 
-And risk $(\mathit{\bar{R}})$, is then defined as:
+And risk $\mathit{ \bar{R} }$, is then defined as:
 
 \[
-
-	\mathit{\bar{R}} = 1 - \mathit{R}
-
+  \mathit{\bar{R}} = 1 - \mathit{R}
 \]
 
 {{ Uncertainty & Probability etc. }}
 
 
 Mays, gave a water storage, as a problem for calculating the reliability of supply [-@Mays2010, Fig.10.7.3, p.390]. This example renders the force of a water tank $(\mathit{Q})$, as the source of resistance, and a tap as a source of load.  
+
+![Mays2010 Fig10.7.3](./../../images/Mays2010_Fig10_7_3_p390.png)
 
 Uncertainty in roughness is assumed to make the supply to the user uncertain. Roughness is incorrectly applied a measure of pipe failure in this instance. This curious example, whilst making mathematical sense, is a little contrived since there are no fail conditions. Under conditions where piping, tank and tap don't fail, the supply will always meet demand when a tap is turned on, unless the tank is dry. 
 
@@ -112,7 +117,7 @@ de Guenni [@deGuenni2012] introduce a quantitative definition of Environmental R
 
 \[
 
-	\mathit{\bar{R}_{residual}} = \mathit{\bar{R}_{v}} \bullet \mathit{\bar{R}_{t}} \bullet \mathit{\bar{R}_{\neg CM}} 
+  \mathit{\bar{R}_{residual}} = \mathit{\bar{R}_{v}} \bullet \mathit{\bar{R}_{t}} \bullet \mathit{\bar{R}_{\neg CM}} 
 
 \]
 
@@ -120,7 +125,7 @@ de Guenni then moves on to quantify the expected cost of loss (*ECL*).
 
 \[
 
-	\mathit{ECL} = \mathit{\bar{R}_{final}} \bullet \mathit{C}_$
+  \mathit{ECL} = \mathit{\bar{R}_{final}} \bullet \mathit{C}_$
 \]
 
 Should there be a further integrate of the hydrosystems approach of using load and resistance with the environmetrics approach shown by de Guenni? 
@@ -130,17 +135,19 @@ oasis to yield a supply greater than the need. We denote it
 by the equation as follows:
 
 \[
-	\mathit{R} = \mathit{P}(\mathit{X}_t)
+  \mathit{R} = \mathit{P}(\mathit{X}_t)
 \]
 
- however not using the language of load and resistance [@Li2007]. 
+ however not using the language of load and resistance [@LI2007]. 
 
 
 #### Environmental Resistance
 
-A brief look is given to this question to anticipate future work. A review of the literature reveals that the concepts of load and resistance are in fact used in the ecological literature. For instance, Chapman represented the environment as resistance to "biotic potential", measured as the difference between potential organism population - "biotic potential" - and actual popln [@Chapman1931, p.194].
+An integration of traditional hydrosystems/water engineering risk analysis methods with ecological methods might be achieved by applying the concepts of load and resistance in biology & ecology. Chapman represented the environment as resistance to "biotic potential", measured as the difference between potential organism population - "biotic potential" - and actual population [@Chapman1931, p.194].
 
-Chapman noted that this approach was analogous to the methods of Fourier and Ohm with the resistances of 1) heat transmission through a solid and 2) electric current transmission through a system respectively [Ibid.]. Chapman suggested a generalisation of Ohm's law to be applicable in ecology, where resistance is defined as the resistance offered to an unvarying current by a standard-unit circuit [Ibid.].
+Chapman noted that this approach was analogous to the methods of Fourier and Ohm with the resistances of 1) heat transmission through a solid and 2) electric current transmission through a system respectively [Ibid.]. Chapman suggested a generalisation of Ohm's law from electrical circuits could applied applicable in ecology, where resistance is defined as the resistance offered to an unvarying current by a standard-unit circuit [Ibid.]. 
+
+If the Chapman's uses of load and resistance might be 
 
 Lotka & probability theory
 
@@ -349,7 +356,7 @@ The risks cited in the literature are tabulated below:
 #### Make Good Agreements (MGA) and Make Good Measures (MGM)
 
 "A make good agreement is an arrangement between a tenure holder and water bore owner" [@EHP2013, p.2]. Make good measures applies if the relevant authority believes that a bore is impaired. 
-A make good measure is the measure a petroleum tenure holder will take if a bore has an impaired capacity. [@EHP2013, p.2]. An impairment will (should) be documents in a bore report, and can be when a bore no longer supplies a reasonable quantity or quality of water for its authorised use or purpose, with the ultimate arbiter being the governing chief executive [@QSG2000].
+A make good measure is the measure a petroleum tenure holder will take if a bore has an impaired capacity. [@EHP2013, p.2]. An impairment will (should) be documents in a bore report, and can be when a bore no longer supplies a reasonable quantity or quality of water for its authorised use or purpose, with the ultimate arbiter being the governing chief executive [@QSG].
 
 As noted by the EHP, these measures can include works on the bore, such as deepening, where the costs of words is borne by the petroleum tenure holder (PTH). Or alternately, the petroleum tenure holder may provide the water bore owner monetary compensation.
 

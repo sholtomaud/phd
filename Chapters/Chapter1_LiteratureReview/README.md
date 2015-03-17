@@ -3,6 +3,9 @@ layout: post
 title:  "Literature Review"
 date:   2015-03-10 13:12:00
 author: Sholto Maud
+header-includes:
+   \usepackage{tikz}
+   \usetikzlibrary{arrows}
 output: 
   word_document:
     pandoc_args: ["-s", "-S", "--biblio", "./../../reference/Library.bib", "--csl", "./../../reference/chicago-author-date.csl"]
@@ -33,6 +36,11 @@ The rest of this review will focus
 It is anticipated that in conducting this review, gaps and technical requirements will be generated, and these will become the proposed subject of future research effort.
 To contextualise these requirements further, the concepts risk, risk management framework, make good and liability will be addressed.
 
+\[
+  \mathit{R} = \mathit{P}(\mathit{X}) \bullet \mathit{C} \label{ref1}
+\]
+
+inline $\begin{tikzpicture} \draw (0,0) circle (2cm); \end{tikzpicture} $
 
 # Risk
 
@@ -238,6 +246,10 @@ In the Terms of Reference for Activity 5 of the CSG Feasibility Study, a hybrid 
 
 ## Frameworks
 
+
+Randall [-@Randall2012], called for 
+
+
 In order for the framework to achieve these goals, it is important that it provides
 comprehensive references to the scientific information and data framework it intends on
 using, or indeed any scientific information it has consulted. Demonstrable scientific
@@ -289,6 +301,16 @@ representatives” but rather only “independent third-party professional[s]”
 
 
 
+"At the project level, the cumulative effects of many wells across the landscape will challenge the
+feasibility of making good. Another challenge arises because the impacts on aquifers are likely to play
+out on a time-scale of many decades and perhaps centuries, whereas the time-scale of CSG extraction
+is shorter."
+
+"At the basin level, which really matters in the CSG case where so much of the action will impact
+the GAB, the cumulative impacts over several centuries are (I would argue) near-impossible to predict."
+ [@Randall2012, p.154]. 
+
+This introduces both cumulative impacts, and uncertainty into the risk assessment.
 
 ### Cumulative Effects
 
@@ -312,7 +334,7 @@ The resolution of this question has legal consequence in the calculation of risk
 
 
 
-The notion of scaling precautionary or corrective (so-called "make good") actions in response to information is encompassed in the concept of Adaptive Environmental Management (AEM). In the context of groundwater a Groundwater Model Multi Criteria Analysis (GMMCA) was proposed as an enhanced a Multi Criteria Analysis (MCA) designed to incorporate geological, hydrological, environmental and economic attributes within the AEM paradigm [@Beckers2013]. Both the GMMCA, and the concept of scaling precaution have the intent to enable regulatory flexibility, and to refine and improve risk mapping over time [@Beckers2013]. 
+The notion of scaling precautionary, or corrective (so-called "make good") actions in response to information is encompassed in the concept of Adaptive Environmental Management (AEM). In the context of groundwater a Groundwater Model Multi Criteria Analysis (GMMCA) was proposed as an enhanced a Multi Criteria Analysis (MCA) designed to incorporate geological, hydrological, environmental and economic attributes within the AEM paradigm [@Beckers2013]. Both the GMMCA, and the concept of scaling precaution have the intent to enable regulatory flexibility, and to refine and improve risk mapping over time [@Beckers2013]. 
 
 
 
@@ -355,10 +377,12 @@ The risks cited in the literature are tabulated below:
 
 #### Make Good Agreements (MGA) and Make Good Measures (MGM)
 
-"A make good agreement is an arrangement between a tenure holder and water bore owner" [@EHP2013, p.2]. Make good measures applies if the relevant authority believes that a bore is impaired. 
-A make good measure is the measure a petroleum tenure holder will take if a bore has an impaired capacity. [@EHP2013, p.2]. An impairment will (should) be documents in a bore report, and can be when a bore no longer supplies a reasonable quantity or quality of water for its authorised use or purpose, with the ultimate arbiter being the governing chief executive [@QSG].
 
-As noted by the EHP, these measures can include works on the bore, such as deepening, where the costs of words is borne by the petroleum tenure holder (PTH). Or alternately, the petroleum tenure holder may provide the water bore owner monetary compensation.
+
+"A make good agreement is an arrangement between a tenure holder and water bore owner" [@EHP2013, p.2]. Make good measures applies if the relevant authority believes that a bore is impaired. A make good measure is the measure a petroleum tenure holder will take if a bore has an impaired capacity. [@EHP2013, p.2]. An impairment will (should) be documents in a bore report, and can be when a bore no longer supplies a reasonable quantity or quality of water for its authorised use or purpose, with the ultimate arbiter being the governing chief executive [@QSG].
+
+But what should the make-good measure be? As noted by Randall [-@Randall2012], MGMs were intended as *in-kind* reparations for any impacts. EHP suggested these measures could include works on a bore, such as deepening, where the costs of works are borne by the petroleum tenure holder (PTH) [@EHP2013]. Or, alternately, the PTH may provide the water bore owner monetary compensation as the MGM. 
+
 
 
 #### Make Good Risk in Unit Technical Cost

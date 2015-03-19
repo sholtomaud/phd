@@ -67,11 +67,23 @@ The goal of the first aim is to identify;
 2. Gaps
 3. Solutions 
 
-in the current/proposed legislation and literature on risk management frameworks, which may provide gaps or challenges to the successful deployment of a framework.  
+In the current/proposed legislation and literature on risk management frameworks, which may provide gaps or challenges to the successful deployment of a framework.
+
+As interpreted here, the high level requirements for such a framework are:
+
+* System for managing and monitoring risk
+* System for integrating data relevant to management and monitoring of risk
+*  
+  
 
 ## Component 2
 
-The goal of the second aim is to test and develop technology for a MVP which enables such a management framework to be undertaken. A reactive development philosophy has been used for the development process [@Reactive2014]. This philosophy embraces the concept of continual data model improvement and change at minimal effort. 
+The goal of the second aim is to test and develop a Minimum Viable Product (MVP) which enables services to be provided as a part of this management framework. Included within the MVP are 
+arcitechtural considerations regarding integration of disparate data model requirements, and a visualisation of the MVP services to demonstrate the capability of the services.
+
+
+
+ A reactive development philosophy has been used for the development process [@Reactive2014]. This philosophy embraces the concept of continual data model improvement and change at minimal effort. 
 
 
 

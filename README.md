@@ -30,11 +30,12 @@ Doctoral Thesis by Sholto Maud
 |1.   | Platform MVP             |X    |X    |X    |X    |     |     |     |     |     |     |     |     |
 |2.   | Lit Rev                  |X    |X    |X    |X    |     |     |     |     |     |     |     |     |
 |3.   | Confirmation             |     |     |     |X    |X    |     |     |     |     |     |     |     |
-|4.   | Risk Density Development |     |     |X    |X    |X    |X    |     |     |     |     |     |     |
+|4.   | Risk Density Development |     |     |X    |X    |X    |X    |x    |x    |x    |x    |     |     |
 |5.   | Enhancements Plan        |     |     |     |     |X    |     |     |     |     |     |     |     |
-|6.   | UAT                      |     |     |     |     |     |     |     |X    |X    |X    |     |     |
-|7.   | Articles                 |     |     |     |     |     |X    |X    |X    |X    |X    |X    |X    |
-|8.   | Signoff                  |     |     |     |     |     |     |     |     |     |     |     |x    |
+|6.   | Enhancement Code         |     |     |     |     |     |x    |x    |X    |X    |X    |     |     |
+|7.   | UAT                      |     |     |     |     |     |     |     |X    |X    |X    |     |     |
+|8.   | Articles                 |     |     |     |     |     |X    |X    |X    |X    |X    |X    |X    |
+|9.   | Signoff                  |     |     |     |     |     |     |     |     |     |     |     |x    |
 
 
 ### Literature Review

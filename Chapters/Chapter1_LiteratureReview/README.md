@@ -58,8 +58,6 @@ In the eye of the stakeholder, the risk methodology might be;
 * unsound, and well communicated
 
 
-
-
 ## Risk Analysis & Assessment
 
 
@@ -114,111 +112,18 @@ Mays, gave a water storage, as a problem for calculating the reliability of supp
 
 ![Mays2010 Fig10.7.3](./../../images/Mays2010_Fig10_7_3_p390.png)
 
-Uncertainty in roughness is assumed to make the supply to the user uncertain. Roughness is incorrectly applied a measure of pipe failure in this instance. This curious example, whilst making mathematical sense, is a little contrived since there are no fail conditions. Under conditions where piping, tank and tap don't fail, the supply will always meet demand when a tap is turned on, unless the tank is dry. 
+Uncertainty in roughness is assumed to make the supply to the user uncertain. Roughness is incorrectly applied a measure of pipe failure in this instance. This curious example, whilst making mathematical sense, is a little contrived since there are no fail conditions. 
 
-Translate into Odum flow: Qs = kQ = Q*1/RC
-
-### Environmental Risk
-
-The concepts of load and resistance as used in risk and reliability calculations were introduced above [@Goodarzi2013, @Mays2010]. Whilst Goodarzi et al applied these concepts in hydrosystems, they are not typically applied to ecology or biology. 
-de Guenni [@deGuenni2012] introduce a quantitative definition of Environmental Risk 
-
-\[
-
-  \mathit{\bar{R}_{residual}} = \mathit{\bar{R}_{v}} \bullet \mathit{\bar{R}_{t}} \bullet \mathit{\bar{R}_{\neg CM}} 
-
-\]
-
-de Guenni then moves on to quantify the expected cost of loss (*ECL*). 
-
-\[
-
-  \mathit{ECL} = \mathit{\bar{R}_{final}} \bullet \mathit{C}_$
-\]
-
-Should there be a further integrate of the hydrosystems approach of using load and resistance with the environmetrics approach shown by de Guenni? 
-
-Li, evaluated ecosystem risk with similar method, defining reliability of an  ecosystem as the probability of the water resources of the
-oasis to yield a supply greater than the need. We denote it
-by the equation as follows:
-
-\[
-  \mathit{R} = \mathit{P}(\mathit{X}_t)
-\]
-
- however not using the language of load and resistance [@LI2007]. 
-
-
-#### Environmental Resistance
-
-An integration of traditional hydrosystems/water engineering risk analysis methods with ecological methods might be achieved by applying the concepts of load and resistance in biology & ecology. Chapman represented the environment as resistance to "biotic potential", measured as the difference between potential organism population - "biotic potential" - and actual population [@Chapman1931, p.194].
-
-Chapman noted that this approach was analogous to the methods of Fourier and Ohm with the resistances of 1) heat transmission through a solid and 2) electric current transmission through a system respectively [Ibid.]. Chapman suggested a generalisation of Ohm's law from electrical circuits could applied applicable in ecology, where resistance is defined as the resistance offered to an unvarying current by a standard-unit circuit [Ibid.]. 
-
-If the Chapman's uses of load and resistance might be 
-
-Lotka & probability theory
+A reliability analysis aims to find the time ($\mathit{t}$), when a system is likely to fail.
 
 
 
 
+Under conditions where piping, tank and tap don't fail, the supply will always meet demand when a tap is turned on, unless the tank is dry. 
 
-One novel linkage is through the concept of environmental (or ecological) resistance. Ecologists and biologists have  
+Translate into Odum flow: 
 
-
-
-## Bridging the gap and creating another
-
-As noted above, qualitative risk assessments like that done for Spring Connectivity in the UWIR, have difficulty of reproducibility, and typically do not lead to a quantified consequence in dollar terms. The question about whether or not there is effort required to bridge this gap, or whether or not the qualitative risk assessment is adequate.
-
-In terms of the argument for a closer integration, as was also noted above, if there is no connection between the ecosystems dependent on a bore and the risk of any event associated with a bore, then the *de facto* make good risk is pegged to the bore license value for UTC calculations. Hence, the ecosystem value of the bore does not enter the risk calculation.
-
-What is required is the 
-
-
-
-The recent concept of ecosystems services, has come some way to address this gap.  
-
-
-"The embodied energy of the environmental system, such as marsh
-(storage and annual flow), is the basis for attracting economic
-activity, which is competitive so long as the ratio of free embodied
-energy embodied in purchased inputs (goods, services, fuels) is
-greater than that of competitors"
-
-
-
-
-
-In the case of ecology, one approach originally suggested by systems ecologist H.T.Odum [^1] was to put a dollar value on ecosystem services [@Odum1971, @Odum1979a, @Odum1981, @Odum1987, @Odum1994, @Odum1995, @Odum2000]. As Lansing notes [-@Lansing1998], this was a controversial attempt to create a common framework for ecology - broadly understood to include hydrological circuits - and economics within the field of thermodynamics and analog electric circuits. 
-
-Whilst the analogical method was well established in rocket science and engineering [@Olson1958, @Cohen1963, @Fifer1961, @Norris1966, @Phillips1969, @Sinkoff, @Stallman1963, @Tomayko1985, @Truitt1960, @Walton1963, @West1957], it was argued by Taylor and others that the same method was not appropriate for large scale systems such as economic and ecological systems [@Taylor1988, @Taylor1991].
-
-Perhaps due to this continuing controversy surrounding Odum's work, the approach has not been applied in any meaningful way in risk analysis. However there are linkages which can be retrieved from the literature.
-
-
-
-
-
-
-[^1]: 
-  Interestingly, Odum was apparently shocked that tar sands and shale gas were touted as energetically viable replacements for conventional energy resources. "Exploiting profit-positive but negative net-energy deposits, burns energy, destroys the boreal ecosystems, drains aquifers, and increases global heating. My father never believed that we would be so stupid." [M.Odum, cited in @Weyler2011].
-
-
-
-
-## The Load, Resistance and Liability
-
-
-
-
-
-
-
-
-
-
-
+Qs = kQ = Q*1/RC
 
 
 
@@ -241,13 +146,30 @@ In the Terms of Reference for Activity 5 of the CSG Feasibility Study, a hybrid 
 ## What is a risk management framework?
 
 
-
-
-
 ## Frameworks
 
 
-Randall [-@Randall2012], called for 
+Randall [-@Randall2012], called for an integrated framework which integrates both precautionary and OSM methods in what he calls STS - screening, pre-release testing, and post-release surveillance. The figure directly below is Randall's diagram depicting this process.
+
+![Randall's STS](./../../images/Randall-STS.png)
+
+If Randall's diagram is turned on it's side it resembles the V-model introduced by Rook for software project engineering [@Rook1986]. Rook's concept (see figure below) was subsequently adopted by the Systems Engineering community [@Mooz1997, @Mooz2001, @Estefan2007].
+
+![Standard V-model](./../../images/Rook1986.png)
+
+If Randall's diagram of STS is analogous to the V-model used in Systems Engineering the it would be fortunate and perhaps assuring that legislative theory had produced a similar procedure as the well-established methods of Systems Engineering.
+
+The figure below shows a standard V-model. In the System's Engineering terminology, pre-release would be roughly equivalent to pre-implementation, the left arm of the 'V'. Screening equal to the requirements gathering and design phase of the left arm of the 'V'.. Post-release surveillance is post-implementation operations and maintenance in the right arm of the 'V'.
+
+![Standard V-model](./../../images/V-model.png)
+
+The notable difference between the Systems Engineering method and Randall's STS method is the intended realm of application. STS is aimed at a higher level of societal governance rather than a project mission execution. If the V-model from Systems Engineering were enhanced to be used as a governance tool, one might introduce a prohibition arrow in the pre-implementation phase. The figure below depicts this enhancement.
+
+![V-governance Prohibition Model](./../../images/V-govern.png)
+
+In placing prohibition on the left-arm of the 'V', we might also consider the governance aspect of the right-arm of the 'V' - what happens if the management systems fail? As noted above, the system is operating in a civil context, where the main reparations are conducted under MGM's. Hence we can extend the simple V-model further to depict the reparations required for civilians when operations go wrong as shown in the figure below.
+
+![V-governance Make Good Model](./../../images/V-mg.png)
 
 
 In order for the framework to achieve these goals, it is important that it provides
@@ -351,12 +273,40 @@ The attempt to integrate these enhancements in Australia has highlighted legisla
 
 ## Risk Management 
 
-According to Baker et al, risk management consists of risk analysis, evaluation and control [@Baker1998].
-
-
-
-
 The Purple Book [@Stoffen2005]
+
+Risk management broadly considered consists of risk identification and analysis, evaluation and control [@Baker1998]. Randall has suggested that the spectrum of risk management strategies has the precautionary principle at one pole, and ordinary risk management (ORM) at the other. This spectrum might be characterised as a risk-control trade off [@Manjón2004], where the precautionary strategy maximizes control by minimizing risk with a potential repression of innovation, and the ORM strategy maximizes utility by accepting increased risk of failure, or even a continuing sequence of disasters [@Randall2012, p.157].
+
+"The distinction between ORM and precautionary approaches lies less in the risk management tools that may be invoked, but in the assessment of risk, the decision rules applied and the timing of intervention."" [@Randall2012, p.158]. 
+
+Model uncertainty and "unknown unknowns" provides a difficulty to OSM, which as Randall states, ".. is built upon the paradigm case of well-specified games of chances in which outcome possibilities are known, as are their probabilities" [@Randall2012, p.158]. When probabilities are not known due to uncertainty, then the precautionary approach appears to win.
+
+An incremental where we start with the precautionary at the top of the V and then descending down the left arm is the prohibition arm.  The deployment arm is the monitoring and verification arm. Once the system is in this phase, any failure will generate an impact which will need a risk management tool to come into effect, with the associated costs.
+
+
+
+
+
+
+
+
+
+ORM aims to "defer risk-management intervention" & "unconvincing responses to the challenge of
+low-probability, high-damage threats.""
+[@Randall2012, p.158]. 
+
+
+
+## Risk management tools
+The toolkit for managing private risks may still be organised into Ehrlich and Becker’s classic
+categories of market insurance, self-insurance and self-protection.7 
+
+* Market insurance: individuals and firms buy insurance policies 
+* Self-insurance: firm sets aside resources sufficient to survive losses
+* Self-protection: measures that prevent or mitigate bad outcomes
+
+Make Good is one of the risk management tools. However it is not 
+
 
 
 
@@ -371,6 +321,9 @@ The risks cited in the literature are tabulated below:
 |5.|Groundwater |Contamination | Machinary  | [@Randall2012, p.155]|
 |6.|Landmass |Subsidence | Gas extraction and lowering water tables creating voids | [@Randall2012, p.155]|
 |7.|Ecosystems | Habitat loss | Construction & operations  | [@Randall2012, p.155]|
+
+
+
 
 
 
@@ -601,11 +554,30 @@ Identified below are many different types of risk associated with different disc
 3. Is the typical risk matrix appropriate for all circumstances?
 4. Should uncertainty only just accompany the risk as a second value?
 
+"Uncertainty expresses the degree of belief analysts have
+in their estimates. Uncertainty decreases as the quality of
+data and understanding of the system improve. The initial estimates of failure rates or failure probability might
+be based on comparison to similar equipment, historical
+data (heritage), failure rate data from handbooks, or expert elicitation." [@NASA2007]
+
+"Reliability estimates express probability of success.
+ Uncertainty should be included with reliability estimates.
+ Reliability estimates combined with FMEAs provide
+additional and valuable information to aid in the decisionmaking
+process" [@NASA2007]
+
+
+
+
 ## Visualisation of Risk
 
 * Analogy of google maps with the uncertainty of the GPS location
 * LatLong point is the estimated location, and the surrounding circle is the uncertainty of the location
 * Could 
+
+
+
+
 
 ## Technical methods
 

@@ -82,8 +82,8 @@ Resistance is defined as the ability of a system component to meet it's designed
 
 
 
- 
-In this context, reliability ($\mathit{R}$) is defined the probability of the resistance exceeding the load. That is, the probability of survival [@Mays2010, p.387], defined mathematically as;
+
+In this context, reliability ($\mathit{R}$) is defined the probability of the resistance exceeding the load. It is the "measure of the degree to which a system ensures mission success by functioning properly over its intended life" [@NASA2007]. That is, the probability of survival [@Mays2010, p.387], defined mathematically as;
 
 \[
   \mathit{R} = \mathit{P}( \mathit{r} > \mathit{l} ) = \mathit{P}( \mathit{r} - \mathit{l} > 0 ) 
@@ -94,6 +94,115 @@ Risk ($\mathit{ \bar{R} }$) is then defined as the inverse of reliability. That 
 \[
   \mathit{\bar{R}} = 1 - \mathit{R}
 \]
+
+### Environmental Risk
+
+The concepts of load and resistance as used in risk and reliability calculations were introduced above [@Goodarzi2013, @Mays2010]. Whilst Goodarzi et al applied these concepts in hydrosystems, they are not typically applied to ecology or biology. 
+de Guenni [@deGuenni2012] introduce a quantitative definition of Environmental Risk 
+
+\[
+
+  \mathit{\bar{R}_{residual}} = \mathit{\bar{R}_{v}} \bullet \mathit{\bar{R}_{t}} \bullet \mathit{\bar{R}_{\neg CM}} 
+
+\]
+
+de Guenni then moves on to quantify the expected cost of loss (*ECL*). 
+
+\[
+
+  \mathit{ECL} = \mathit{\bar{R}_{final}} \bullet \mathit{C}_$
+\]
+
+Should there be a further integrate of the hydrosystems approach of using load and resistance with the environmetrics approach shown by de Guenni? 
+
+Li, evaluated ecosystem risk with similar method, defining reliability of an  ecosystem as the probability of the water resources of the
+oasis to yield a supply greater than the need. We denote it
+by the equation as follows:
+
+\[
+  \mathit{R} = \mathit{P}(\mathit{X}_t)
+\]
+
+ however not using the language of load and resistance [@LI2007]. 
+
+
+#### Environmental Resistance
+
+An integration of traditional hydrosystems/water engineering risk analysis methods with environmental methods might be achieved by applying the concepts of load and resistance in biology & ecology. Whether 
+
+
+
+Chapman represented the environment as resistance to "biotic potential", measured as the difference between potential organism population - "biotic potential" - and actual population [@Chapman1931, p.194].
+
+Chapman noted that this approach was analogous to the methods of Fourier and Ohm with the resistances of 1) heat transmission through a solid and 2) electric current transmission through a system respectively [Ibid.]. Chapman suggested a generalisation of Ohm's law from electrical circuits could applied applicable in ecology, where resistance is defined as the resistance offered to an unvarying current by a standard-unit circuit [Ibid.]. 
+
+If the Chapman's uses of load and resistance might be 
+
+Lotka & probability theory
+
+
+
+
+
+One novel linkage is through the concept of environmental (or ecological) resistance. Ecologists and biologists have  
+
+
+
+## Bridging the gap and creating another
+
+As noted above, qualitative risk assessments like that done for Spring Connectivity in the UWIR, have difficulty of reproducibility, and typically do not lead to a quantified consequence in dollar terms. The question about whether or not there is effort required to bridge this gap, or whether or not the qualitative risk assessment is adequate.
+
+In terms of the argument for a closer integration, as was also noted above, if there is no connection between the ecosystems dependent on a bore and the risk of any event associated with a bore, then the *de facto* make good risk is pegged to the bore license value for UTC calculations. Hence, the ecosystem value of the bore does not enter the risk calculation.
+
+What is required is the 
+
+
+
+The recent concept of ecosystems services, has come some way to address this gap.  
+
+
+"The embodied energy of the environmental system, such as marsh
+(storage and annual flow), is the basis for attracting economic
+activity, which is competitive so long as the ratio of free embodied
+energy embodied in purchased inputs (goods, services, fuels) is
+greater than that of competitors"
+
+
+
+
+
+In the case of ecology, one approach originally suggested by systems ecologist H.T.Odum [^1] was to put a dollar value on ecosystem services [@Odum1971, @Odum1979a, @Odum1981, @Odum1987, @Odum1994, @Odum1995, @Odum2000]. As Lansing notes [-@Lansing1998], this was a controversial attempt to create a common framework for ecology - broadly understood to include hydrological circuits - and economics within the field of thermodynamics and analog electric circuits. 
+
+Whilst the analogical method was well established in rocket science and engineering [@Olson1958, @Cohen1963, @Fifer1961, @Norris1966, @Phillips1969, @Sinkoff, @Stallman1963, @Tomayko1985, @Truitt1960, @Walton1963, @West1957], it was argued by Taylor and others that the same method was not appropriate for large scale systems such as economic and ecological systems [@Taylor1988, @Taylor1991].
+
+Perhaps due to this continuing controversy surrounding Odum's work, the approach has not been applied in any meaningful way in risk analysis. However there are linkages which can be retrieved from the literature.
+
+
+
+
+
+
+[^1]: 
+  Interestingly, Odum was apparently shocked that tar sands and shale gas were touted as energetically viable replacements for conventional energy resources. "Exploiting profit-positive but negative net-energy deposits, burns energy, destroys the boreal ecosystems, drains aquifers, and increases global heating. My father never believed that we would be so stupid." [M.Odum, cited in @Weyler2011].
+
+
+
+
+## The Load, Resistance and Liability
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # References
 

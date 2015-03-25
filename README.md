@@ -24,6 +24,19 @@ Doctoral Thesis by Sholto Maud
 
 # TODO:
 
+|#|Task|Y1Q1|Y1Q2|Y1Q3|Y1Q4|Y2Q1|Y2Q2|Y2Q3|Y2Q4|Y3Q1|Y3Q2|Y3Q3|Y3Q4|
+|:----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|1.| Platform MVP |X |X |X |X | | | | | | | | |
+|2.| Lit Rev |X |X |X |X | | | | | | | | |
+|3.| Confirmation |  | | | X |X | | | | | | | |
+|4.| Risk Density Development |  | | X | X |X | X | | | | | | |
+|5.| Enhancements Plan |  | | |  |X | | | | | | | |
+|6.| UAT |  | | | | | | | X | X | X | | |
+|7.| Articles |  | | | | | X | X | X | X| X | X | X |
+|8.| Signoff |  | | | | |  |  |  | |  |  | X |
+
+
+
 ### Literature Review
 
 ### Bitbucket

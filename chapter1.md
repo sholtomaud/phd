@@ -258,10 +258,11 @@ Then:
 
 $$ \mathit{R}_{MG} = \mathit{P}(\mathit{I}) \bullet \mathit{C}_{MGM} $$
 
-
 For simplicity sake, when calculating the Unit Technical Cost (UTC) of operations, C_MGM is set to the dollar value of the groundwater bore license. MGM works on the bore may exceed the license value in some cases, however some impairments are difficult to predict *a priori*, and so the bore license value assumes *de facto* liability for UTC calculations. 
 
-#### Make Good Risk in Unit Technical Cost
+#### Make Good Reliability
+
+Having derived the simple math above, we might also explore the inverse of make good risk ( $$ \mathit{\bar{R}_{MG}} })
 
 $$ \mathit{\bar{R}_{MG}} = 1 - \mathit{R}_{MG} $$ 
 

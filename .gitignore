@@ -2,3 +2,4 @@
 ~$*.docx
 /Chapters/*.docx
 *.bib
+/misc/

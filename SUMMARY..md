@@ -1,4 +1,4 @@
 # Summary
 
-* Preface
+* [Preface](chapter0.md)
 

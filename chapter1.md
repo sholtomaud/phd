@@ -197,24 +197,13 @@ In a legal context, this raises the question of whether such cumulative effects 
 
 The resolution of this question has legal consequence in the calculation of risk, and in the perceived risk, since the granting the status of unavoidable, would appear to reduce liability claims by the plaintiff, and the associated risk of the operation. 
 
-
-
-
-
 The notion of scaling precautionary, or corrective (so-called "make good") actions in response to information is encompassed in the concept of Adaptive Environmental Management (AEM). In the context of groundwater a Groundwater Model Multi Criteria Analysis (GMMCA) was proposed as an enhanced a Multi Criteria Analysis (MCA) designed to incorporate geological, hydrological, environmental and economic attributes within the AEM paradigm [@Beckers2013]. Both the GMMCA, and the concept of scaling precaution have the intent to enable regulatory flexibility, and to refine and improve risk mapping over time [@Beckers2013]. 
 
-
-
 For Taylor precautionary measures be scaled according to information available about impacts [@Taylor2012, p.11]. As a part of this flexibility, Beckers et al recommend that adaptive methodologies include the temporal aspect within risk assessment [@Beckers2013, p.iii], with the ability to track long term effects. This type of recommendation implies a long term monitoring effort with associated hydrology data storage technologies for meta-data, and timeseries data. And in addition to these usual types of data, the temportal aspect of risk should also thereofre be stored. 
-
 
 The attempt to integrate these enhancements in Australia has highlighted legislative and technical gaps. It is the intention of this review to document some of these gaps as noted in the literature, and within the technical community. Finally, potential solutions are proposed as a goals for future research with specific interest in the visualisation of risk as a management tool.
 
 ## Proposed Legislative Enhancements
-
-
-
-
 
 ## Risk Management 
 
@@ -228,19 +217,9 @@ Model uncertainty and "unknown unknowns" provides a difficulty to OSM, which as 
 
 An incremental where we start with the precautionary at the top of the V and then descending down the left arm is the prohibition arm.  The deployment arm is the monitoring and verification arm. Once the system is in this phase, any failure will generate an impact which will need a risk management tool to come into effect, with the associated costs.
 
-
-
-
-
-
-
-
-
 ORM aims to "defer risk-management intervention" & "unconvincing responses to the challenge of
 low-probability, high-damage threats.""
 [@Randall2012, p.158]. 
-
-
 
 ## Risk management tools
 The toolkit for managing private risks may still be organised into Ehrlich and Becker’s classic
@@ -251,9 +230,6 @@ categories of market insurance, self-insurance and self-protection.7
 * Self-protection: measures that prevent or mitigate bad outcomes
 
 Make Good is one of the risk management tools. However it is not 
-
-
-
 
 The risks cited in the literature are tabulated below:
 
@@ -267,15 +243,7 @@ The risks cited in the literature are tabulated below:
 |6.|Landmass |Subsidence | Gas extraction and lowering water tables creating voids | [@Randall2012, p.155]|
 |7.|Ecosystems | Habitat loss | Construction & operations  | [@Randall2012, p.155]|
 
-
-
-
-
-
-
 #### Make Good Agreements (MGA) and Make Good Measures (MGM)
-
-
 
 "A make good agreement is an arrangement between a tenure holder and water bore owner" [@EHP2013, p.2]. Make good measures applies if the relevant authority believes that a bore is impaired. A make good measure is the measure a petroleum tenure holder will take if a bore has an impaired capacity. [@EHP2013, p.2]. An impairment will (should) be documents in a bore report, and can be when a bore no longer supplies a reasonable quantity or quality of water for its authorised use or purpose, with the ultimate arbiter being the governing chief executive [@QSG].
 
@@ -287,14 +255,13 @@ But what should the make-good measure be? As noted by Randall [-@Randall2012], M
 
 For landholders and the PTH, the dollar consequence of any impairment to a bore is quantified in the MGM. Hence the risk, in this instance is the probability of the impairment, and the MGM dollar cost: 
 
-\[
-	\begin{align} 
-	R_{MG} = \text{Make Good Risk} 
-	& P(I) =  \text{Probability of Impairment}
-	& C_{MGM} = \text{$ Consequence of Make Good Measure}	
-	& R_{MG} = P(\mathit{I}) . C_{MGM} \label{ref1}
-	\end{align} 
-\]
+$$	R_{MG} $$ = Make Good Risk
+$$ P(I) $$ = Probability of Impairment
+$$ C_{MGM} $$ = Dollar Consequence of Make Good Measure
+
+Hence:
+
+$$ R_{MG} = P(\mathit{I}) . C_{MGM} $$
 
 
 For simplicity sake, when calculating the Unit Technical Cost (UTC) of operations, C_MGM is set to the dollar value of the groundwater bore license. MGM works on the bore may exceed the license value in some cases, however some impairments are difficult to predict *a priori*, and so the bore license value assumes *de facto* liability for UTC calculations. 

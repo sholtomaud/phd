@@ -96,26 +96,17 @@ Mays, gave a water storage, as a problem for calculating the reliability of supp
 
 Uncertainty in roughness is assumed to make the supply to the user uncertain. Roughness is incorrectly applied a measure of pipe failure in this instance. This curious example, whilst making mathematical sense, is a little contrived since there are no fail conditions. 
 
-A reliability analysis aims to find the time ($\mathit{t}$), when a system is likely to fail.
-
-
-
-
-Under conditions where piping, tank and tap don't fail, the supply will always meet demand when a tap is turned on, unless the tank is dry. 
+A reliability analysis aims to find the time ($$\mathit{t}$$), when a system is likely to fail. Under conditions where piping, tank and tap don't fail, the supply will always meet demand when a tap is turned on, unless the tank is dry. 
 
 Translate into Odum flow: 
 
-Qs = kQ = Q*1/RC
-
-
-
-
+$$ Qs = kQ = Q*1/RC $$
 
 ### Quantitative Risk Assessment
 
 Quantitative techniques are normally mathematically and/or computationally based [@Baker1998].
 
-
+{{expand}}
 
 ## Risk management frameworks
 
@@ -133,26 +124,25 @@ In the Terms of Reference for Activity 5 of the CSG Feasibility Study, a hybrid 
 
 Randall [-@Randall2012], called for an integrated framework which integrates both precautionary and OSM methods in what he calls STS - screening, pre-release testing, and post-release surveillance. The figure directly below is Randall's diagram depicting this process.
 
-![Randall's STS](./../../images/Randall-STS.png)
+![Randall's STS](./images/Randall-STS.PNG)
 
 If Randall's diagram is turned on it's side it resembles the V-model introduced by Rook for software project engineering [@Rook1986]. Rook's concept (see figure below) was subsequently adopted by the Systems Engineering community [@Mooz1997, @Mooz2001, @Estefan2007].
 
-![Standard V-model](./../../images/Rook1986.png)
+![Standard V-model](./images/Rook1986.PNG)
 
-If Randall's diagram of STS is analogous to the V-model used in Systems Engineering the it would be fortunate and perhaps assuring that legislative theory had produced a similar procedure as the well-established methods of Systems Engineering.
+If we consider Randall's diagram of STS  analogous to the V-model used in Systems Engineering the it would be fortunate and perhaps assuring that legislative theory had produced a similar procedure as the well-established methods of Systems Engineering. Moreover Randall's analysis might gain more value from further considersideration.
 
 The figure below shows a standard V-model. In the System's Engineering terminology, pre-release would be roughly equivalent to pre-implementation, the left arm of the 'V'. Screening equal to the requirements gathering and design phase of the left arm of the 'V'.. Post-release surveillance is post-implementation operations and maintenance in the right arm of the 'V'.
 
-![Standard V-model](./../../images/V-model.png)
+![Standard V-model](./images/V-model.png)
 
 The notable difference between the Systems Engineering method and Randall's STS method is the intended realm of application. STS is aimed at a higher level of societal governance rather than a project mission execution. If the V-model from Systems Engineering were enhanced to be used as a governance tool, one might introduce a prohibition arrow in the pre-implementation phase. The figure below depicts this enhancement.
 
-![V-governance Prohibition Model](./../../images/V-govern.png)
+![V-governance Prohibition Model](./images/V-govern.png)
 
 In placing prohibition on the left-arm of the 'V', we might also consider the governance aspect of the right-arm of the 'V' - what happens if the management systems fail? As noted above, the system is operating in a civil context, where the main reparations are conducted under MGM's. Hence we can extend the simple V-model further to depict the reparations required for civilians when operations go wrong as shown in the figure below.
 
-![V-governance Make Good Model](./../../images/V-mg.png)
-
+![V-governance Make Good Model](./images/V-mg.png)
 
 In order for the framework to achieve these goals, it is important that it provides
 comprehensive references to the scientific information and data framework it intends on
@@ -165,9 +155,6 @@ jurisdictions [@ANEDO2013].
 
 
 As noted in the Harmonisation Framework, QLD applies an adaptive management approach. In this approach, defined trigger thresholds are used to initiate the make-good process [@SCER2013, p.47]. 
-
-
-
 
 
 ## Strict Liability

@@ -257,11 +257,11 @@ $$ \mathit{\bar{R}_{MG}} = 1 - \mathit{R}_{MG} $$
 This means that Make Good Risk is the inverse of Make Good Reliability. Assume  
 
 Probability of Impairment $$ = \mathit{P}_{I} $$ 
-Dollar Consequence of Make Good Measure $$ C_{MGM} $$ = 
+Dollar Consequence of Make Good Measure $$ \mathit{C}_{MGM} $$ = 
 
 Hence:
 
-$$ R_{MG} = P(\mathit{I}) . C_{MGM} $$
+$$ \mathit{R}_{MG} = \mathit{P}(\mathit{I}) \period \mathit{C}_{MGM} $$
 
 
 For simplicity sake, when calculating the Unit Technical Cost (UTC) of operations, C_MGM is set to the dollar value of the groundwater bore license. MGM works on the bore may exceed the license value in some cases, however some impairments are difficult to predict *a priori*, and so the bore license value assumes *de facto* liability for UTC calculations. 

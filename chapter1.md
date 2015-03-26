@@ -164,54 +164,30 @@ With reference to the two recommendations made above, Taylor [Ibid] went on to s
 
 Strict liability is the imposition of liability on a party without a finding of fault. The question is whether UE producers have  would therefore be afforded to the tortfeasor. 
 
+In this context the NWC recommended that bonds and sureties should deal with uncertainty and the timeframes associated with potential impacts [@NWC2010]. As the NWC noted, these time frames may potentially extend past 100 years, which is well-beyond the expected life-span of the CSG recovery process.
 
+"This includes impacts such as long-term reductions in adjacent aquifer pressures and levels, and impacts on environmental assets that are not adequately protected by current ‘make good’ mechanisms" [@NWC2010].
 
-
-In this context the NWC recommended that that bonds and sureties should deal with uncertainty and the timeframes associated with potential impacts [@NWC2010]. As the NWC noted, these time frames may potentially extend past 100 years, which is well-beyond the expected life-span of the CSG recovery process.
-
-
-
-
-"This includes impacts such as long-term reductions in adjacent aquifer
- pressures and levels, and impacts on environmental assets that are not adequately
- protected by current ‘make good’ mechanisms" [@NWC2010].
-
-
-
-"risk assessment model must include a
-definition of ‘unacceptable impacts’ to the environment and human health and
-any projects falling in this category should not be allowed to proceed. Risk
-assessment should not be undertaken by the proponent but by an independent
-third party."  ... “Verification of key system elements” should not rely on appraisal by “in house
+"risk assessment model must include a definition of ‘unacceptable impacts’ to the environment and human health and any projects falling in this category should not be allowed to proceed. Risk assessment should not be undertaken by the proponent but by an independent third party."  ... “Verification of key system elements” should not rely on appraisal by “in house
 representatives” but rather only “independent third-party professional[s]”. [@Boudicca2013]
 
-
-
-
 ## Connection between Risk, Liability and Make Good
-
-
 
 "At the project level, the cumulative effects of many wells across the landscape will challenge the
 feasibility of making good. Another challenge arises because the impacts on aquifers are likely to play
 out on a time-scale of many decades and perhaps centuries, whereas the time-scale of CSG extraction
 is shorter."
 
-"At the basin level, which really matters in the CSG case where so much of the action will impact
-the GAB, the cumulative impacts over several centuries are (I would argue) near-impossible to predict."
+"At the basin level, which really matters in the CSG case where so much of the action will impact the GAB, the cumulative impacts over several centuries are (I would argue) near-impossible to predict."
  [@Randall2012, p.154]. 
 
 This introduces both cumulative impacts, and uncertainty into the risk assessment.
 
 ### Cumulative Effects
 
-
-
  As noted by the National Water Comission (NWC), in the context of groundwater, these costs may have the potential to persist beyond the life cycle of the UE production  
 
-
  This raises concern over the temporal extent of liability. The tort "civil wrong"
-
 
  The term "cumulative effect" is used to conceptualise this temporal extent of liability. 
 

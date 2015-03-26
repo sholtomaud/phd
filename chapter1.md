@@ -30,15 +30,8 @@ In addressing the Queensland context the Harmonisation Framework says "This poli
 
 The interest in this review is where the rubber hits the road, and the proverbial "devil in the details". This is to say, that at a high level the requirement for a robust risk management framework is not in dispute. However the implementation at the technical level presents difficulties. The author of this review was 'at the coal face', so to speak, during the attempt to implement such systems, and so the interest here is in reviewing the lower level system requirements generated from the higher level requirement of developing a robust risk management framework. 
 
-The rest of this review will focus 
-
-
 It is anticipated that in conducting this review, gaps and technical requirements will be generated, and these will become the proposed subject of future research effort.
 To contextualise these requirements further, the concepts risk, risk management framework, make good and liability will be addressed.
-
-$$ \mathit{R} = \mathit{P}(\mathit{X}) \bullet \mathit{C} $$
-
-; inline $\begin{tikzpicture} \draw (0,0) circle (2cm); \end{tikzpicture} $
 
 # Risk
 

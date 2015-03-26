@@ -90,7 +90,7 @@ $$ \mathit{\bar{R}} = 1 - \mathit{R} $$
 ...
 {{ Uncertainty & Probability etc. }}
 
-Mays, gave a water storage, as a problem for calculating the reliability of supply [-@Mays2010, Fig.10.7.3, p.390]. This example renders the force of a water tank $(\mathit{Q})$, as the source of resistance, and a tap as a source of load.  
+Mays, gave a water storage, as a problem for calculating the reliability of supply [-@Mays2010, Fig.10.7.3, p.390]. This example renders the force of a water tank $$(\mathit{Q})$$, as the source of resistance, and a tap as a source of load.  
 
 ![Mays2010 Fig10.7.3](./images/Mays2010_Fig10_7_3_p390.png)
 

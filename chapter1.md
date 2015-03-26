@@ -79,16 +79,15 @@ In this context, risk is then defined as the probability of the load exceeding t
 
 Where $$ \mathit{r} $$ = resistance and $$\mathit{l}$$ = load, reliability ( $$\mathit{R}$$ ) is then defined as: 
 
-$$
-  \mathit{R} = \mathit{P}( \mathit{r} > \mathit{l} ) = \mathit{P}( \mathit{r} - \mathit{l} > 0 ) 
-$$
+$$ \mathit{R} = \mathit{P}( \mathit{r} > \mathit{l} ) = \mathit{P}( \mathit{r} - \mathit{l} > 0 ) $$
+
 
 And risk $$\mathit{ \bar{R} }$$, is then defined as:
 
 $$ \mathit{\bar{R}} = 1 - \mathit{R} $$ 
 
-...
-{{ Uncertainty & Probability etc. }}
+
+{ Uncertainty & Probability etc. }
 
 Mays, gave a water storage, as a problem for calculating the reliability of supply [-@Mays2010, Fig.10.7.3, p.390]. This example renders the force of a water tank $$(\mathit{Q})$$, as the source of resistance, and a tap as a source of load.  
 
@@ -106,25 +105,21 @@ $$ Qs = kQ = Q*1/RC $$
 
 Quantitative techniques are normally mathematically and/or computationally based [@Baker1998].
 
-{{expand}}
+{expand}
 
 ## Risk management frameworks
 
 In the Terms of Reference for Activity 5 of the CSG Feasibility Study, a hybrid Groundwater Model and Multi Criteria Analysis (GMMCA) risk assessment methodology was developed [@Beckers2013].
 
-
-
-
-
 ## What is a risk management framework?
 
-
 ## Frameworks
-
 
 Randall [-@Randall2012], called for an integrated framework which integrates both precautionary and OSM methods in what he calls STS - screening, pre-release testing, and post-release surveillance. The figure directly below is Randall's diagram depicting this process.
 
 ![Randall's STS](./images/Randall-STS.PNG)
+
+
 
 If Randall's diagram is turned on it's side it resembles the V-model introduced by Rook for software project engineering [@Rook1986]. Rook's concept (see figure below) was subsequently adopted by the Systems Engineering community [@Mooz1997, @Mooz2001, @Estefan2007].
 
@@ -154,13 +149,13 @@ practical steps to measure, share and analyse environmental data across
 jurisdictions [@ANEDO2013]. 
 
 
+
 As noted in the Harmonisation Framework, QLD applies an adaptive management approach. In this approach, defined trigger thresholds are used to initiate the make-good process [@SCER2013, p.47]. 
 
 
 ## Strict Liability
 
 With reference to the two recommendations made above, Taylor [Ibid] went on to suggest that where UE producers use water resources, they should carry the costs associated with any impacts from activities. This view concurs with the views of landholders, who wish to receive appropriate compensation and payments [@VFF2013, ]. 
-
 
 Strict liability is the imposition of liability on a party without a finding of fault. The question is whether UE producers have  would therefore be afforded to the tortfeasor. 
 
@@ -178,6 +173,8 @@ feasibility of making good. Another challenge arises because the impacts on aqui
 out on a time-scale of many decades and perhaps centuries, whereas the time-scale of CSG extraction
 is shorter."
 
+
+
 "At the basin level, which really matters in the CSG case where so much of the action will impact the GAB, the cumulative impacts over several centuries are (I would argue) near-impossible to predict."
  [@Randall2012, p.154]. 
 
@@ -185,11 +182,9 @@ This introduces both cumulative impacts, and uncertainty into the risk assessmen
 
 ### Cumulative Effects
 
- As noted by the National Water Comission (NWC), in the context of groundwater, these costs may have the potential to persist beyond the life cycle of the UE production  
+As noted by the National Water Comission (NWC), in the context of groundwater, these costs may have the potential to persist beyond the life cycle of the UE production.
 
- This raises concern over the temporal extent of liability. The tort "civil wrong"
-
- The term "cumulative effect" is used to conceptualise this temporal extent of liability. 
+This raises concern over the temporal extent of liability. The tort "civil wrong". The term "cumulative effect" is used to conceptualise this temporal extent of liability. 
 
 Cumulative effects are effects that are successive or incremental over time [@Howe2010]. Whilst Taylor's discussion was framed within the context of negative effects, the concept of cumulative effect was designed not to have pejorative content, but to recognise that cumulative effects on society, the economy and the environment can be conceived as either positive or negative, or a combination of the two at any one time. 
 
@@ -255,7 +250,12 @@ But what should the make-good measure be? As noted by Randall [-@Randall2012], M
 
 For landholders and the PTH, the dollar consequence of any impairment to a bore is quantified in the MGM. Hence the risk, in this instance is the probability of the impairment, and the MGM dollar cost: 
 
-$$	R_{MG} $$ = Make Good Risk
+If Risk $$ \mathit{\bar{R}} $$ Hello 
+
+Make Good Risk $$ = \mathit{R_{MG}} $$ equals 
+
+$$ \mathit{\bar{R}} = 1 - \mathit{R} $$ 
+
 $$ P(I) $$ = Probability of Impairment
 $$ C_{MGM} $$ = Dollar Consequence of Make Good Measure
 

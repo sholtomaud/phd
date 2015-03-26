@@ -250,14 +250,14 @@ But what should the make-good measure be? As noted by Randall [-@Randall2012], M
 
 For landholders and the PTH, the dollar consequence of any impairment to a bore is quantified in the MGM. Hence the risk, in this instance is the probability of the impairment, and the MGM dollar cost: 
 
-If Risk $$ \mathit{\bar{R}} $$ Hello 
+If Risk is symbolised as $$ \mathit{\bar{R}} $$, Make Good Risk $$ = \mathit{\bar{R}_{MG}} $$ 
 
-Make Good Risk $$ = \mathit{R_{MG}} $$ equals 
+$$ \mathit{\bar{R}_{MG}} = 1 - \mathit{R}_{MG} $$ 
 
-$$ \mathit{\bar{R}} = 1 - \mathit{R} $$ 
+This means that Make Good Risk is the inverse of Make Good Reliability. Assume  
 
-$$ P(I) $$ = Probability of Impairment
-$$ C_{MGM} $$ = Dollar Consequence of Make Good Measure
+Probability of Impairment $$ = \mathit{P}_{I} $$ 
+Dollar Consequence of Make Good Measure $$ C_{MGM} $$ = 
 
 Hence:
 

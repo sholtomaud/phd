@@ -8,7 +8,7 @@ header-includes:
    \usetikzlibrary{arrows}
 output: 
   word_document:
-    pandoc_args: ["-s", "-S", "--biblio", "./../../reference/Library.bib", "--csl", "./../../reference/chicago-author-date.csl"]
+    pandoc_args: ["-s", "-S", "--biblio", "./reference/Library.bib", "--csl", "./reference/chicago-author-date.csl", "-o", "./docx/chapter1.docx"]
 ---
 
 # Abstract

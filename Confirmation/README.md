@@ -73,9 +73,7 @@ As interpreted here, the high level requirements for such a framework are:
 
 * System for managing and monitoring risk
 * System for integrating data relevant to management and monitoring of risk
-*  
   
-
 ## Component 2
 
 The goal of the second aim is to test and develop a Minimum Viable Product (MVP) which enables services to be provided as a part of this management framework. Included within the MVP are 
@@ -84,10 +82,6 @@ arcitechtural considerations regarding integration of disparate data model requi
 
 
  A reactive development philosophy has been used for the development process [@Reactive2014]. This philosophy embraces the concept of continual data model improvement and change at minimal effort. 
-
-
-
-# 
 
 # Project title
 

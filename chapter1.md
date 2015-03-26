@@ -244,28 +244,28 @@ The risks cited in the literature are tabulated below:
 
 But what should the make-good measure be? As noted by Randall [-@Randall2012], MGMs were intended as *in-kind* reparations for any impacts. EHP suggested these measures could include works on a bore, such as deepening, where the costs of works are borne by the petroleum tenure holder (PTH) [@EHP2013]. Or, alternately, the PTH may provide the water bore owner monetary compensation as the MGM. 
 
-
-
 #### Make Good Risk in Unit Technical Cost
 
 For landholders and the PTH, the dollar consequence of any impairment to a bore is quantified in the MGM. Hence the risk, in this instance is the probability of the impairment, and the MGM dollar cost: 
 
-If Risk is symbolised as $$ \mathit{\bar{R}} $$, Make Good Risk $$ = \mathit{\bar{R}_{MG}} $$ 
-
-$$ \mathit{\bar{R}_{MG}} = 1 - \mathit{R}_{MG} $$ 
-
-This means that Make Good Risk is the inverse of Make Good Reliability. Assume  
+If the symbol for risk is $$ \mathit{\bar{R}} $$, we will symbolise Make Good Risk with a subscript $$ \mathit{\bar{R}_{MG}} $$ 
 
 Probability of Impairment is $$ \mathit{P}_{I} $$ 
 
-Dollar Consequence of Make Good Measure is $$ \mathit{C}_{MGM} $$  
+Dollar Consequence, or Cost of Make Good Measure is $$ \mathit{C}_{MGM} $$  
 
-Hence:
+Then:
 
 $$ \mathit{R}_{MG} = \mathit{P}(\mathit{I}) \bullet \mathit{C}_{MGM} $$
 
 
 For simplicity sake, when calculating the Unit Technical Cost (UTC) of operations, C_MGM is set to the dollar value of the groundwater bore license. MGM works on the bore may exceed the license value in some cases, however some impairments are difficult to predict *a priori*, and so the bore license value assumes *de facto* liability for UTC calculations. 
+
+#### Make Good Risk in Unit Technical Cost
+
+$$ \mathit{\bar{R}_{MG}} = 1 - \mathit{R}_{MG} $$ 
+
+This means that Make Good Risk is the inverse of Make Good Reliability. 
 
 # Risk and Liability
 

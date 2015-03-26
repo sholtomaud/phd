@@ -53,7 +53,7 @@ In the eye of the stakeholder, the risk methodology might be;
 The field of Risk Assessment is broad, however two general approaches have been recogonised as quantitative and qualitative. Within both of these two approaches 
 the standard generic calculation of Risk (R) is through the product of the Probability of some event X (P(X)) and the Consequence (C) of that event occurring.
 
-$$ \mathit{R} = \mathit{P}(\mathit{X}) \bullet \mathit{C} $$
+$$ \mathit{ \bar{R} } = \mathit{P}(\mathit{X}) \bullet \mathit{C} $$
 
 
 ### Qualitative Risk Assessment

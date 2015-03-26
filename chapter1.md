@@ -36,11 +36,9 @@ The rest of this review will focus
 It is anticipated that in conducting this review, gaps and technical requirements will be generated, and these will become the proposed subject of future research effort.
 To contextualise these requirements further, the concepts risk, risk management framework, make good and liability will be addressed.
 
-\[
-  \mathit{R} = \mathit{P}(\mathit{X}) \bullet \mathit{C} \label{ref1}
-\]
+$$ \mathit{R} = \mathit{P}(\mathit{X}) \bullet \mathit{C} $$
 
-inline $\begin{tikzpicture} \draw (0,0) circle (2cm); \end{tikzpicture} $
+; inline $\begin{tikzpicture} \draw (0,0) circle (2cm); \end{tikzpicture} $
 
 # Risk
 
@@ -57,16 +55,13 @@ In the eye of the stakeholder, the risk methodology might be;
 * sound, and well communicated
 * unsound, and well communicated
 
-
 ## Risk Analysis & Assessment
-
 
 The field of Risk Assessment is broad, however two general approaches have been recogonised as quantitative and qualitative. Within both of these two approaches 
 the standard generic calculation of Risk (R) is through the product of the Probability of some event X (P(X)) and the Consequence (C) of that event occurring.
 
-\[
-  \mathit{R} = \mathit{P}(\mathit{X}) \bullet \mathit{C} \label{ref1}
-\]
+$$ \mathit{R} = \mathit{P}(\mathit{X}) \bullet \mathit{C} $$
+
 
 
 ### Qualitative Risk Assessment
@@ -101,16 +96,14 @@ Where $\mathit{r}$ = resistance and $\mathit{l}$ = load, reliability ( $\mathit{
 
 And risk $\mathit{ \bar{R} }$, is then defined as:
 
-\[
-  \mathit{\bar{R}} = 1 - \mathit{R}
-\]
+$$ \mathit{\bar{R}} = 1 - \mathit{R} $$ 
 
 {{ Uncertainty & Probability etc. }}
 
 
 Mays, gave a water storage, as a problem for calculating the reliability of supply [-@Mays2010, Fig.10.7.3, p.390]. This example renders the force of a water tank $(\mathit{Q})$, as the source of resistance, and a tap as a source of load.  
 
-![Mays2010 Fig10.7.3](./../../images/Mays2010_Fig10_7_3_p390.png)
+![Mays2010 Fig10.7.3](./images/Mays2010_Fig10_7_3_p390.png)
 
 Uncertainty in roughness is assumed to make the supply to the user uncertain. Roughness is incorrectly applied a measure of pipe failure in this instance. This curious example, whilst making mathematical sense, is a little contrived since there are no fail conditions. 
 

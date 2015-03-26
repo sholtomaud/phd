@@ -8,10 +8,7 @@ output:
     pandoc_args: ["-s", "-S", "--biblio", "./../../reference/Library.bib", "--csl", "./../../reference/chicago-author-date.csl"]
 ---
 
-# Abstract
-
-
-
+# Risk Density
 
 
 # References

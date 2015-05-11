@@ -13,9 +13,27 @@ output:
 
 # Abstract
 
-This review aims to identify the appropriate requirements for an unconventional energy production risk management framework, where the asset at risk is groundwater. It covers the current legislative approaches to the management of risk within the recent Australian experience of Coal Seam Gas. 
+This review aims to identify the appropriate requirements for visualising risk within an unconventional energy production risk management framework, where the asset at risk is groundwater. It covers the current legislative approaches to the management of risk within the recent Australian experience of Coal Seam Gas. 
 
 # Introduction
+
+It is the contention of this thesis that the evalution of risk is domain-dependent. There are many domains of risk analysis each with their own  validity requirements.  
+
+| Domain  | Risk Validity Type |
+|:--------|:-------------|
+Corporate - heuristic ($ consequence)
+Economic - logical (Probability & $ Consequence)
+Insurance -  practical (OHS)
+Academic - scientific (Env)
+Government - pragmatic/electoral validity (balancing the demands of Academic & Corporate )
+
+
+The technical intent of the thesis is to produce a platform which enables the visulasation of these differences, perhaps to explain when and why any one of the risk validity types predominates.
+
+This will require a data technology that can service the reqourements. The technology is the subject of two further papers. The focus here is the treatment of the risk validity concept, and possible generation of hypotheses around risk validity.
+
+d
+
 
 In the last few years unconventional energy (UE) production has been considered a significant potential economic resource for Australia. Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations, along with what is known as "tight gas" [@Taylor2012, p.7]. 
 
@@ -28,9 +46,7 @@ These views, and the support for a National approach to a Risk management framew
 
 In addressing the Queensland context the Harmonisation Framework says "This policy focuses on the management and use of produced water under the EP Act, and does not vary the requirements of the Water Act, such as ‘making good’ any relevant impacts on water bores that may result from an operation to extract natural gas from coals seams."
 
-The interest in this review is where the rubber hits the road, and the proverbial "devil in the details". This is to say, that at a high level the requirement for a robust risk management framework is not in dispute. However the implementation at the technical level presents difficulties. The author of this review was 'at the coal face', so to speak, during the attempt to implement such systems, and so the interest here is in reviewing the lower level system requirements generated from the higher level requirement of developing a robust risk management framework. 
-
-It is anticipated that in conducting this review, gaps and technical requirements will be generated, and these will become the proposed subject of future research effort.
+The interest in this review is the implementation of a risk governance framework at the technical level. It is anticipated that in conducting this review, gaps and technical requirements will be generated, and these will become the proposed subject of future research effort.
 To contextualise these requirements further, the concepts risk, risk management framework, make good and liability will be addressed.
 
 # Risk

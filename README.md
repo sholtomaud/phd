@@ -23,20 +23,55 @@ Doctoral Thesis by Sholto Maud
 7. [Chapter 7 - Applied Case Study](chapter7.md)
 8. [Chapter 8 - Conclusions](chapter8.md)
 
-# Tasks
+Chapter 0 - Preface
+Chapter 1 - Literature Review* 
+Chapter 2 - Between Risk Assessment and Risk Governance (theoretical article)*
+Chapter 3 - Risk Governance Systems in Unconventional Energy*
+Chapter 4 - Meta tranlsations: Accomodating multiple data models  with NoSQL db services* 
+Chapter 5 - Technical Solutions to Unconventional Energy & Groundwater Monitoring Risk Governance: Applied Case Study*
+Chapter 6 - Conclusion
+
+
+## Tasks
+X = Due date
+
+### Techical
+D = Design
+RD = Reactive Development
+POC = Proof of Concept
+MVP = Minimum Viable Product
+UAT = User Acceptance Testing
+SO = Sign off
+
+### Academic
+B = Begin
+R = Research 
+D1 = First Draft
+D2 = Second Draft
+S1 = Submit to journal/reviewer
+R1 = Revise from reviewer feedback
+R2 = Revise from reviewer feedback
+F = Final Submission
+
+# Research Plan
 
 |#    |Task                      |Y1Q1 |Y1Q2 |Y1Q3 |Y1Q4 |Y2Q1 |Y2Q2 |Y2Q3 |Y2Q4 |Y3Q1 |Y3Q2 |Y3Q3 |Y3Q4 |
 |:----|--------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|1.   | Platform MVP             |X    |X    |X    |X    |     |     |     |     |     |     |     |     |
-|2.   | Lit Rev                  |X    |X    |X    |X    |     |     |     |     |     |     |     |     |
-|2.1  | Start Articles           |     |X    |X    |X    |X    |X    |X    |X    |X    |X    |     |     |
-|3.   | Confirmation             |     |     |     |X    |X    |     |     |     |     |     |     |     |
-|4.   | Risk Density Development |     |     |X    |X    |X    |X    |X    |X    |X    |X    |     |     |
-|5.   | Enhancements Plan        |     |     |     |     |X    |     |     |     |     |     |     |     |
-|6.   | Enhancement Code         |     |     |     |     |     |X    |X    |X    |X    |X    |     |     |
-|7.   | UAT                      |     |     |     |     |     |     |     |X    |X    |X    |     |     |
-|8.   | Finalise Articles        |     |     |     |     |     |X    |X    |X    |X    |X    |X    |X    |
-|9.   | Signoff                  |     |     |     |     |     |     |     |     |     |     |     |X    |
+|1.   | Platform MVP             |RD   |RD   |RD   |POC  |     |     |     |     |     |     |     |     |
+|2.   | Articles                 |     |     |     |     |     |     |     |     |     |     |     |     |
+|2.1  | #Lit Rev*				 |B,R  |R    |D1   |D2   |S1   |R1,F |     |     |     |     |     |     |
+|2.2  | #Ch1*		             |     |     |B,R  |R    |D1   |D2   |S1   |R1,F |     |     |     |     |
+|2.3  | #Ch2* 			         |     |     |B,R  |R    |D1   |D2   |S1   |R1,F |     |     |     |     |
+|2.4  | #Ch3* 			         |     |     |B,R  |R    |R    |D1   |D2   |S    |R1,F |     |     |     |
+|2.5  | #Ch4*   		         |     |     |     |B,R  |R    |R    |D1   |D2   |S    |R1,F |     |	 |
+|2.6  | #Ch5* 			         |     |     |     |B,R  |R    |R    |D1   |D2   |S    |R1,F |     |     |
+|3.   | Confirmation             |     |     |     |X    |     |     |     |     |     |     |     |     |
+|4.   | Roadtrips  				 |     |     |     |     |X    |X    |     |     |     |     |     |     |
+|5.   | Enhancement Plan         |     |     |     |     |     |D    |R    |RD   |RD   |UAT  |SO   |     |
+|6.   | Finalise Thesis        	 |     |     |     |     |     |     |     |     |B    |D1   |R1   |R2,F |
+|6.1  | #Preface 	           	 |B    |R    |R    |R    |R    |R    |R    |R    |R,D1 |D2,R1|R2,F |     |
+|6.2  | #Ch6 	            	 |     |     |     |     |     |B,R  |R    |R    |R,D1 |D2,R1|R2,F |     |
+|7.   | Thesis Submission 	 	 |     |     |     |     |     |     |     |     |     |     |     |X    |
 
 
 

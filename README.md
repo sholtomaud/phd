@@ -97,13 +97,13 @@ X = Due date
 
 # RESOURCES & SKILLS 
 The following skills will be required for the successful completion of the project:
-NoSQL
-Risk Governance
-Big Data (MongoDB + Hadoop)
-Data analysis (R)
-Node.js/Go
-Data driven js forms
-DevOps
+* NoSQL
+* Risk Governance
+* Big Data (MongoDB + Hadoop)
+* Data analysis (R)
+* Node.js/Go
+* Data driven js forms
+* DevOps
 
 # BARRIERS TO SUCCESS
 The main barriers to success will be skill & system development within timelines. Developing techniques for handling non-standardised data formats are significant challenges along with  engagement with Government agencies that are the source of these data model variability. Technical expertise will be developed during the course of the project to accommodated any skill gaps in Node.js and NoSQL systems.

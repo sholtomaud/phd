@@ -32,26 +32,30 @@ Chapter 5 - Technical Solutions to Unconventional Energy & Groundwater Monitorin
 Chapter 6 - Conclusion
 
 
-## Tasks
+## Task Definitions
 X = Due date
 
 ### Techical
-D = Design
-RD = Reactive Development
-POC = Proof of Concept
-MVP = Minimum Viable Product
-UAT = User Acceptance Testing
-SO = Sign off
+|Abbreviation| Definition|
+|:---|:--------------------------|
+|D | Design |
+|RD | Reactive Development |
+|POC | Proof of Concept |
+|MVP | Minimum Viable Product |
+|UAT | User Acceptance Testing |
+|SO | Sign off |
 
 ### Academic
-B = Begin
-R = Research 
-D1 = First Draft
-D2 = Second Draft
-S1 = Submit to journal/reviewer
-R1 = Revise from reviewer feedback
-R2 = Revise from reviewer feedback
-F = Final Submission
+|Abbreviation| Definition|
+|:---|:--------------------------|
+|B | Begin |
+|R | Research | 
+|D1 | First Draft |
+|D2 | Second Draft |
+|S1 | Submit to journal/reviewer |
+|R1 | Revise from reviewer feedback |
+|R2 | Revise from reviewer feedback |
+|F  | Final Submission |
 
 # Research Plan
 

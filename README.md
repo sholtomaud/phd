@@ -86,6 +86,7 @@ X = Due date
 
 #### List of Chapter Contents
 |Chapter | Title |
+|:---|:--------------------------|
 |0 | [Preface](chapter0.md) |
 |1 | [Literature Review](chapter1.md) |
 |2 | [Between Risk Assessment and Risk Governance (theoretical article)](chapter2.md) |

@@ -17,7 +17,7 @@ Doctoral Thesis by Sholto Maud
 1. [Chapter 1 - Literature Review](chapter1.md)
 2. [Chapter 2 - Risk Assessment Methods](chapter2.md)
 3. [Chapter 3 - Risk Management Methods](chapter3.md)
-4. [Chapter 4 - Methodological Gap Analysiss](chapter4.md)
+4. [Chapter 4 - Methodological Gap Analysis](chapter4.md)
 5. [Chapter 5 - Technical Review](chapter5.md)
 6. [Chapter 6 - Technical Solutions](chapter6.md)
 7. [Chapter 7 - Applied Case Study](chapter7.md)

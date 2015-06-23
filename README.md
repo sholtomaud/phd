@@ -10,52 +10,15 @@ Doctoral Thesis by Sholto Maud
 2. Establish webservices providing risked data 
 3. Consume the risking webservices through a presentation layer & water atlas
 
+# List of Chapeter Contents
 
-# List of Contents
-
-0. [Chapter 0 - Prefacee](chapter0.md)
+0. [Chapter 0 - Preface](chapter0.md)
 1. [Chapter 1 - Literature Review](chapter1.md)
-2. [Chapter 2 - Risk Assessment Methods](chapter2.md)
-3. [Chapter 3 - Risk Management Methods](chapter3.md)
-4. [Chapter 4 - Methodological Gap Analysis](chapter4.md)
-5. [Chapter 5 - Technical Review](chapter5.md)
-6. [Chapter 6 - Technical Solutions](chapter6.md)
-7. [Chapter 7 - Applied Case Study](chapter7.md)
-8. [Chapter 8 - Conclusions](chapter8.md)
-
-Chapter 0 - Preface
-Chapter 1 - Literature Review* 
-Chapter 2 - Between Risk Assessment and Risk Governance (theoretical article)*
-Chapter 3 - Risk Governance Systems in Unconventional Energy*
-Chapter 4 - Meta tranlsations: Accomodating multiple data models  with NoSQL db services* 
-Chapter 5 - Technical Solutions to Unconventional Energy & Groundwater Monitoring Risk Governance: Applied Case Study*
-Chapter 6 - Conclusion
-
-
-## Task Definitions
-X = Due date
-
-### Techical
-|Abbreviation| Definition|
-|:---|:--------------------------|
-|D | Design |
-|RD | Reactive Development |
-|POC | Proof of Concept |
-|MVP | Minimum Viable Product |
-|UAT | User Acceptance Testing |
-|SO | Sign off |
-
-### Academic
-|Abbreviation| Definition|
-|:---|:--------------------------|
-|B | Begin |
-|R | Research | 
-|D1 | First Draft |
-|D2 | Second Draft |
-|S1 | Submit to journal/reviewer |
-|R1 | Revise from reviewer feedback |
-|R2 | Revise from reviewer feedback |
-|F  | Final Submission |
+2. [Chapter 2 - Between Risk Assessment and Risk Governance (theoretical article)](chapter2.md)
+3. [Chapter 3 - Risk Governance Systems in Unconventional Energy](chapter3.md)
+4. [Chapter 4 - Meta tranlsations: Accomodating multiple data models  with NoSQL db services](chapter4.md)
+5. [Chapter 5 - Technical Solutions to Unconventional Energy & Groundwater Monitoring Risk Governance: Applied Case Study](chapter5.md)
+6. [Chapter 6 - Conclusions](chapter6.md)
 
 # Research Plan
 
@@ -77,5 +40,29 @@ X = Due date
 |6.2  | #Ch6 	            	 |     |     |     |     |     |B,R  |R    |R    |R,D1 |D2,R1|R2,F |     |
 |7.   | Thesis Submission 	 	 |     |     |     |     |     |     |     |     |     |     |     |X    |
 
+### Task Definitions
+X = Due date
+
+#### Techical
+|Abbreviation| Definition|
+|:---|:--------------------------|
+|D | Design |
+|RD | Reactive Development |
+|POC | Proof of Concept |
+|MVP | Minimum Viable Product |
+|UAT | User Acceptance Testing |
+|SO | Sign off |
+
+#### Academic
+|Abbreviation| Definition|
+|:---|:--------------------------|
+|B | Begin |
+|R | Research | 
+|D1 | First Draft |
+|D2 | Second Draft |
+|S1 | Submit to journal/reviewer |
+|R1 | Revise from reviewer feedback |
+|R2 | Revise from reviewer feedback |
+|F  | Final Submission |
 
 

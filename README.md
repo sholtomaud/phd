@@ -85,13 +85,14 @@ X = Due date
 |F  | Final Submission |
 
 #### List of Chapter Contents
-0. [Chapter 0 - Preface](chapter0.md)
-1. [Chapter 1 - Literature Review](chapter1.md)
-2. [Chapter 2 - Between Risk Assessment and Risk Governance (theoretical article)](chapter2.md)
-3. [Chapter 3 - Risk Governance Systems in Unconventional Energy](chapter3.md)
-4. [Chapter 4 - Meta tranlsations: Accomodating multiple data models  with NoSQL db services](chapter4.md)
-5. [Chapter 5 - Technical Solutions to Unconventional Energy & Groundwater Monitoring Risk Governance: Applied Case Study](chapter5.md)
-6. [Chapter 6 - Conclusions](chapter6.md)
+|Chapter | Title |
+|0 | [Preface](chapter0.md) |
+|1 | [Literature Review](chapter1.md) |
+|2 | [Between Risk Assessment and Risk Governance (theoretical article)](chapter2.md) |
+|3 | [Risk Governance Systems in Unconventional Energy](chapter3.md) |
+|4 | [Meta tranlsations: Accomodating multiple data models  with NoSQL db services](chapter4.md) |
+|5 | [Technical Solutions to Unconventional Energy & Groundwater Monitoring Risk Governance: Applied Case Study](chapter5.md) |
+|6 | [Conclusions](chapter6.md) |
 
 # RESOURCES & SKILLS 
 The following skills will be required for the successful completion of the project:

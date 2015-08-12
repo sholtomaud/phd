@@ -110,20 +110,20 @@ The requirements for interfacing with perceived riskiness are
 
 ##### Requirement - Impact on social infrastructure
 
-
 The maxmin range of accepted values in this instance is defined as the perception vs expectation ranking where: 
 
 * 1 - Company is perceived to be performing much worse than expected
 * 5 - Company is perceived to be performing much better than expected
 
-| Description                      | Min | Max | Input | Feature  | 
-|:---------------------------------| :-- | :-- | :---- | :------- | 
-| Access to medical facilities     | 1   | 5   | Radio | DOM      |
-| Housing affordability            | 1   | 5   | Radio | DOM      |
-| Housing availability             | 1   | 5   | Radio | DOM      |
-| Access to community facilities   | 1   | 5   | Radio | DOM      |
+| Label                            | type   | Min | Max | Input | 
+|:---------------------------------| :----  | :-- | :-- | :---- | 
+| Access to medical facilities     | number | 1   | 5   | Radio | 
+| Housing affordability            | number | 1   | 5   | Radio | 
+| Housing availability             | number | 1   | 5   | Radio | 
+| Access to community facilities   | number | 1   | 5   | Radio | 
 
-##### Requirement -  Contact quantity
+
+##### Requirement - Contact quantity
 
 Perception ranking for contact quantity: 
 * 1 no contact with company at all

@@ -1,4 +1,5 @@
 module.exports = {
 	liner : require('./liner'),
-	jsonify: require('./jsonify')
+	jsonify: require('./jsonify'),
+	lookups: require('./lookups.json')
 }

@@ -77,7 +77,7 @@ There are many approaches to risk assessment in different industries, including 
 
 This notion of riskiness has led to the concept of Social License to Operate (SLO) [@williams_social_2013, @gunningham_social_2004, @moffat_paths_2014], with an associated attempt to quantify and model such. SLO is itself the proposition that a society of stakeholders is able to grant or withdraw support for a company and its operations, and this in turn can present a significant risk as documented in many case studies 
 
-{{Shell in Nigeria etc}}.
+{Shell in Nigeria etc}.
 
 There are then three risk factors which can effect the prospect of successful development and operation of a project or product: 
 
@@ -89,20 +89,20 @@ In review, all of these will be selectively read with the aim stated above, to c
 
 ### Perceived Riskiness
 
-Riskiness, it might be said, is in the eye of the stakeholder, and as such open to many subjective factors which may, or may not be related to the best effort to quantize risk {{quote from above}}. With that said, research conducted by [@siegrist_trust_2012] found a positive relationship between procedural fairness and public acceptance. Turner has also suggested that procedural fairness may the critical element for enabling trust in an authority [@turner_social_1991]. As Moffat and Zhang note, this definition of trust focuses on reciprocity and benevolence [@moffat_paths_2014]. They hypothesized that trust is a critical pathway for the acceptance of an operation. In this hypothesis is contained a further corollary that procedures perceived as fair and contact that contains a forum in which concerns can be voiced, will enhance trust, thereby reducing the risk of a SLO withdrawal. 
+Riskiness, it might be said, is in the eye of the stakeholder, and as such open to many subjective factors which may, or may not be related to the best effort to quantize risk {quote from above}. With that said, research conducted by [@siegrist_trust_2012] found a positive relationship between procedural fairness and public acceptance. Turner has also suggested that procedural fairness may the critical element for enabling trust in an authority [@turner_social_1991]. As Moffat and Zhang note, this definition of trust focuses on reciprocity and benevolence [@moffat_paths_2014]. They hypothesized that trust is a critical pathway for the acceptance of an operation. In this hypothesis is contained a further corollary that procedures perceived as fair and contact that contains a forum in which concerns can be voiced, will enhance trust, thereby reducing the risk of a SLO withdrawal. 
 
-It embodies the notion that  promotes cooperation [@moffat_paths_2014], {{who cite De Cremer et al., 2005; Rawls, 2001; Tyler and Blader, 2000}}. 
+It embodies the notion that  promotes cooperation [@moffat_paths_2014], {who cite De Cremer et al., 2005; Rawls, 2001; Tyler and Blader, 2000}. 
 
 * sound, but not well communicated - moderate uncertainty
 * unsound, and not well communicated - highly uncertainty 
 * sound, and well communicated - low uncertainty
 * unsound, and well communicated - low uncertainty
 
-{{But this pathway is continuous, dynamic measure...Need evidance.}}
+{But this pathway is continuous, dynamic measure...Need evidance.}
 
 
 
-{{{The question of how to measure a stakeholder's perceived riskiness, not just concerned with trust and procedural fairness, but trust in the measure itself, the intended use of such a measure might concern a stakeholder, and in a way have a negative impact on trust. In this way, the measure, and the system needs to be independent, or stakeholder neutral. The issue here is how could such a system which attempts to visualize perceived risk, survive as a business model, without some revenue? Revenue or economic benefit is always a soruce of mistrust, trying to cook the books, or fake engagement for the sole purpose of extracting profit. }}}
+{The question of how to measure a stakeholder's perceived riskiness, not just concerned with trust and procedural fairness, but trust in the measure itself, the intended use of such a measure might concern a stakeholder, and in a way have a negative impact on trust. In this way, the measure, and the system needs to be independent, or stakeholder neutral. The issue here is how could such a system which attempts to visualize perceived risk, survive as a business model, without some revenue? Revenue or economic benefit is always a soruce of mistrust, trying to cook the books, or fake engagement for the sole purpose of extracting profit. }
 
 #### Perceived Riskiness Requirements
 
@@ -155,13 +155,13 @@ $$ \mathit{ \bar{R} } = \mathit{P}(\mathit{X}) \bullet \mathit{C} $$
 
 ### Qualitative Risk Assessment 
 
-Qualitative assessments of risk are typically based on expert opinion. Risk is assigned in relative terms based on the expert's estimation {{Healthy Rivers}}
+Qualitative assessments of risk are typically based on expert opinion. Risk is assigned in relative terms based on the expert's estimation {Healthy Rivers}
 . Risk is described as low-high, and the assignment of the consequence a best estimate. Baker et al. note that this method of assessment is inclined to be subjective and so suggest that they may lead to inconsistencies and non-repeatable outcomes [@baker_techniques_1998]. 
 
 Even though the qualitative assessments of risk might be undertaken by experts, due to the subjectiveness, and inconsistency, the assessments might, in turn be perceived as falling into the same category as Perceived Riskiness. Subsequently stakeholders may be inclined to question of the value of the qualitative risk assessment, a situation which might be exasperated when two equally recognised experts have a difference of opinion over the risk.
 
-{{precautionary principle in conjunction with adaptive management is part of a hierarchy of risk control measures that apply to all aspects of the development of natural gas from coals seams.
-}}
+{precautionary principle in conjunction with adaptive management is part of a hierarchy of risk control measures that apply to all aspects of the development of natural gas from coals seams.
+}
 
 Risk management is a necessary addition to the precautionary principle. The application of the precautionary principle should be a proportionate and reasonable response to:
 
@@ -210,7 +210,7 @@ $$ \mathit{R} = \mathit{P}( \mathit{r} > \mathit{l} ) = \mathit{P}( \mathit{r} -
 
 And risk $$\mathit{ \bar{R} }$$, is then defined as:
 
-$$ \mathit{\bar{R}} = 1 - \mathit{R} $$ 
+$$ \mathit{\bar{R} = 1 - \mathit{R} $$ 
 
 
 { Uncertainty & Probability etc. }

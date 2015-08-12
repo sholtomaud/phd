@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="author" content="Sholto Maud">
+  <title>Literature Review</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  
+  <style> 
+    body{
+      /*font-family: Consolas, monaco, monospace;*/
+      font-family: Verdana;
+      padding: 30px;
+      margin-top: 40px;
+      margin-left: 180px;
+      margin-right: 180px;
+    }
+
+    h1, h2, h3, h4{
+      color: #3366CC;
+      font-family: "Trebuchet MS", Helvetica, sans-serif  ;
+      
+    }
+
+    table {
+      width: 100%;
+    }
+
+    table, th, td {
+       border: 1px solid #3366CC;
+       border-collapse: collapse;
+    }
+
+    table tr.alt td {
+        color: #000000;
+        background-color: #EAF2D3;
+    }
+
+    th td:first-child { width: 180px; }
+    
+  </style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<h1 class="title">Literature Review</h1>
+<h2 class="author">Sholto Maud</h2>
+<h3 class="date">2015-03-10 13:12:00</h3>
+</header>
+<h4 id="pre-confirmation-status"><span class="header-section-number">1.0.0.1</span> Pre-confirmation status</h4>
+<h2 id="preamble-technical-observations-on-data-technologies-for-risk-governance"><span class="header-section-number">1.1</span> Preamble: Technical observations on data technologies for risk governance</h2>
+<p>The author has the privilege to have work with one of the Queensland CSG companies where he acted as a technical database expert. From those experiences the following technical observations are made.</p>
+<p>During the author’s employment a legacy data system was used in the attempt to meet the regulatory requirements to capture and transfer baseline, and on-going water monitoring data to the regulator. The system was not designed with the flexibility to accommodate the data requirements, and several issues emerged which made integration between other internal systems a difficult project.</p>
+<p>In addition to the basic regulatory requirements to transfer and collect data, the company itself had requirements to create internal reporting and monitoring tools which could help in the operational matters, but also in communicating with stakeholders. It was found that the legacy system, whilst flexible and powerful, was unable to meet all of the company’s requirements.</p>
+<p>In a number of industry-based community of experts meetings, the CSG database technicians met to discuss and identify difficulties that were common amongst all of the CSG proponents. These ranged from the actual data transfer technology (Dropbox/DVD/etc.), novel water quality parameter names and data standards. Without going through each company’s experience in detail, in general it can be said that old database technologies have inflexibility, technical limitations, are costly and time consuming to enhance, making them ill-equipped to meet the emergent requirements of the Unconventional Energy production sector.</p>
+<p>Again, during the author’s employment within the CSG industry, the ICT team, along with the author, identified several new and emerging technologies which appeared to satisfy the technical solutions for the problems noted above. In particular, NoSQL, Bigdata systems, like MongoDB, and scripting solutions such as fastn.js (a local software solution produced in Queensland). These technologies have sufficient flexibility so as to be able to accommodate further requirements for monitoring both technical risk and SLOR.</p>
+<p>The research project was directly motivated from these experiences, with the aim to whether new technologies are better placed to meet the requirements of the Unconventional Energy Industry.</p>
+<h2 id="purpose"><span class="header-section-number">1.2</span> Purpose</h2>
+<p>This literature review aims to identify the appropriate requirements for an unconventional energy production risk governance information technology. Whilst the technology might be generically engineered to address risk governance over any environmental or technical asset, it is applied to a specific asset at risk which is groundwater.</p>
+<p>The review covers the current legislative approaches to the governance of risk within Australia, together with some international perspectives and the technical requirements for the operationalization of data collection with specific focus on risk governance.</p>
+<h2 id="introduction"><span class="header-section-number">1.3</span> Introduction</h2>
+<p>In the last few years unconventional energy (UE) production has been considered a significant potential economic resource for Australia. Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations, along with what is known as “tight gas” <span class="citation">(Taylor 2012, 7)</span>.</p>
+<p>In the Committee for Economic Development of Australia (CEDA) report Professor Martin notes that property rights and water management are key issues for unconventional energy production <span class="citation">(Taylor 2012, 5)</span>. For water management specifically, Martin recommended that;</p>
+<ul>
+<li>Water allocation and licensing frameworks needed to be enhanced to include water that is produced, and consumed by UE producers</li>
+<li>UE producers need to develop a robust risk management framework with strong precautionary principles due to the potential for irreversible damage to environmental systems, including hydrological systems</li>
+</ul>
+<p>These views, and the support for a National approach to a Risk management framework appear to have broad academic support not only in Australia, and also regulatory and business support <span class="citation">(Beckers, Cook, and Butcher 2013, <span class="citation">Howe et al. (2010)</span>, <span class="citation">Hunter and Garnett (2013)</span>)</span>. In Australia, this momentum has culminated in the National Harmonized Regulatory Framework <span class="citation">(SCER 2013)</span>, together with a number of reports on the ability to assess and monitor the risks, and cumulative risks associated with Coal Seam Gas production.</p>
+<h2 id="method"><span class="header-section-number">1.4</span> Method</h2>
+<p>The approach used here is to review the received literature with the aim to establish the technical requirements of a Risk Governance System (RGS), and evaluate some technologies which present viable solutions to meet these requirements.</p>
+<p>As a result of this method each section will be summarized with a short JSON description documenting the type of fields and inputs required by the system to capture the information needed from a governance perspective.</p>
+<h2 id="harmonized-regulatory-framework-generating-the-requirements-for-risk-monitoring"><span class="header-section-number">1.5</span> Harmonized Regulatory Framework: Generating the requirements for risk monitoring</h2>
+<p>The Harmonized Regulatory Framework (HRF) forms the context in which Government agencies have attempted to meet the challenges posed by the unconventional energy industry in Australia. The HRF emphasised that Governments at all levels have a key role in providing scientifically-robust information, but also in providing access to such information in a timely manner <span class="citation">(SCER 2013, 10)</span>.</p>
+<p>This information access aims to establish and maintain the industry’s Social License to Operate (SLO) {Thomson &amp; Bontiler 2011} and community confidence so that Australia and transnational corporate operators can gain economic benefit from any potential development <span class="citation">(SCER 2013, 10)</span>.</p>
+<p>At the State Government level in Australia, Queensland has been a test case where Coal Seam Gas regulation and production have been pioneered. In addressing the Queensland context the Harmonization Framework says that the policy focuses on the management and use of produced water under the Environmental Protection Act <span class="citation">(SCER 2013)</span>. Specifically the requirement for a robust framework for data collection and transfer regarding:</p>
+<ol style="list-style-type: decimal">
+<li>Baseline assessments, and</li>
+<li>Ongoing monitoring</li>
+</ol>
+<p>These two core features form the basis of the <em>Adaptive Risk Management</em> (ARM) approach identified in the Framework. Ongoing monitoring is what makes the risk management adaptive, so that as soon as any impact is detected appropriate action can be taken at all levels for and by stakeholders. It is the technical requirements of the baseline and monitoring data visualization data transfer system which is of interest to this thesis.</p>
+<h5 id="intentions---hrf"><span class="header-section-number">1.5.0.0.1</span> Intentions - HRF</h5>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Provide the ability to record stakeholders voice</td>
+</tr>
+<tr class="even">
+<td align="left">Log impact of stakeholder voice on decision-making</td>
+</tr>
+</tbody>
+</table>
+<h2 id="risk-and-riskiness"><span class="header-section-number">1.6</span> Risk and Riskiness</h2>
+<p>The concept of risk and risk management can hold different significance depending on world view and perception. It can be perceived as acceptable or unacceptable, where the risk of an event for one person can outweigh any potential gains from that event as seen in the eyes of another person.</p>
+<p>There are many approaches to risk assessment in different industries, including methods for both qualitative and quantitative assessments. These are reviewed below, however the notion of risk is not limited to these methods for all stakeholders. As Slovic <span class="citation">(1987)</span> noted there is a concept of “riskiness” which can mean more to a stakeholder than a unidimensional measure of expected fatalities or failures. Riskiness can be related to a mismatch between expectations and perceptions <span class="citation">(Williams and Walton 2013)</span>, and may operate as a surrogate for concerns that may not have a connection to a quantitative risk assessment, but are related to political or personal misgivings <span class="citation">(Slovic 1987)</span>.</p>
+<p>This notion of riskiness has led to the concept of Social License to Operate (SLO) <span class="citation">(Williams and Walton 2013, <span class="citation">Gunningham, Kagan, and Thornton (2004)</span>, <span class="citation">Moffat and Zhang (2014)</span>)</span>, with an associated attempt to quantify and model such. SLO is itself the proposition that a society of stakeholders is able to grant or withdraw support for a company and its operations, and this in turn can present a significant risk as documented in many case studies</p>
+<p>{{Shell in Nigeria etc}}.</p>
+<p>There are then three risk factors which can effect the prospect of successful development and operation of a project or product:</p>
+<ul>
+<li>Perceived riskiness</li>
+<li>Quantitative risk assessment</li>
+<li>Qualitative risk assessment</li>
+</ul>
+<p>In review, all of these will be selectively read with the aim stated above, to capture requirements for a information system that enables the visualization each of these risk factors.</p>
+<h3 id="perceived-riskiness"><span class="header-section-number">1.6.1</span> Perceived Riskiness</h3>
+<p>Riskiness, it might be said, is in the eye of the stakeholder, and as such open to many subjective factors which may, or may not be related to the best effort to quantize risk {{quote from above}}. With that said, research conducted by <span class="citation">(Siegrist, Connor, and Keller 2012)</span> found a positive relationship between procedural fairness and public acceptance. Turner has also suggested that procedural fairness may the critical element for enabling trust in an authority <span class="citation">(Turner 1991)</span>. As Moffat and Zhang note, this definition of trust focuses on reciprocity and benevolence <span class="citation">(Moffat and Zhang 2014)</span>. They hypothesized that trust is a critical pathway for the acceptance of an operation. In this hypothesis is contained a further corollary that procedures perceived as fair and contact that contains a forum in which concerns can be voiced, will enhance trust, thereby reducing the risk of a SLO withdrawal.</p>
+<p>It embodies the notion that promotes cooperation <span class="citation">(Moffat and Zhang 2014)</span>, {{who cite De Cremer et al., 2005; Rawls, 2001; Tyler and Blader, 2000}}.</p>
+<ul>
+<li>sound, but not well communicated - moderate uncertainty</li>
+<li>unsound, and not well communicated - highly uncertainty</li>
+<li>sound, and well communicated - low uncertainty</li>
+<li>unsound, and well communicated - low uncertainty</li>
+</ul>
+<p>{{But this pathway is continuous, dynamic measure…Need evidance.}}</p>
+<p>{{{The question of how to measure a stakeholder’s perceived riskiness, not just concerned with trust and procedural fairness, but trust in the measure itself, the intended use of such a measure might concern a stakeholder, and in a way have a negative impact on trust. In this way, the measure, and the system needs to be independent, or stakeholder neutral. The issue here is how could such a system which attempts to visualize perceived risk, survive as a business model, without some revenue? Revenue or economic benefit is always a soruce of mistrust, trying to cook the books, or fake engagement for the sole purpose of extracting profit. }}}</p>
+<h4 id="perceived-riskiness-requirements"><span class="header-section-number">1.6.1.1</span> Perceived Riskiness Requirements</h4>
+<p>The requirements for interfacing with perceived riskiness are</p>
+<h5 id="requirement---impact-on-social-infrastructure"><span class="header-section-number">1.6.1.1.1</span> Requirement - Impact on social infrastructure</h5>
+<p>The maxmin range of accepted values in this instance is defined as the perception vs expectation ranking where:</p>
+<ul>
+<li>1 - Company is perceived to be performing much worse than expected</li>
+<li>5 - Company is perceived to be performing much better than expected</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Description</th>
+<th align="left">Min</th>
+<th align="left">Max</th>
+<th align="left">Input</th>
+<th align="left">Feature</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Access to medical facilities</td>
+<td align="left">1</td>
+<td align="left">5</td>
+<td align="left">Radio</td>
+<td align="left">DOM</td>
+</tr>
+<tr class="even">
+<td align="left">Housing affordability</td>
+<td align="left">1</td>
+<td align="left">5</td>
+<td align="left">Radio</td>
+<td align="left">DOM</td>
+</tr>
+<tr class="odd">
+<td align="left">Housing availability</td>
+<td align="left">1</td>
+<td align="left">5</td>
+<td align="left">Radio</td>
+<td align="left">DOM</td>
+</tr>
+<tr class="even">
+<td align="left">Access to community facilities</td>
+<td align="left">1</td>
+<td align="left">5</td>
+<td align="left">Radio</td>
+<td align="left">DOM</td>
+</tr>
+</tbody>
+</table>
+<h5 id="requirement---contact-quantity"><span class="header-section-number">1.6.1.1.2</span> Requirement - Contact quantity</h5>
+<p>Perception ranking for contact quantity: * 1 no contact with company at all * 5 a great deal of contact with the company</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Description</th>
+<th align="left">Min</th>
+<th align="left">Max</th>
+<th align="left">Input</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Contact level at community meetings</td>
+<td align="left">1</td>
+<td align="left">5</td>
+<td align="left">Radio</td>
+</tr>
+</tbody>
+</table>
+<h5 id="requirement---contact-quality"><span class="header-section-number">1.6.1.1.3</span> Requirement - Contact quality</h5>
+<p>Perception ranking for pleasantness and positivity: * 1 very unpleasant/negative * 5 very pleasant/postive</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Description</th>
+<th align="left">Min</th>
+<th align="left">Max</th>
+<th align="left">Input</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Contact pleasantness</td>
+<td align="left">1</td>
+<td align="left">5</td>
+<td align="left">Radio</td>
+</tr>
+<tr class="even">
+<td align="left">Contact positivity</td>
+<td align="left">1</td>
+<td align="left">5</td>
+<td align="left">Radio</td>
+</tr>
+</tbody>
+</table>
+<h3 id="quantitative-risk-assessment"><span class="header-section-number">1.6.2</span> Quantitative Risk Assessment</h3>
+<p>Quantitative techniques are normally mathematically and/or computationally based <span class="citation">(Baker, Ponniah, and Smith 1998)</span>. The standard quantitative calculation of Risk (R) is through the product of the Probability of some event X (P(X)) and the Consequence (C) of that event occurring.</p>
+<p><br /><span class="math">$$ \mathit{ \bar{R} } = \mathit{P}(\mathit{X}) \bullet \mathit{C} $$</span><br /></p>
+<h3 id="qualitative-risk-assessment"><span class="header-section-number">1.6.3</span> Qualitative Risk Assessment</h3>
+<p>Qualitative assessments of risk are typically based on expert opinion. Risk is assigned in relative terms based on the expert’s estimation {{Healthy Rivers}} . Risk is described as low-high, and the assignment of the consequence a best estimate. Baker et al. note that this method of assessment is inclined to be subjective and so suggest that they may lead to inconsistencies and non-repeatable outcomes <span class="citation">(Baker, Ponniah, and Smith 1998)</span>.</p>
+<p>Even though the qualitative assessments of risk might be undertaken by experts, due to the subjectiveness, and inconsistency, the assessments might, in turn be perceived as falling into the same category as Perceived Riskiness. Subsequently stakeholders may be inclined to question of the value of the qualitative risk assessment, a situation which might be exasperated when two equally recognised experts have a difference of opinion over the risk.</p>
+<p>{{precautionary principle in conjunction with adaptive management is part of a hierarchy of risk control measures that apply to all aspects of the development of natural gas from coals seams. }}</p>
+<p>Risk management is a necessary addition to the precautionary principle. The application of the precautionary principle should be a proportionate and reasonable response to:</p>
+<ul>
+<li>the level of potential impact (e.g. the principle is most applicable to potential catastrophic or irreversible harm)</li>
+<li>the likelihood of a potential impact occurring (is the risk plausible and reasonably likely to occur)</li>
+<li>the costs of regulatory action, and the opportunity cost of not proceeding <span class="citation">(SCER 2013, 14)</span></li>
+</ul>
+<p>In general, most observers would be happy with the notion that Risk is a spectrum. Any particular event might be classed anywhere between low or negligible risk, and high risk, or catastrophic.</p>
+<p>When an event is contentious it is generally the evaluation or perception of the risk and the risk assessment methodology used which is at moot. Notwithstanding the amount of time embodied in making a risk assessment, when two or more subject experts have a significant disagreement in their risk assessment, producing apparently contradictory assessments, the value of the risk assessement procedure itself appears to become nullified.</p>
+<p>In the context of conflicting risk assessments, the default position for a non-expert stakeholder can be to assign the process with a high risk status, with conspiracy theories, and conflict of interest claims under dispute.</p>
+<p>How might the risk assessement methodology be operationalised for Governance purposes?</p>
+<p>It can also be noted that whilst the ARM approach identified in the Framework is concerned with risk of impacts on water resources, the same concept might also be used with respects to SLO. This is because community concerns that go unaddressed can result in the withdrawl of SLO. This itself may pose a significant risk factor to the operator.</p>
+<p>These considerations suggest that, just as the water level in a bore might change in respose to pumping, SLOR (Social Licence to Operate Risk) is dynamic and changes over time in response to information and operations. Hence SLOR can be considered within scope for the data transfer and monitoring system under investigation. That is, can the Social Risk, together with the Technical Risk of Operations in Unconventional Energy be monitored at the same time?</p>
+<h4 id="connectivity-risk-assessment"><span class="header-section-number">1.6.3.1</span> Connectivity Risk Assessment</h4>
+<p>An example of a qualitative assessment of risk is the Spring Connectivity risk assessment contained in the Underground Water Impact Report (UWIR). The UWIR was generated by the Queensland State Water Commission in a multi-party spring management workshop with botanists, ecologists, spring experts, researchers, petroleum tenure holders and State and Commonwealth Government <span class="citation">(QWC 2012, 78)</span>.</p>
+<p>{Insert Risk Results as table}</p>
+<h4 id="risk-and-reliability-in-water-engineering"><span class="header-section-number">1.6.3.2</span> Risk and Reliability in Water Engineering</h4>
+<p>In hydsrosystems and water resource engineering, reliability is commonly introduced in the discussion of risk, specifically with reference to dams <span class="citation">(Goodarzi, Ziaei, and Teang Shui 2013, <span class="citation">Mays (2010)</span>)</span>. Here, the same initial hazard identification step is undertaken as with the qualitative analysis given above. The next step is to introduce and quantify the probability of the risk.</p>
+<p>Resistance (<em>r</em>) and load (<em>l</em>) are two central concepts to the definition of risk and reliability in this context.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> Resistance is defined as the ability of a system component to meet it’s designed purpose without failure when subjected to an external load. Load might be a mechanical or other forcing stress.</p>
+<p>In this context, risk is then defined as the probability of the load exceeding the resistance - the probability of failure. Reliability is the inverse. That is, the probability of the resistance exceeding the load - the probability of survival <span class="citation">(Mays 2010, 387)</span>.</p>
+<p>Where <br /><span class="math"><em>r</em></span><br /> = resistance and <br /><span class="math"><em>l</em></span><br /> = load, reliability ( <br /><span class="math"><em>R</em></span><br /> ) is then defined as:</p>
+<p><br /><span class="math"><em>R</em> = <em>P</em>(<em>r</em> &gt; <em>l</em>) = <em>P</em>(<em>r</em> − <em>l</em> &gt; 0)</span><br /></p>
+<p>And risk <br /><span class="math">$$\mathit{ \bar{R} }$$</span><br />, is then defined as:</p>
+<p><br /><span class="math">$$ \mathit{\bar{R}} = 1 - \mathit{R} $$</span><br /></p>
+<p>{ Uncertainty &amp; Probability etc. }</p>
+<p>Mays, gave a water storage, as a problem for calculating the reliability of supply <span class="citation">(2010, Fig.10.7.3, p.390)</span>. This example renders the force of a water tank <br /><span class="math">(<em>Q</em>)</span><br />, as the source of resistance, and a tap as a source of load.</p>
+<div class="figure">
+<img src="../images/Mays2010_Fig10_7_3_p390.png" alt="mays_water_2010 Fig10.7.3" />
+<p class="caption">mays_water_2010 Fig10.7.3</p>
+</div>
+<p>Uncertainty in roughness is assumed to make the supply to the user uncertain. Roughness is incorrectly applied a measure of pipe failure in this instance. This curious example, whilst making mathematical sense, is a little contrived since there are no fail conditions.</p>
+<p>A reliability analysis aims to find the time (<br /><span class="math"><em>t</em></span><br />), when a system is likely to fail. Under conditions where piping, tank and tap don’t fail, the supply will always meet demand when a tap is turned on, unless the tank is dry.</p>
+<p>Translate into Odum flow:</p>
+<p><br /><span class="math"><em>Q</em><em>s</em> = <em>k</em><em>Q</em> = <em>Q</em> * 1/<em>R</em><em>C</em></span><br /></p>
+<h1 id="conclusions"><span class="header-section-number">2</span> Conclusions</h1>
+<p>The context outlined above suggets taht quantitative and qualitative assessemnts of risk do not always find alignment for many different reasons.</p>
+<p>Whilst this review does not seek to express an opinion on the riskiness of CSG operations, what can be said is that the dynamic nature of social license and percieved risk, seems to mean that risk governance is not a “one-shot” system. This is to say that one cannot just do an expert “risk assessment”, and then expect operations to have achieved an ongoing social licence for an operational life-cycle.</p>
+<p>Rather, at any point in the life-cycle of an operation, social licence can be withdrawn regardless of an initial risk impact assessment. This seems to generate a requirement for concieveing risk is a time-series parameter, with assessment and monitoring over time.</p>
+<p>This notion of risk as a time-series parameter, entails that the parameter itself can be percieved and interpreted which may raise other risks and misinterpretations, however the absence of the parameter. From this conception of risk, the requirement for a visualisation system can be derived, and the development of susuch a tracking system is the focus of the research componenet of this PhD project.</p>
+<p>From this review we can generate the following requirements:</p>
+<p>The system must, capture stakeholder approval of company on SLO pyramid The system must allow assessment data to be entered in remote locations without mobile phone access by appropriately qualified staff. The system must transfer data to regulator in required format The system must display and visualise data for all users.</p>
+<ul>
+<li>Assessment data might be for water quality, baseline assessment or bore assessment, pump testing, or SLO reviews for example.</li>
+</ul>
+<p>THe system must transfer data to the regulatoer The system must provide risk visualisations to stakeholders to allow for risk monitoring</p>
+<p>Once a social license has been granted, there needs to be a way of tracking the match or mismatch expectated and percieved operations risk.</p>
+<p>, and in the absence of the parameter, the default position is to set social noise to a maximum setting.</p>
+<p>can be granted in {some latin legal term}, the</p>
+<div class="references">
+<h1 id="references" class="unnumbered">References</h1>
+<p>Baker, S., D. Ponniah, and S. Smith. 1998. “Techniques for the Analysis of Risks in Major Projects.” <em>The Journal of the Operational Research Society</em> 49 (6): 567–72. doi:<a href="http://dx.doi.org/10.2307/3010665">10.2307/3010665</a>.</p>
+<p>Beckers, Jos, Troy Cook, and Adam Butcher. 2013. “Groundwater Risks Associated with Coal Seam Gas Development in the Surat and Southern Bowen Basins - Final Report.” WorleyParsons Resource &amp; Energy. <a href="https://www.dnrm.qld.gov.au/__data/assets/pdf_file/0013/106015/act-5-groundwater-risks-report-text.pdf" class="uri">https://www.dnrm.qld.gov.au/__data/assets/pdf_file/0013/106015/act-5-groundwater-risks-report-text.pdf</a>.</p>
+<p>Goodarzi, Ehsan, Mina Ziaei, and Lee Teang Shui. 2013. <em>Introduction to Risk and Uncertainty in Hydrosystem Engineering</em>. 1. Aufl. Vol. 22. Topics in Safety, Risk, Reliability and Quality. Dordrecht: Springer. <a href="http://ezproxy.library.uq.edu.au/login?url=http://dx.doi.org/10.1007/978-94-007-5851-3" class="uri">http://ezproxy.library.uq.edu.au/login?url=http://dx.doi.org/10.1007/978-94-007-5851-3</a>.</p>
+<p>Gunningham, Neil, Robert A. Kagan, and Dorothy Thornton. 2004. “Social License and Environmental Protection: Why Businesses Go Beyond Compliance.” <em>Law &amp; Social Inquiry</em> 29 (2): 307–41. <a href="http://www.jstor.org/stable/4092687" class="uri">http://www.jstor.org/stable/4092687</a>.</p>
+<p>Howe, Paul, Chris Moran, Sue Vink, and Garry Straughton. 2010. <em>Framework for Risk-Based Assessment of Cumulative Effects to Groundwater from Mining</em>. 3. Australia: Sinklair Knight Mertz &amp; National Water Commission.</p>
+<p>Hunter, Tina, and Andrew Garnett. 2013. “Draft National Coal Seam Gas Harmonised Regulatory Framework: Submission to the Standing Council of Energy and Resources (SCER) as Part of the Consultation Process to Establish a National Harmonised Framework for the Development of Coal Seam Gas in Australia.” The University of Queensland. <a href="http://www.scer.gov.au/files/2012/03/University-of-Queensland.pdf" class="uri">http://www.scer.gov.au/files/2012/03/University-of-Queensland.pdf</a>.</p>
+<p>Mays, Larry W. 2010. <em>Water Resources Engineering</em>. John Wiley &amp; Sons.</p>
+<p>Moffat, Kieren, and Airong Zhang. 2014. “The Paths to Social Licence to Operate: An Integrative Model Explaining Community Acceptance of Mining.” <em>Resources Policy</em> 39 (March): 61–70. doi:<a href="http://dx.doi.org/10.1016/j.resourpol.2013.11.003">10.1016/j.resourpol.2013.11.003</a>.</p>
+<p>QWC, Queensland Water Commission. 2012. <em>Underground Water Impact Report for the Surat Cumulative Management Area</em>. State of Queensland Queensland Water Commission. <a href="https://www.dnrm.qld.gov.au/__data/assets/pdf_file/0016/31327/underground-water-impact-report.pdf" class="uri">https://www.dnrm.qld.gov.au/__data/assets/pdf_file/0016/31327/underground-water-impact-report.pdf</a>.</p>
+<p>SCER, Standing Council on Energy <span>and</span> Resources. 2013. “The National Harmonised Regulatory Framework for Natural Gas from Coal Seams.” Australian Government. <a href="http://www.scer.gov.au/files/2013/09/National-Harmonised-Regulatory-Framework-for-Natural-Gas-from-Coal-Seams.pdf" class="uri">http://www.scer.gov.au/files/2013/09/National-Harmonised-Regulatory-Framework-for-Natural-Gas-from-Coal-Seams.pdf</a>.</p>
+<p>Siegrist, Michael, Melanie Connor, and Carmen Keller. 2012. “Trust, Confidence, Procedural Fairness, Outcome Fairness, Moral Conviction, and the Acceptance of GM Field Experiments.” <em>Risk Analysis</em> 32 (8): 1394–1403. <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1539-6924.2011.01739.x/full" class="uri">http://onlinelibrary.wiley.com/doi/10.1111/j.1539-6924.2011.01739.x/full</a>.</p>
+<p>Slovic, Paul. 1987. “Perception of Risk.” <em>Science</em>, New Series, 236 (4799): 280–85. <a href="http://www.jstor.org/stable/1698637" class="uri">http://www.jstor.org/stable/1698637</a>.</p>
+<p>Taylor, Nathan. 2012. “Australia’s Unconventional Energy Options.” Committee for Economic Development of Australia. <a href="http://adminpanel.ceda.com.au/FOLDERS/Service/Files/Documents/15347~cedaunconventionalenergyfinal.pdf" class="uri">http://adminpanel.ceda.com.au/FOLDERS/Service/Files/Documents/15347~cedaunconventionalenergyfinal.pdf</a>.</p>
+<p>Turner, John C. 1991. <em>Social Influence.</em> Thomson Brooks/Cole Publishing Co. <a href="http://doi.apa.org/psycinfo/1992-97487-000" class="uri">http://doi.apa.org/psycinfo/1992-97487-000</a>.</p>
+<p>Williams, R., and A. Walton. 2013. <em>The Social Licence to Operate and Coal Seam Gas Development. A Literature Review Report to the Gas Industry Social and Environmental Research Alliance (GISERA). March 2013</em>. CSIRO, Canberra. <a href="http://www.gisera.org.au/publications/tech_reports_papers/socioeco-proj-5-lit-review.pdf" class="uri">http://www.gisera.org.au/publications/tech_reports_papers/socioeco-proj-5-lit-review.pdf</a>.</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Mays notes that structural engineers might be more familiar with the concepts of <em>strength</em> and <em>stress</em> respectively.<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
+</body>
+</html>

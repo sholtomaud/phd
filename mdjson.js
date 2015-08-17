@@ -8,11 +8,13 @@ var file = './Literature Review/litrev.md';
 
 var source = fs.createReadStream(file);
 
+var re = /@ requirement.*/i;
+            
+
 source.pipe(
         through(function (chunk, enc, callback) {
             var data = chunk.toString()
             var lines = data.split(/(\n|\r)/); 
-            var re = /#### requirement.*/i;
             var ga = /^\|.*/i;
 
             var gather = 0;
@@ -62,6 +64,10 @@ source.pipe(
 
                 schemas.push(properties);
             };
+
+
+//NEED TO PUT ALL THE REQUIREMENTS GATHERED IN THE REQUIREMENTS SECTION BEFORE THE REFERENCES.
+
 
             console.log('schemas',schemas);    
             // var i = 0;

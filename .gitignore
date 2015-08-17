@@ -3,6 +3,10 @@
 /Chapters/*.docx
 *.bib
 /misc/
+/Literature Review/*.png
+/Literature Review/*.jpg
+/Literature Review/*.jpeg
 /Literature Review/*.html
 /Literature Review/*.docx
 /bower_components/
+*.log

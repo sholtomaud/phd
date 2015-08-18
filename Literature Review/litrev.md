@@ -31,15 +31,13 @@ In the last few years unconventional energy (UE) production has been considered 
 
 In the Committee for Economic Development of Australia (CEDA) report Professor Martin notes that property rights and water management are key issues for unconventional energy production [@taylor_australias_2012, p.5]. 
 
-These views form the context of this research. There is cross-sector support for a framework which integrates both precautionary methods and surveillance [@beckers_groundwater_2013, @howe_framework_2010, @hunter_draft_2013] 
+These views form the context of this research. For water management specifically, Martin recommended that UE producers need to develop a robust risk management framework with strong precautionary principles due to the potential for irreversible damage to environmental systems, including hydrological systems [@taylor_australias_2012, p.5].
 
-In Australia, this momentum has culminated in the National Harmonized Regulatory Framework [@scer_national_2013], together with a number of reports on the ability to assess and monitor the risks, and cumulative risks, associated with Coal Seam Gas production. 
+Through a consulting process, cross-sector support appears to be present for a framework which integrates both precautionary methods and surveillance [@beckers_groundwater_2013, @howe_framework_2010, @hunter_draft_2013]. In Australia, this momentum has culminated in the National Harmonized Regulatory Framework [@scer_national_2013], together with a number of reports on the ability to assess and monitor the risks, and cumulative risks, associated with Coal Seam Gas production. 
 
 # Method
 
-The approach used here is to review the received literature with the aim to establish the technical requirements of a Risk Governance System (RGS), and evaluate some technologies which present viable solutions to meet these  requirements. 
-
-As a result of this method each section will be summarized with a short table  documenting the type of fields and inputs required by the system to capture the information needed from a governance perspective.
+The approach used here is to review the received literature with the aim to establish the technical requirements of a Risk Governance System (RGS), and evaluate some technologies which present viable solutions to meet these  requirements. As a result of this method each section will be summarized with a short table  documenting the requirements for the system .
 
 # Harmonized Regulatory Framework - Generating requirements for risk governance
 
@@ -47,72 +45,51 @@ The Harmonized Regulatory Framework (HRF) forms the context in which Government 
 
 This information access aims to establish and maintain the industry’s Social License to Operate (SLO) [@boutilier_modelling_2011] and community confidence so that Australia and transnational corporate operators can gain economic benefit from any potential development [@scer_national_2013, 10]. 
 
-At the legislative level, Randall, for example proposed a screening, pre-release testing and post-release surveillance (STS). 
+However the main concern is that the operations risk significant impacts on the environment and humans. At the legislative level, Randall proposed a model called the screening, pre-release testing and post-release surveillance (STS) model. 
 
 ![Randall STS governance model @randall_coal_2012 ](Randall-STS.PNG)
 
 Randall's model includes a depiction of the precautionary principle whereby at any phase, prohibition can apply to stop operations due to significant risk. 
 
-At the State Government level in Australia, Queensland has been a test case where Coal Seam Gas regulation and production have been pioneered. In addressing the Queensland context the HRF says that the policy focuses on the management and use of produced water under the Environmental Protection Act [@scer_national_2013]. The HRF stipulates the requirement for a robust framework for data collection and transfer, to monitor risks, but also provide instruction on remedial actions. 
-This type of model forms the basis of what is also called *Adaptive Risk Management* (ARM). As noted in the HRF, Queensland applies an adaptive management approach [@scer_national_2013]. On-going monitoring and communication is what makes the risk management adaptive. In other words, as soon as any impact is detected, appropriate action can be taken. In this approach, defined trigger thresholds are used to initiate the make-good process [@scer_national_2013, p.47, @ehp_underground_2010]. Fergusson et al diagrammed the components of an adaptive risk management framework [@ferguson_risk_1998]. 
-
-![Fergusson et al model @ferguson_risk_1998](Fergusson_risk_Fig2_1_1998.jpg)
-
-As suggested by some stakeholders, such a action should have the option to be taken at all levels for, and by stakeholders across State or Federal (or even National) jurisdictions [@anedo_submission_2013]. Hunter suggests that demonstrable scientific underpinnings of risk assessments would assist in the communications component depicted in Fergusson's model. [@hunter_draft_2013]. 
-
-Martin notes that property rights and water management are key issues for unconventional energy production [@taylor_australias_2012, p.5]. For water management specifically, Martin recommended that: 
-
-* Water allocation and licensing frameworks needed to be enhanced to include water that is produced, and consumed by UE producers 
-* UE producers need to develop a robust risk management framework with strong precautionary principles due to the potential for irreversible damage to environmental systems, including hydrological systems
-
-
-
-
-
-###### Requirements - HRF
-
-(@) `Requirement - Non-jurisdictional limited data collection`
-
-(@) `Requirement - Non-jurisdictional limited data transfer`
-
-(@) `Requirement - Ability to store impact detection data`
-
-(@) `Requirement - Ability to store remediation actions`
-
-(@) `Requirement - Ability to store make-good actions`
-
-(@) `Requirement - Ability to link scientific references`
-
-
-
-
-
-
-Fergusson et al, depict this general situation with a diagram starting with suspicions about the riskiness of a system, and ending with the communications of on-going risk assessments (see below).
-
-![Risk assessment components from @ferguson_risk_1998](Fergusson_risk_Fig2_1_1998.jpg)
-
+At the State Government level in Australia, Queensland has been a test case where Coal Seam Gas regulation and production have been pioneered. In addressing the Queensland context the HRF says that the policy focuses on the management and use of produced water under the Environmental Protection Act [@scer_national_2013]. The HRF therefore stipulates the requirement for a robust framework for data collection and transfer, to monitor risks, but also provide instruction on remedial actions. In this approach, defined trigger thresholds are used to initiate a make-good process [@scer_national_2013, p.47, @ehp_underground_2010]. 
 
 {precautionary principle in conjunction with adaptive management is part of a hierarchy of risk control measures that apply to all aspects of the development of natural gas from coals seams.
 }
 
+Actions should be able to be taken at all levels for, and by stakeholders across State or Federal (or even National) jurisdictions [@anedo_submission_2013]. Hunter suggests that demonstrable scientific underpinnings of risk assessments would assist in communications (a component depicted in Fergusson's model) [@hunter_draft_2013]. Martin says that water allocation and licensing frameworks also need to be enhanced to include water that is produced, and consumed by UE producers [@taylor_australias_2012, p.5].
 
+Taylor [@taylor_australias_2012, p.5] went on to suggest that where UE producers use water resources, they should carry the costs associated with any impacts from activities. This view concurs with the views of landholders, who wish to receive appropriate compensation and payments [@vff_public_2013]. 
 
-From this general model,  
+Strict liability is the imposition of liability on a party without a finding of fault. The question is whether strict libability should be afforded to UE producers as the tortfeasor. In this context the NWC recommended that bonds and sureties should be used deal with uncertainty and the timeframes associated with potential impacts [@nwc_coal_2010]. As the NWC noted, these time frames may potentially extend past 100 years, which is well-beyond the expected life-span of the CSG recovery process. This includes impacts such as long-term reductions in aquifer pressures or levels, and, "impacts on environmental assets that are not adequately protected by current ‘make good’ mechanisms" [@nwc_coal_2010].
 
-##### Intentions - HRF
+### Requirements - HRF
 
-| Description                                        |
-|:---------------------------------------------------| 
-| Provide the ability to record stakeholders voice   |
-| Log impact of stakeholder voice on decision-making |
-
+|level | defintion                        | met by |    
+|------|:---------------------------------| ------------------|
+| 1    | Data collection not limited to jurisdiction | cloud-based web application |
+| 1    | Data transfer not limited to jurisdiction | cloud-based web application |
+| 1    | Non-jurisdictional limited data transfer  | cloud-based web application |
+| 3    | Ability to record stakeholders voice   | issues tracking schema |
+| 3    | Ability to record decision outcomes for stakeholders  | issues tracking schema |
+| 3    | Track bonds and sureties per company and per asset/site | company && site schema |
+| 3    | Track impacts not protected by current 'make good' mechansisms | site schema |
+| 3    | Ability to define and track unacceptable impacts to site | site schema |
+| 3    | Ability to define and track unacceptable impacts to aquifer | aquifer schema |
+| 3    | Ability to define and track unacceptable impacts within catchment | catchment schema |
+| 3    | Ability to track stop operations orders | site schema |
+| 3    | Verificaiton that appraisals undertaken by independent third party | appraisals/site schema |
+| 3    | Ability to store env. impact detection data | site schema  |
+| 3    | Ability to store remediation actions data | site schema  |
+| 3    | Ability to store make-good action data | site schema  |
+| 3    | Ability to store links to scientific references | site schema  |
+| 3    | Ability to store produced and consumed water | timeseries schema  |
 
 
 # Data planning and collection ^[The author has had the privilege to have work with one of the Queensland CSG companies where he acted as a technical database expert. From those experiences the following technical observations are made.]
 
-Until relatively recently, data planning for risk was conducted under the assumption of an RDBS (relational database management system). This required careful planning of data model, schemas, fields and validation requirements. If such a procedure was undertaken by a business consultant it could typically culminate in a data dictionary as the deliverable product. In the case of CSG in Queensland, the deliverables were a data dictionary and database file format for transferring data to the regulator [@mines_storing_2015]. These formed the backbone of the data capture element of the policy framework for establishing baselines.
+The type of model depicted by Randall's diagram above forms the basis of what is also called *Adaptive Risk Management* (ARM). As noted in the HRF, Queensland applies an adaptive management approach [@scer_national_2013]. On-going monitoring and communication is what makes the risk management adaptive. In other words, as soon as any impact is detected, appropriate action can be taken. Fergusson et al, depict the risk assessment components with a diagram starting with suspicions about the riskiness of a system, and ending with the communications of on-going risk assessments (see below) [@ferguson_risk_1998]. 
 
+![Fergusson et al model @ferguson_risk_1998](Fergusson_risk_Fig2_1_1998.jpg)
 
 In addition to the basic regulatory requirements to transfer and collect data, the company itself had requirements to create internal reporting and monitoring tools which could help in the operational matters and in communicating with stakeholders. 
 
@@ -134,6 +111,8 @@ the inflexibility, technical limitations, are costly and time consuming to enhan
 The legacy systems don't have the requisite variety in their ability to store data required for compliance purposes. This problem is not unique to unconventional energy production and has also been observed in a disaster management context. As Shin and Kim note, NoSQL systems have been designed to meet this business needs to accommodate very large unstructured data sets [@shin_utilization_2015]. Again, during the author's employment within the CSG industry, the ICT team, along with the author, identified several emerging NoSQL technologies which appeared to satisfy the technical solutions for the problems noted above. 
 
 
+For Boudicca any risk assessment model needs to include a definition of ‘unacceptable impacts’, whereby projects deemed as having unacceptable impacts should be prohibited. Furthermore, “Verification of key system elements” should not rely on appraisal by “in house
+representatives” but rather only “independent third-party professional[s]”. [@boudicca_lock_2013]
 
 
 
@@ -184,47 +163,14 @@ It embodies the notion that  promotes cooperation [@moffat_paths_2014], {who cit
 
 {The question of how to measure a stakeholder's perceived riskiness, not just concerned with trust and procedural fairness, but trust in the measure itself, the intended use of such a measure might concern a stakeholder, and in a way have a negative impact on trust. In this way, the measure, and the system needs to be independent, or stakeholder neutral. The issue here is how could such a system which attempts to visualize perceived risk, survive as a business model, without some revenue? Revenue or economic benefit is always a soruce of mistrust, trying to cook the books, or fake engagement for the sole purpose of extracting profit. }
 
-### Schema - Perceived Riskiness
+### Requirements - Percieved riskiness
 
-The requirements for interfacing with perceived riskiness are 
+| level | defintion                        | met by |    
+|------|:---------------------------------| ------------------|
+| 3    | Ability to store social risk | risk schema |
+| 3    | Ability to store contact quantity | risk schema |
+| 3    | Ability to store contact qualtiy | risk schema |
 
-#### Requirement - Impact on social infrastructure
-
-The maxmin range of accepted values in this instance is defined as the perception vs expectation ranking where: 
-
-* 1 - Company is perceived to be performing much worse than expected
-* 5 - Company is perceived to be performing much better than expected
-
-| label                            | type   | min | max | input | 
-|:---------------------------------| :----  | :-- | :-- | :---- | 
-| Access to medical facilities     | number | 1   | 5   | Radio | 
-| Housing affordability            | number | 1   | 5   | Radio | 
-| Housing availability             | number | 1   | 5   | Radio | 
-| Access to community facilities   | number | 1   | 5   | Radio | 
-
-
-#### Requirement - Contact quantity
-
-Perception ranking for contact quantity: 
-
-* 1 no contact with company at all
-* 5 a great deal of contact with the company 
-
-| label                                  | type   | min | max | input |
-|:---------------------------------------| :----  | :-- | :-- | :---- | 
-| Contact level at community meetings    | number | 1   | 5   | Radio |
-
-#### Requirement - Contact quality
-
-Perception ranking for pleasantness and positivity: 
-
-* 1 very unpleasant/negative
-* 5 very pleasant/postive
-
-| label                            | type   | min | max | input |
-|:---------------------------------| :----  | :-- | :-- | :---- | 
-| Contact pleasantness             | number | 1   | 5   | Radio |
-| Contact positivity               | number | 1   | 5   | Radio |
 
 
 ## Quantitative Risk Assessment
@@ -280,17 +226,6 @@ The posterior distribution
 Fault tree analysis is typically undertaken to generate a probability of failure.
 
 ## Consequences and Strict Liability
-
-Taylor [@taylor_australias_2012, p.5] went on to suggest that where UE producers use water resources, they should carry the costs associated with any impacts from activities. This view concurs with the views of landholders, who wish to receive appropriate compensation and payments [@vff_public_2013]. 
-
-Strict liability is the imposition of liability on a party without a finding of fault. The question is whether UE producers have  would therefore be afforded to the tortfeasor. 
-
-In this context the NWC recommended that bonds and sureties should deal with uncertainty and the timeframes associated with potential impacts [@nwc_coal_2010]. As the NWC noted, these time frames may potentially extend past 100 years, which is well-beyond the expected life-span of the CSG recovery process.
-
-"This includes impacts such as long-term reductions in adjacent aquifer pressures and levels, and impacts on environmental assets that are not adequately protected by current ‘make good’ mechanisms" [@nwc_coal_2010].
-
-"risk assessment model must include a definition of ‘unacceptable impacts’ to the environment and human health and any projects falling in this category should not be allowed to proceed. Risk assessment should not be undertaken by the proponent but by an independent third party."  ... “Verification of key system elements” should not rely on appraisal by “in house
-representatives” but rather only “independent third-party professional[s]”. [@boudicca_lock_2013]
 
 
 
@@ -467,8 +402,6 @@ An example of a qualitative assessment of risk is the Spring Connectivity risk a
 
 {Insert Risk Results as table}
 
-
-
 { Uncertainty & Probability etc. }
 
 Mays, gave a water storage, as a problem for calculating the reliability of supply [-@mays_water_2010, Fig.10.7.3, p.390]. This example renders the force of a water tank ($\mathit{Q}$), as the source of resistance, and a tap as a source of load.  
@@ -494,8 +427,17 @@ $$ Qs = kQ = Q*1/RC $$
 
 These studies were not typically associated with a probability risk analysis for any of the pathways or targets. However Odum noted that  
 
+# Systems Engineering
 
-# System Requirements
+## Work Breakdown Structure (WBS)
+
+Systems engineering process produce system and product descriptions [@lightsey_systems_2001, p.85]. Within Systems Engineering, the Work Breakdown Structure (WBS) is a means of organizing system development activities based on system and product decompositions. DoD 5000.2-R requires that a program WBS be established to provide a framework for program and technical planning. The WBS is used to define the total system, to display it as a product-oriented family tree composed of hardware, software, services, data, and facilities, and to relate these elements to each other and to the end product. Since main recommendations of the HRF are for the development of a data system WBS appears to be an appropriate development strategy. 
+
+Until relatively recently, data planning for risk was conducted under the assumption of an RDBS (relational database management system), with a desktop-server model of deployment. This required careful planning of data model, schemas, fields and validation requirements, with a lock into 
+If such a procedure was undertaken by a business consultant it could typically culminate in a data dictionary as the deliverable product. In the case of CSG in Queensland, the deliverables were a data dictionary and database file format for transferring data to the regulator [@mines_storing_2015]. These formed the backbone of the data capture element of the policy framework for establishing baselines.
+
+
+
 
 Rook for software project engineering [@rook_controlling_1986]. Rook's concept (see figure below) was subsequently adopted by the Systems Engineering community [@mooz_visualizing_1997, @mooz_4.4.3_2001, @estefan_survey_2007].
 
@@ -519,9 +461,9 @@ This scope can be depicted by adapting Fergusson's figure given above.
 
 ## Data collection
 
+
+
 Data-driven development. As noted above the requirement for flexible, 'reactive', systems development and deployment means a reconsideration of the underlying technology used. The requirement is for schema-flexibiliyt which is not contra
-
-
 
 Hence as Shin and Kim observe, the challenge now is how to migrate data from the legacy RDBMS systems to NoSQL systems but also adapting software applications to communicate properly with the new database model [@shin_utilization_2015]. In some cases this will not be possible due to the age of the legacy systems, and in this context new typically web-based technologies can meet these requirements. In particular, NoSQL, Bigdata systems, like MongoDB, and scripting solutions such as fastn.js (a local software solution produced in Queensland). These technologies have sufficient flexibility so as to be able to accommodate further requirements for monitoring both technical risk and SLOR. 
 
@@ -594,6 +536,125 @@ can be granted in {some latin legal term}, the
 
 
 # Requirements
+
+
+| 3    | Ability to store contact qualtiy | risk schema |
+| 3    | Ability to store contact qualtiy | risk schema |
+
+
+
+The maxmin range of accepted values in this instance is defined as the perception vs expectation ranking where: 
+
+* 1 - Company is perceived to be performing much worse than expected
+* 5 - Company is perceived to be performing much better than expected
+
+| label                            | type   | min | max | input | 
+|:---------------------------------| :----  | :-- | :-- | :---- | 
+| Access to medical facilities     | number | 1   | 5   | Radio | 
+| Housing affordability            | number | 1   | 5   | Radio | 
+| Housing availability             | number | 1   | 5   | Radio | 
+| Access to community facilities   | number | 1   | 5   | Radio | 
+
+
+#### Requirement - Contact quantity
+
+Perception ranking for contact quantity: 
+
+* 1 no contact with company at all
+* 5 a great deal of contact with the company 
+
+| label                                  | type   | min | max | input |
+|:---------------------------------------| :----  | :-- | :-- | :---- | 
+| Contact level at community meetings    | number | 1   | 5   | Radio |
+
+#### Requirement - Contact quality
+
+Perception ranking for pleasantness and positivity: 
+
+* 1 very unpleasant/negative
+* 5 very pleasant/postive
+
+| label                            | type   | min | max | input |
+|:---------------------------------| :----  | :-- | :-- | :---- | 
+| Contact pleasantness             | number | 1   | 5   | Radio |
+| Contact positivity               | number | 1   | 5   | Radio |
+
+
+
+#### Schema - site 
+```json
+{ site:{
+        name: 'site',
+        type: 'object',
+        properties:{
+            hazards:{
+                type: 'object',
+                properties: {
+                    date:{
+                        type: 'string',
+                        label: 'Hazard assessment date'
+                    },
+                    description:{
+                        type: 'string',
+                        label: 'Description'
+                    },
+                    description:{
+                        type: 'string',
+                        label: 'Description'
+                    }
+                }
+            },
+            impacts: {
+                type: 'object',
+                properties:{
+                    date:{
+                        type: 'string',
+                        label: 'Impact Date'
+                    },
+                    impact:{
+                        type: 'string',
+                        label: 'Impact'
+                    }
+                }    
+            },
+            remediation:{
+                type: 'object',
+                properties:{
+                    action:{   
+                        type: 'string',
+                        label: 'Remediation action'
+                    },
+                    value:{
+                        type: 'number',
+                        label: 'Dollar value $'
+                    },
+                    date:{
+                        type: 'string',
+                        label: 'Date'
+                    }
+                }
+            },
+            makeGood:{
+                type: 'object',
+                properties:{        
+                    makeGood:{
+                        type: 'string',
+                        label: 'Make good description'
+                    },
+                    date:{
+                        type: 'string',
+                        label: 'Date'
+                    },
+                    value:{
+                        type: 'string',
+                        label: 'Dollar value $'
+                    }
+                }
+            }
+        }
+    }
+}
+```
 
 
 

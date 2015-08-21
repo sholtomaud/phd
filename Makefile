@@ -10,11 +10,14 @@ writemon:
 parseRequirements: write
 	parse-req $(file)
 
+
 prepareHTML: prepareDOCX
 	cp -f images/*.* ./
 
 prepareDOCX: write
 	cp -f images/*.* "./Literature Review/"
+
+
 
 write: html docx
 
@@ -26,12 +29,11 @@ html:
 
 pdf:
 	pandoc -f markdown -t pdf -s -S  --biblio ./reference/Library.bib --csl ./reference/chicago-author-date.csl -o "./Literature Review/litrev.pdf"
+
+
 	
 cleanup: 
 	rm -f ./*.png ./*.PNG ./*.pdn ./*.jpg ./Literature\ Review/*.png ./Literature\ Review/*.jpg ./Literature\ Review/*.PNG ./Literature\ Review/*.pdn
-
-
-
 
 
 test: 

@@ -27,75 +27,141 @@ Within the context of these goals, the purpose of this literature review then is
 
 # Introduction
 
-In the last few years unconventional energy (UE) production has been considered a significant potential economic resource for Australia. Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations, along with what is known as "tight gas" [@taylor_australias_2012, p.7]. 
+In the last few years unconventional energy (UE), including unconventional natural gas development (UNGD) [@werner_environmental_2015] production has been considered a significant potential economic resource for Australia. Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations, along with what is known as "tight gas" [@taylor_australias_2012, p.7]. 
 
 In the Committee for Economic Development of Australia (CEDA) report Professor Martin notes that property rights and water management are key issues for unconventional energy production [@taylor_australias_2012, p.5]. 
 
 These views form the context of this research. For water management specifically, Martin recommended that UE producers need to develop a robust risk management framework with strong precautionary principles due to the potential for irreversible damage to environmental systems, including hydrological systems [@taylor_australias_2012, p.5].
 
-Through a consulting process, cross-sector support appears to be present for a framework which integrates both precautionary methods and surveillance [@beckers_groundwater_2013, @howe_framework_2010, @hunter_draft_2013]. In Australia, this momentum has culminated in the National Harmonized Regulatory Framework [@scer_national_2013], together with a number of reports on the ability to assess and monitor the risks, and cumulative risks, associated with Coal Seam Gas production. 
+Through a consulting process, cross-sector support appears to be present for a framework which integrates both precautionary and surveillance methods [@beckers_groundwater_2013, @howe_framework_2010, @hunter_draft_2013]. In Australia, this momentum has culminated in the National Harmonized Regulatory Framework [@scer_national_2013], together with a number of reports on the ability to assess and monitor the risks, and cumulative risks, associated with Coal Seam Gas production. 
 
 # Method
 
 The approach used here is to review the received literature with the aim to establish the technical requirements of a Risk Governance System (RGS), and evaluate some technologies which present viable solutions to meet these  requirements. As a result of this method each section will be summarized with a short table  documenting the requirements for the system .
 
-# Harmonized Regulatory Framework - Generating requirements for risk governance
+# Generating requirements for risk governance
+
+## Harmonized Regulatory Framework
 
 The Harmonized Regulatory Framework (HRF) forms the context in which Government agencies have attempted to meet the challenges posed by the unconventional energy industry in Australia. The HRF emphasised that Governments at all levels have a key role in providing scientifically-robust information, but also in providing access to such information in a timely manner [@scer_national_2013, 10]. 
 
-This information access aims to establish and maintain the industry’s Social License to Operate (SLO) [@boutilier_modelling_2011] and community confidence so that Australia and transnational corporate operators can gain economic benefit from any potential development [@scer_national_2013, 10]. 
+This information access aims to establish and maintain the industry’s Social License to Operate (SLO) [@boutilier_modelling_2011] and community confidence so that Australia and transnational corporate operators can gain economic benefit from any potential development [@scer_national_2013, 10]. The main concern in Coal Seam Gas operations is that they risk significant impacts on the environment and humans. 
 
-However the main concern is that the operations risk significant impacts on the environment and humans. At the legislative level, Randall proposed a model called the screening, pre-release testing and post-release surveillance (STS) model. 
+At the legislative level, Randall proposed a model called the screening, pre-release testing and post-release surveillance (STS) model. 
 
 ![Randall STS governance model @randall_coal_2012 ](Randall-STS.PNG)
 
-Randall's model includes a depiction of the precautionary principle whereby at any phase, prohibition can apply to stop operations due to significant risk. 
+Randall's model includes a depiction of the precautionary principle whereby at any phase, prohibition can apply to stop operations due to significant risk. Within the HRF, the precautionary principle in conjunction with adaptive management is part of a hierarchy of risk control measures that apply to all aspects of the development of natural gas from coals seams.
 
-At the State Government level in Australia, Queensland has been a test case where Coal Seam Gas regulation and production have been pioneered. In addressing the Queensland context the HRF says that the policy focuses on the management and use of produced water under the Environmental Protection Act [@scer_national_2013]. The HRF therefore stipulates the requirement for a robust framework for data collection and transfer, to monitor risks, but also provide instruction on remedial actions. In this approach, defined trigger thresholds are used to initiate a make-good process [@scer_national_2013, p.47, @ehp_underground_2010]. 
+At the State Government level in Australia, Queensland has been a test case where Coal Seam Gas regulation and production have been pioneered. In addressing the Queensland context the HRF says that the policy focuses on the management and use of produced water under the Environmental Protection Act. Water, then, is one of the main focuses of the framework, and would be the main problem constext of any STS model.  
 
-{precautionary principle in conjunction with adaptive management is part of a hierarchy of risk control measures that apply to all aspects of the development of natural gas from coals seams.
-}
-
-Actions should be able to be taken at all levels for, and by stakeholders across State or Federal (or even National) jurisdictions [@anedo_submission_2013]. Hunter suggests that demonstrable scientific underpinnings of risk assessments would assist in communications (a component depicted in Fergusson's model) [@hunter_draft_2013]. Martin says that water allocation and licensing frameworks also need to be enhanced to include water that is produced, and consumed by UE producers [@taylor_australias_2012, p.5].
-
-Taylor [@taylor_australias_2012, p.5] went on to suggest that where UE producers use water resources, they should carry the costs associated with any impacts from activities. This view concurs with the views of landholders, who wish to receive appropriate compensation and payments [@vff_public_2013]. 
-
-Strict liability is the imposition of liability on a party without a finding of fault. The question is whether strict libability should be afforded to UE producers as the tortfeasor. In this context the NWC recommended that bonds and sureties should be used deal with uncertainty and the timeframes associated with potential impacts [@nwc_coal_2010]. As the NWC noted, these time frames may potentially extend past 100 years, which is well-beyond the expected life-span of the CSG recovery process. This includes impacts such as long-term reductions in aquifer pressures or levels, and, "impacts on environmental assets that are not adequately protected by current ‘make good’ mechanisms" [@nwc_coal_2010].
+In this overview, data planning and collection along with risk communication are important components. The HRF therefore stipulate the requirement for a robust framework for data collection and transfer to monitor risks, and also to provide instruction on remedial actions [@scer_national_2013]. In this approach, defined trigger thresholds are used to initiate a make-good process [@ehp_underground_2010]. 
 
 ### Requirements - HRF
 
-|level | defintion                        | met by |    
+|level | definition                        | met by |    
+|------|:---------------------------------| ------------------|
+| 1    | Framework for water data collection and transfer to monitor Env & SLO risks | database + UI |
+| 1    | Ability to integrate STS | database + UI |
+| 1    | Ability to define trigger thresholds | database + UI |
+| 1    | Ability to track make-good process | database + UI |
+
+## Feedback on HRF
+
+A period of public feedback was undertaken as a part of the HRF. Some of the recommendations included that actions should be able to be taken at all levels for, and by stakeholders across State or Federal (or even National) jurisdictions [@anedo_submission_2013]. Hunter suggests that demonstrable scientific underpinnings of risk assessments would assist in communications (a component depicted in Fergusson's model) [@hunter_draft_2013]. Martin says that water allocation and licensing frameworks also need to be enhanced to include water that is produced, and consumed by UE producers [@taylor_australias_2012, p.5].
+
+Taylor [@taylor_australias_2012, p.5] went on to suggest that where UE producers use water resources, they should carry the costs associated with any impacts from activities. This view concurs with the views of landholders, who wish to receive appropriate compensation and payments [@vff_public_2013]. 
+
+Strict liability is the imposition of liability on a party without a finding of fault. The question is whether strict libability should be afforded to UE producers as the tortfeasor. In this context the NWC recommended that bonds and sureties should be used deal with uncertainty and the time frames associated with potential impacts [@nwc_coal_2010]. As the NWC noted, these time frames may potentially extend past 100 years, which is well-beyond the expected life-span of the CSG recovery process. This includes impacts such as long-term reductions in aquifer pressures or levels, and, "impacts on environmental assets that are not adequately protected by current ‘make good’ mechanisms" [@nwc_coal_2010].
+
+### Requirements - HRF
+
+|level | definition                        | met by |    
 |------|:---------------------------------| ------------------|
 | 1    | Data collection not limited to jurisdiction | cloud-based web application |
 | 1    | Data transfer not limited to jurisdiction | cloud-based web application |
-| 1    | Non-jurisdictional limited data transfer  | cloud-based web application |
 | 3    | Ability to record stakeholders voice   | issues tracking schema |
 | 3    | Ability to record decision outcomes for stakeholders  | issues tracking schema |
 | 3    | Track bonds and sureties per company and per asset/site | company && site schema |
-| 3    | Track impacts not protected by current 'make good' mechansisms | site schema |
+| 3    | Track impacts not protected by current 'make good' mechanisms | site schema |
+| 3    | Ability to track stop operations orders | site schema |
+| 3    | Ability to store env. impact detection data | site schema  |
+| 3    | Ability to store re-mediation actions data | site schema  |
+| 3    | Ability to store make-good action/compensation data | site schema  |
+| 3    | Ability to store links to scientific references | site schema  |
+| 3    | Ability to store produced and consumed water | timeseries schema  |
+| 3    | Ability to store defined trigger thresholds used to initiate a make-good | site schema  |
+
+## Risk
+
+The type of model depicted by Randall's diagram above forms the basis of what is also called *Adaptive Risk Management* (ARM). As noted in the HRF, Queensland applies an adaptive management approach [@scer_national_2013]. On-going monitoring and communication is what makes the risk management adaptive. In other words, as soon as any impact is detected, appropriate action can be taken. Fergusson et al, diagram a general overview of the requirements of a risk system (shown below).
+
+![Components of risk assessment -  @ferguson_risk_1998](Fergusson_risk_Fig2_1_1998.jpg)
+
+Fergusson et al start with suspicions about the riskiness of a system, and end with the communications of on-going risk assessments [@ferguson_risk_1998]. These are critical elements which in fact might be seen as part of each other when it comes to public perception and SLO. For Boudicca any risk assessment model needs to include a definition of ‘unacceptable impacts’, whereby projects deemed as having unacceptable impacts should be prohibited. Furthermore, verification should not rely on in-house representatives but rather only “independent third-party professional[s]” [@boudicca_lock_2013].
+
+The underground water impact report [@qwc_underground_2012], notes that 
+
+
+
+
+
+|level | definition                        | met by |    
+|------|:---------------------------------| ------------------|
+| 1    | Ability to track risks associated with operations | cloud-based web application |
+| 1    | Ability to communicate/visualise risks to stakeholders | cloud-based web application |
 | 3    | Ability to define and track unacceptable impacts to site | site schema |
 | 3    | Ability to define and track unacceptable impacts to aquifer | aquifer schema |
 | 3    | Ability to define and track unacceptable impacts within catchment | catchment schema |
-| 3    | Ability to track stop operations orders | site schema |
-| 3    | Verificaiton that appraisals undertaken by independent third party | appraisals/site schema |
-| 3    | Ability to store env. impact detection data | site schema  |
-| 3    | Ability to store remediation actions data | site schema  |
-| 3    | Ability to store make-good action data | site schema  |
-| 3    | Ability to store links to scientific references | site schema  |
-| 3    | Ability to store produced and consumed water | timeseries schema  |
+| 3    | Verification that appraisals undertaken by independent third party | appraisal schema |
 
+## Compliance
 
-# Data planning and collection ^[The author has had the privilege to have work with one of the Queensland CSG companies where he acted as a technical database expert. From those experiences the following technical observations are made.]
+In the Healthy Headwaters report Act 5, several topics were not included in the assessment of risk. Baseline Groundwater Quality was one of the topics  [@beckers_groundwater_2013, 6.1.3.1], however Baseline Assessments  and Bore Assessments are an on-going compliance requirement for the CSG companies [@ehp_underground_2010]. The requirements for the Baseline Assessments are defined in [@ehp_baseline_2010] and typically include data such as water quality or water level, or might involve pump testing, on-going bore assessments relevant to SLO for example. 
 
-The type of model depicted by Randall's diagram above forms the basis of what is also called *Adaptive Risk Management* (ARM). As noted in the HRF, Queensland applies an adaptive management approach [@scer_national_2013]. On-going monitoring and communication is what makes the risk management adaptive. In other words, as soon as any impact is detected, appropriate action can be taken. Fergusson et al, depict the risk assessment components with a diagram starting with suspicions about the riskiness of a system, and ending with the communications of on-going risk assessments (see below) [@ferguson_risk_1998]. 
+### Requirements - Compliance
 
-![Fergusson et al model @ferguson_risk_1998](Fergusson_risk_Fig2_1_1998.jpg)
+|level | definition                        | met by |    
+|------|:---------------------------------| ------------------|
+| 3    | Ability to store compliance data | site schema  |
+| 3    | Ability to store defined trigger thresholds used to initiate a make-good | site schema  |
 
-In addition to the basic regulatory requirements to transfer and collect data, the company itself had requirements to create internal reporting and monitoring tools which could help in the operational matters and in communicating with stakeholders. 
+## Water Monitoring Strategy (WMS)
 
-In particular, a company will have interest to estimate the NPV of an unconventional resource in the context of a high-risk operating environment with potential for revocation of social license through impacts on the livelihoods of local communities, or through compliance risks and impacts on the environment. These types of risks typically cross several departments within a company making customised database integration a key, but costly exercise. It was found that the legacy system, whilst flexible and powerful, was unable to meet all of the company's requirements. 
+The WMS used in the Surat Underground Water Impact Report [@qwc_underground_2012] report had six objectives for a water monitoring strategy which are relevant to this project. 
 
-During the author's employment a legacy data system was used in the attempt to meet the regulatory requirements to capture and transfer baseline, and on-going water monitoring data to the regulator. The system was not designed with the flexibility to accommodate the data requirements, and several issues emerged which made integration between other internal systems a complex and costly project. 
+|level | definition                        | met by |    
+|------|:---------------------------------| ------------------|
+| 1    | Ability to establish background trends | timeseries schema  |
+| 1    | Ability to improve future groundwater flow modelling | timeseries schema & interface with flow models |
+| 1    | Ability to improve understanding of connectivity between aquifers | aquifer schema  |
+| 3    | Ability to identify changes in aquifer conditions within and near areas of petroleum development | aquifer & site schemas  |
+| 3    | Ability to identify changes in aquifer conditions near critical groundwater use | aquifer & site schemas |
+| 3    | Ability to identify changes in aquifer conditions near springs | aquifer & site schemas |
+
+# Data planning and collection for unstructured data ^[The author has had the privilege to have work with one of the Queensland CSG companies where he acted as a technical database expert. From those experiences the following technical observations are made.]
+
+With respects to the data planning phase depicted in Fergusson et al, for water resources data and CSG and unconventional energy production, the main planning strategy used by the regulator was for the regulator to make a compliance requirement for the collection of data. As noted by [@qwc_underground_2012], CSG proponents were deemed responsible for implementing various components of the WMS, such as; 
+
+* overseeing the collection of data in the field and laboratory
+* either by contractors or in-house
+* for quality assuring the data 
+* and for installing a database system capable of accommodating the data for analysis and transfer to the regulator
+
+This model had challenges in meeting many of the higher level requirements noted above. Significant issues were;
+
+* not limiting data operations to jurisdiction
+* adding new and unstructured data elements to the applications data model
+
+The requirement for capturing unstructured data is a challenge that has been met by recent database technologies. Unstructured data is data that does not have a pre-defined data model. This is typically referred to emergent data requirements. It is typically text-heavy, but may contain data such as dates, numbers, and facts as well. In fact, many of the legacy, vendor-based water database applications were not designed to accommodate the data requirements and needed enhancements typically in the range of $100,000-300,000, not including installation.
+
+In addition to the basic regulatory requirements to transfer and collect data, companies themselves had internal requirements to create internal reporting and monitoring tools which could help in the operational matters and in communicating with stakeholders. 
+
+In particular, a company may have interest to estimate the NPV of an unconventional resource in the context of a high-risk operating environment with potential for revocation of social license through impacts on the livelihoods of local communities, or through compliance risks and impacts on the environment. These types of risks typically cross several departments within a company making customised database integration a key, but costly exercise. It was found that the legacy system, whilst flexible and powerful, was unable to meet all of the company's requirements. 
+
+During the author's employment a legacy data system was used in the attempt to meet the regulatory requirements to capture and transfer baseline, and on-going water monitoring data to the regulator. The system was not designed with the flexibility to accommodate the unstructured data requirements, and several issues emerged which made integration between other internal systems a complex and costly project. 
+
+## Industry experience
 
 In a number of industry-based community of experts meetings, the CSG database technicians met to discuss and identify difficulties that were common amongst all of the CSG proponents. These ranged from the actual data transfer technology (Dropbox/DVD/etc.), novel water quality parameter names and data standards. Without going through each company's experience in detail, in general it can be said that whilst legacy database technologies work well for relational data, the data compliance requirements for Coal Seam Gas proponents typically need to capture large amounts of unstructured data from the field that is not only associated with water data but with environmental compliance also.
 
@@ -106,15 +172,16 @@ Typically the types of database applications available for a CSG company to acco
 
 The requirements for handling unstructured data and massive storage have shown limitations to the traditional relational database models. These are the types of documents which are required in the Unconventional Energy Industry, to capture:
 
-the inflexibility, technical limitations, are costly and time consuming to enhance, making them ill-equipped to meet the emergent requirements of the Unconventional Energy production sector. 
+the inflexibility, technical limitations, are costly and time consuming to enhance, making them ill-equipped to meet the emergent requirements of the Unconventional Energy production sector. Emergent database requirements tend to be the norm rather than the exception in unconventional energy contexts. 
 
-The legacy systems don't have the requisite variety in their ability to store data required for compliance purposes. This problem is not unique to unconventional energy production and has also been observed in a disaster management context. As Shin and Kim note, NoSQL systems have been designed to meet this business needs to accommodate very large unstructured data sets [@shin_utilization_2015]. Again, during the author's employment within the CSG industry, the ICT team, along with the author, identified several emerging NoSQL technologies which appeared to satisfy the technical solutions for the problems noted above. 
+The legacy systems don't have the requisite variety in their ability to store data required for compliance purposes. This problem is not unique to unconventional energy production and has also been observed in a disaster management context. As Shin and Kim note, NoSQL systems have been designed to meet this business needs to accommodate very large unstructured data sets [@shin_utilization_2015]. Again, during the author's employment within the CSG industry, the ICT team, along with the author, identified several emerging NoSQL technologies which appeared to satisfy the technical solutions for the problems noted above. Among these technologies were MongoDB, and Hadoop.
 
+### Requirements - Data capture
 
-For Boudicca any risk assessment model needs to include a definition of ‘unacceptable impacts’, whereby projects deemed as having unacceptable impacts should be prohibited. Furthermore, “Verification of key system elements” should not rely on appraisal by “in house
-representatives” but rather only “independent third-party professional[s]”. [@boudicca_lock_2013]
-
-
+|level | definition                        | met by |    
+|------|:---------------------------------| ------------------|
+| 1    | Ability to add unstructured data on add-hoc basis | NoSQL application |
+| 1    | Data transfer not limited to jurisdiction | cloud-based web application |
 
 
 # Risk and Riskiness
@@ -192,22 +259,35 @@ There are many different types of approaches for constructing the computation, s
 Surprisingly there are not many attempts to undertake quantitative assessments of risk in subsurface hydrology []. Both Terskesi's efforts and the Groundwater risk assessment are two exceptions. 
 
 
+## Multi Criteria Analysis Methodology (MCA)
 
-### Systems Engineering Hydrogeology
+The Healthy HeadWaters final report used a hybrid of indexing and quantitative methods known as MCA [@dnrm_activity_2013-1, p.32]. This method used Weights ($\mathit{Wt}$) to value perceived relative importance, with the weighting done by a panel of experts. Ranks ($\mathit{Rnk}$) are based on properties of the attributes ($\mathit{a}$) for example the  magnitude of draw-down, and can vary spatially ($\mathit{x,y,z}$). 
+
+selected attributes for source (hazard), pathway (vulnerability) and receptor (consequence) 
+
+
+$$ \begin{aligned}
+     \mathit{Vulnerability} = \sum_{a} \mathit{V}(\mathit{x},\mathit{y},\mathit{z})_{a} = \sum_{a} \mathit{W} \mathit{t}_{a} \bullet \mathit{Rnk}(\mathit{x},\mathit{y},\mathit{z})_{a} \\
+   \end{aligned}
+$$ {#eq:vulnerability}
+
+$$ \begin{aligned}
+     \mathit{Consequence} = \sum_{a} \mathit{C}(\mathit{x},\mathit{y},\mathit{z})_{a} = \sum_{a} \mathit{W} \mathit{t}_{a} \bullet \mathit{Rnk}(\mathit{x},\mathit{y},\mathit{z})_{a} \\
+   \end{aligned}
+$$ {#eq:consequence}
+
+
+## Probabilistic Risk Assessment and Fault Tree Analysis
 
 Terskesi adopts the approach to risk which is typically used in Systems Engineering. In Systems Engineering, the standard quantitative calculation of Risk ($\mathit{\bar{R}}$) is probabilistic, known as Probabilistic Risk Assessment (PRA): 
 
 > *a comprehensive, structured, and logical analysis method aimed at identifying and assessing risks in complex technological systems for the purpose of cost-effectively improving their safety and performance*  [@stamatelatosmichael_probabilistic_2011].   
 
-
-
-
-
 The selection of a likelihood function may be done by different methods:
 
 * Poisson - counts of failures during operation
 * Bernoulli - counts of failures on system demands
-* Expert estimate - a best estimate based on MIL-STD-217), the lognormal distribution is a common likelihood function.
+* Expert estimate - a best estimate (based on MIL-STD-217) where the lognormal distribution is a common likelihood function.
 
 
 The posterior distribution
@@ -229,9 +309,11 @@ Fault tree analysis is typically undertaken to generate a probability of failure
 
 
 
-#### Risk in Hydrogeology
+## Groundwater Model and Multi-Criteria Analysis of Risk 
 
-According to Tartakovsky, there are few quantitative risk assessments in subsurface hydrology [@tartakovsky_assessment_2013]. 
+According to Tartakovsky, there are few quantitative risk assessments in subsurface hydrology [@tartakovsky_assessment_2013], however Activity-5 of the Healthy Headwaters report [@dnrm_activity_2013-1] attempts to provide an approach to quantitative risk assessments for the purposes of evaluating impacts from CSG. 
+
+Activity-5 uses a combination of Groundwater Model and Multi-Criteria Analysis (GMMCA) [@dnrm_activity_2013-1, p.i].
 
 
 Whilst the load-resistor model may look at gross failures and the downstream risks, it does not typically address the pollution associated with such a failure. The Healthy Headwaters' Groundwater Risks Report identified two different nomenclatures for addressing pollution entering the environment - these are the Hazard model, and the "source–pathway–receptor" (SPR) model [@beckers_groundwater_2013, @holdgate_perspective_1979] ^[Holdgate also uses the "source-pathway-sink", or "source-pathway-target" terminology]. Beckers et al argue that these methods have an equivalent outcome [-@beckers_groundwater_2013, p.28]. 
@@ -261,14 +343,16 @@ $$ \begin{aligned}
    \end{aligned}
 $$ {#eq:risk_hazard}
 
-#### Risk and Reliability
 
-
-
-
-#### Risk and Reliability
+#### Probability Risk Analyses (PRA)
 
 As a formal method Probability Risk Analyses (PRA) was developed in detail during the 1960's and the 1980's with the U.S. aerospace and missile programs, and the U.S. nuclear industry. Fault Tree Analysis (FTA) is one example of PRA and is typically applied in mechanical and electrical systems engineering projects where the system is well-defined [@stamatelatosmichael_probabilistic_2011, p.5-11].  
+
+Stamatelatos et al depict the interrelationship of eight steps involved in FTA through the following non-linear diagram. The top event defines the failure mode of the system that will be analyzed, for example, benign shut-down of an engine.
+
+![@stamatelatos_fault_2002 Fig.3.1](FTA.jpg)
+
+For a given mission there may be several objectives. For example, no loss of vehicle (LOV), loss of crew (LOC) or loss of mission (LOM). In the case of groundwater, the mission might be lost of utility (LOU). 
 
 Interestingly, PRA was not used in industries where it might otherwise be expected. For example, NASA, perhaps the most prominent agency, did not use PRA during the Apollo program because the success probabilities generated from the method for a round trip mission to the moon were very low, however  [@stamatelatosmichael_probabilistic_2011, p.5-11]. 
 
@@ -355,11 +439,7 @@ C10
 QWC database
 Drawdown impact consequence for springs depends on their ecological and other values, and connectivity to groundwater systems.
 
-#### Compliance Requirements
 
-In the Healthy Headwaters report Act 5, several topics were not included in the assessment of risk. Baseline Groundwater Quality was one of the topics  [@beckers_groundwater_2013, 6.1.3.1], however Baseline Assessments  and Bore Assessments are an on-going compliance requirement for the CSG companies [@ehp_underground_2010]. 
-
-The requirements for the Baseline Assessments are defined in [@ehp_baseline_2010], and the schema is reproduced in appendix A. 
 
 
 
@@ -427,7 +507,7 @@ $$ Qs = kQ = Q*1/RC $$
 
 These studies were not typically associated with a probability risk analysis for any of the pathways or targets. However Odum noted that  
 
-# Systems Engineering
+# System Engineering
 
 ## Work Breakdown Structure (WBS)
 
@@ -436,22 +516,14 @@ Systems engineering process produce system and product descriptions [@lightsey_s
 Until relatively recently, data planning for risk was conducted under the assumption of an RDBS (relational database management system), with a desktop-server model of deployment. This required careful planning of data model, schemas, fields and validation requirements, with a lock into 
 If such a procedure was undertaken by a business consultant it could typically culminate in a data dictionary as the deliverable product. In the case of CSG in Queensland, the deliverables were a data dictionary and database file format for transferring data to the regulator [@mines_storing_2015]. These formed the backbone of the data capture element of the policy framework for establishing baselines.
 
-
-
-
 Rook for software project engineering [@rook_controlling_1986]. Rook's concept (see figure below) was subsequently adopted by the Systems Engineering community [@mooz_visualizing_1997, @mooz_4.4.3_2001, @estefan_survey_2007].
 
-If Randall's diagram is turned on it's side it resembles the V-model introduced by Rook for software project engineering [@rook_controlling_1986]. Rook's concept (see figure below) was subsequently adopted by the Systems Engineering community [@mooz_visualizing_1997, @mooz_4.4.3_2001, @estefan_survey_2007].
 
 ![Rook's V-model](Rook1986.PNG)
 
-![Standard V-model](V-model.png)
-
-![Rook's V-model, @rook_controlling_1986](Rook1986.PNG)
-
 The research scope for this project has been identified through three risk domains: 
 
-* Hazard
+* Hazard or risk
 * Data (identified through professional experience)
 * Communication (identified through professional experience)
 
@@ -507,7 +579,7 @@ The system must allow assessment data to be entered in remote locations without 
 The system must transfer data to regulator in required format
 The system must display and visualise data for all users.
 
-* Assessment data might be for water quality, baseline assessment or bore assessment, pump testing, or SLO reviews for example. 
+
 
 THe system must transfer data to the regulatoer
 The system must provide risk visualisations to stakeholders to allow for risk monitoring

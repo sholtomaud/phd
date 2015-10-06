@@ -15,7 +15,7 @@ tags:
 
 # Abstract
 
-A review was conducted of literature with the aim of gathering requirements for a system of risk governance applied to groundwater and Coal Seam Gas operations. The review covers both current concepts and models regarding the governance of risk within Australia, and also the type of technology and development methods which might be used to accommodate the identified requirements. It was found that there are many different approaches to risk that are relevant to a governance system, increasing the complexity of development and that traditional methods of system development are costly and may not meet requirements.   
+A review was conducted of literature with the aim of gathering requirements for a system of risk governance applied to groundwater and Coal Seam Gas operations. The review covers both current concepts and models regarding the governance of risk within Australia, and also the type of technology and development methods which might be used to accommodate the identified requirements. It was found that there are many different approaches to risk that are relevant to a governance system, and that these increase the complexity of development. Moreover, that the legacy methods of system development are costly and have not meet user requirements.   
 
 # Purpose and Goals
 
@@ -26,7 +26,7 @@ Within the context of these goals, the purpose of this literature review then is
 * Able to accommodate data analysis of large data sets (BigData)
 * Off-line field data entry
 * Data-driven UI
-* Visualisation and data reporting of risks  
+* Risk visualisation and data reporting   
 
 # Introduction
 
@@ -34,7 +34,7 @@ In the last few years unconventional energy (UE) ^[Unconventional energy in the 
 
 The current economic context for example,^[Recent market conditions of low oil prices and market failures in China have, for example, raised doubts over future CSG expansions and greenfields projects [@mchugh_lower_2015]. The CSG yearly reports all note the sensitivity of cash flows to global oil prices: "significant fall in oil price, if sustained at current levels, will result in lower growth in cash flow and earnings than previously expected" [@origin_energy_full_2015], "Sales revenue fell 19% on the corresponding quarter, affected by the lower realised oil price" [@santos_second_2015], "Revenue and other operating income decreased 19% to $2 557 million, reflecting significantly lower commodity prices, especially oil and liquids"[@bg-group_second_2015].] has created a financial risk requiring CSG proponents to reduce costs associated with non-core activities. Environmental risk compliance is often regarded as a nice-to-have, a non-core to the activity of extracting value from energy reserves, and as Brockett notes, this creates industry calls for regulatory reforms to remove unnecessary costs whilst maintaining robust environmental protection and other obligations [@brockett_streamline_2014]. There are then, many different views on the risks posed by and to CSG operations [@hunter_regulation_2011]. 
 
-In this context this review does not seek to express an opinion on the riskiness of CSG operations, but rather to gather the requirements for a system that can reduce costs of capturing, monitoring, and governing risk data.
+In this context this review does not seek to express an opinion on the riskiness of CSG operations, but rather to gather the requirements for a system that can reduce costs of capturing, monitoring, and governing data involving risks.
 
 Of the challenges facing the UE industry the Committee for Economic Development of Australia (CEDA) report notes that property rights and water management are key issues [@taylor_australias_2012, p.5]. To address these issues various experts have recommended that UE companies and government agencies need to develop a robust independent risk management framework aimed at preventing potentially irreversible damage to environmental and hydrological systems [@beckers_groundwater_2013, @howe_framework_2010, @hunter_draft_2013, @davies_managing_2015]. These recommendations come in response to both legislative duplication, but also in response to computer and database systems that have grown incrementally in an ad-hoc manner without consideration for what might be called whole-of-system data requirements [@brockett_streamline_2014, @williams_unconventional_2012, p.5].
 
@@ -46,7 +46,7 @@ The approach used here is to review the received literature with the aim to esta
 
 # Brief History 
  
-In environmental policy, Ferguson et al argue that the use of risk is relatively recent. The aim of it's introduction was to avoid conflation of political and management goals with environmental objectives by providing an objective and scientific method [@ferguson_risk_1998, p.7]. Citing Grier, Covello and Mumpower claim that the concept of quantitative risk assessment first entered intellectual thought in the 4th century AD through Amobius's theological consideration of the risks posed to one's soul after death [@covello_risk_1985]. Covello and Mumpower say the 18th century saw a flourishing of probability risk analysis with a modern prototype developed by LaPlace in application to smallpox vaccination and morbidity probabilities, however before this there was almost no history of quantitative probability theory. 
+In environmental policy, Ferguson et al [@ferguson_risk_1998, p.7] argue that the use of risk is relatively recent. The aim of it's introduction was to avoid conflation of political and management goals with environmental objectives by providing an objective and scientific method . Citing Grier, Covello and Mumpower claim that the concept of quantitative risk assessment first entered intellectual thought in the 4th century AD through Amobius's theological consideration of the risks posed to one's soul after death [@covello_risk_1985]. Covello and Mumpower say the 18th century saw a flourishing of probability risk analysis with a modern prototype developed by LaPlace in application to smallpox vaccination and morbidity probabilities, however before this there was almost no history of quantitative probability theory. 
 
 In subsurface hydrology, Tartakovsky claims that probabilistic risk analysis (PRA), such as Fault Tree Analysis (FTA), had not been used until 2007 [@tartakovsky_assessment_2013, p.248]. However, for all stakeholders, the notion of risk is not limited to quantitative methods. As Slovic [-@slovic_perception_1987] noted there is also concept of perceived "riskiness" which can mean more to a stakeholder than a unidimensional measure of expected fatalities or failures. Riskiness, it might be said, is in the eye of the stakeholder, and as such open to many subjective factors which may, or may not be related to the best effort to quantize risk. 
 
@@ -79,15 +79,15 @@ The subsequent task of systems engineering a risk governance system is motivated
 
 The Harmonized Regulatory Framework (HRF) forms the context in which Government agencies have attempted to meet the challenges posed by the unconventional energy industry in Australia. The HRF emphasised that Governments at all levels have a key role in providing scientifically-robust information, but also in providing access to such information in a timely manner [@scer_national_2013, 10]. 
 
-This information access aims to establish and maintain the industry’s Social License to Operate (SLO) [@boutilier_modelling_2011] and community confidence so that Australia and transnational corporate operators can gain economic benefit from any potential development [@scer_national_2013, 10]. The main concern in Coal Seam Gas operations is that they risk significant impacts on the environment and humans. 
+This information access aims to establish and maintain the industry’s Social License to Operate (SLO) [@boutilier_modelling_2011] and community confidence so that Australia and transnational corporate operators can gain economic benefit from any potential development [@scer_national_2013, 10]. The National Harmonised Regulatory Framework for Natural Gas from Coal Seams maintains that the main concern in Coal Seam Gas operations is the risk of significant impacts on the environment and humans [@scer_national_2013]. 
 
-At the State Government level in Australia, Queensland has been a test case where Coal Seam Gas regulation and production have been pioneered. In addressing the Queensland context the HRF says that the policy focuses on the management and use of produced water under the Environmental Protection Act. Water, then, is one of the main focuses of the framework, and would be the main problem constext of any STS model.  
+At the State Government level in Australia, Queensland has been a test case where Coal Seam Gas regulation and production have been pioneered. In addressing the Queensland context the HRF says that the policy focuses on the management and use of produced water under the Environmental Protection Act. Water, then, is one of the main focuses of the framework, and would be the main problem context of any STS model.  
 
-In this overview, data planning and collection along with risk communication are important components. The HRF therefore stipulate the requirement for a robust framework for data collection and transfer to monitor risks, and also to provide instruction on remedial actions [@scer_national_2013]. In this approach, defined trigger thresholds are used to initiate a make-good process [@ehp_underground_2010]. 
+In this overview, data planning and collection along with risk communication are important components. The HRF therefore stipulate the requirement for a robust framework for data collection and transfer to monitor water levels and associated risks, and also to provide instruction on remedial actions [@scer_national_2013]. In this approach, defined trigger thresholds are used to initiate a make-good process [@ehp_underground_2010]. 
 
 ### Requirements - HRF
 
-|level | requirement                        | met by |    
+| level | requirement                        | met by |    
 |------|:---------------------------------| ------------------|
 | 1    | Framework for water data collection and transfer to monitor Env & SLO risks | database + UI |
 | 1    | Able to store and track remedial actions | database + UI |
@@ -99,7 +99,7 @@ In this overview, data planning and collection along with risk communication are
 
 A period of public feedback was undertaken as a part of the HRF. Some of the recommendations included that actions should be able to be taken at all levels for, and by, stakeholders across State or Federal (or even National) jurisdictions [@anedo_submission_2013], with the intent of affording a framework for harmonization^[Citing Hollander [-@hollander_rethinking_2009], and Leebron [-@leebron_claims_1996], Brockett defines harmonization as process of making regulatory requirements, from different jurisdictions, identical or similar through joint problem-solving mechanisms [@brockett_streamline_2014]] and co-development of procedures between State entities [@brockett_regulation_2014].
 
-Hunter suggests that demonstrable scientific underpinnings of risk assessments would assist in communications (a component depicted in Fergusson's model) [@hunter_draft_2013]. Martin says that water allocation and licensing frameworks also need to be enhanced to include water that is produced, and consumed by UE producers [@taylor_australias_2012, p.5].
+Hunter [@hunter_draft_2013] suggests that demonstrable scientific underpinnings of risk assessments would assist in communications (a component depicted in Fergusson's model) . Martin [@taylor_australias_2012, p.5] says that water allocation and licensing frameworks also need to be enhanced to include water that is produced, and consumed by UE producers.
 
 Taylor [@taylor_australias_2012, p.5] went on to suggest that where UE producers use water resources, they should carry the costs associated with any impacts from activities. This view concurs with the views of landholders, who wish to receive appropriate compensation and payments [@vff_public_2013]. 
 
@@ -129,7 +129,7 @@ Generating requirements for a risk-governance system is a complex task. The comp
 
 Whilst the domain of interest for this research is initially limited to water, there are downstream effects of water risks. For example, a compliance failure in with respects to water may have a financial impact on a CSG company, thus representing a financial risk. Hence, methods applied in environmental policy might be concerned with hazard impact minimisation [@ferguson_risk_1998], aerospace and systems engineering with fault hazards  [@stamatelatosmichael_probabilistic_2011, @stamatelatos_fault_2002], or financial engineering might be concerned with risks to cashflow and Net Present Value [@lehner_finance_2014, @brandimarte_handbook_2014]. 
 
-At the legislative level, Randall proposed a model called the screening, pre-release testing and post-release surveillance (STS) model. Randall's model includes a depiction of the precautionary principle whereby at any phase, prohibition can apply to stop operations due to significant risk. Within the HRF, the precautionary principle in conjunction with adaptive management is part of a hierarchy of risk control measures that apply to all aspects of the development of natural gas from coals seams.
+At the legislative level, Randall proposed a model called the screening, pre-release testing and post-release surveillance (STS) model [@randall_coal_2012]. Randall's model includes a depiction of the precautionary principle whereby at any phase, prohibition can apply to stop operations due to significant risk. Within the HRF, the precautionary principle in conjunction with adaptive management is part of a hierarchy of risk control measures that apply to all aspects of the development of natural gas from coals seams.
 
 The type of risk model given by Randall forms the basis of what is called *Adaptive Risk Management* (ARM). As noted in the HRF, Queensland applies an adaptive management approach for environmental policy [@scer_national_2013]. Whilst it might be pragmatic to focus on the application of risk within the Queensland Groundwater CSG literature, the approach taken here is to review some aspects of other approaches with aim of potential novel integration in forthcoming works.
 
@@ -207,7 +207,7 @@ The concept of "riskiness", however, is an exception to this methodology, and wh
 
 ## Perceived Riskiness and Social License to Operate - SLO
 
-The notion of perceived riskiness has led to the concept of Social License to Operate (SLO) [@williams_social_2013, @gunningham_social_2004, @moffat_paths_2014]. SLO is the proposition that a society of stakeholders is able to grant or withdraw support for a company and its operations, and this in turn can present a significant risk to both companies, governments and community stakeholders. Research conducted by Siegrist et al [-@siegrist_trust_2012] found a positive relationship between procedural fairness and public acceptance, and this has also been identified as critical to enabling trust [@turner_social_1991]. To quantify trust, Moffat and Zhang identify six key variables: Contact quantity, Contact quality, Procedural fairness, Social infrastructure impact, Trust and Acceptance [@moffat_paths_2014].^[They hypothesized that trust is a critical pathway for the acceptance of an operation. In this hypothesis is contained a further corollary that procedures perceived as fair and contact that contains a forum in which concerns can be voiced, will enhance trust, thereby reducing the risk of a SLO withdrawal [@moffat_paths_2014]].
+The notion of perceived riskiness (which is also called non-technical risk) has led to the concept of Social License to Operate (SLO) [@williams_social_2013, @gunningham_social_2004, @moffat_paths_2014]. SLO is the proposition that a society of stakeholders is able to grant or withdraw support for a company and its operations, and this in turn can present a significant risk to both companies, governments and community stakeholders. Research conducted by Siegrist et al [-@siegrist_trust_2012] found a positive relationship between procedural fairness and public acceptance, and this has also been identified as critical to enabling trust [@turner_social_1991]. To quantify trust, Moffat and Zhang identify six key variables: Contact quantity, Contact quality, Procedural fairness, Social infrastructure impact, Trust and Acceptance [@moffat_paths_2014].^[They hypothesized that trust is a critical pathway for the acceptance of an operation. In this hypothesis is contained a further corollary that procedures perceived as fair and contact that contains a forum in which concerns can be voiced, will enhance trust, thereby reducing the risk of a SLO withdrawal [@moffat_paths_2014]].
 
 Whilst polls at a local council level can be an effective way of evaluating community sentiment or perceptions towards a development such as CSG [@luke_developing_2013], these are typically one-shot mechanisms. Social media today, like facebook and twitter, provide a risk mechanism for assessing social risk  [@williamson_assessing_2015], which some consider has become a primary corporate risk [@pekka_aula_social_2010]. The dynamic nature of sentiment risk in turn makes it able to be tracked as a time series [@oconnor_tweets_2010, @thelwall_sentiment_2014].
 
@@ -329,21 +329,21 @@ Civil and systems engineers often adopt a probabilistic approach to risk assessm
 
 In PRA, the selection of the likelihood function may be done by different methods such as Poisson (counts of failures during operation), Bernoulli (counts of failures on system demands), or expert estimate - a best estimate (based on MIL-STD-217) where the lognormal distribution is a common likelihood function [@stamatelatosmichael_probabilistic_2011, p.5-11].
 
-### FMEA 
+### Failure Modes and Effects Analysis - FMEA 
 
 FMEA includes variants known as as Failure Modes Effects and Criticality Analysis (FMECA) and Hazard and Operability (HAZOP). These approaches de-aggregate fundamental elements of a system to identify failure modes, and then study the effects of the failure mode on other components and the system as a whole [@gregory_b_baecher_risk_2004, p.12].
 
-### ETA
+### Event Tree Analysis - ETA
 
-ETA can in fact be either quantitative or qualitative. It is used to identify  possible outcomes of an event and their probabilities aiming to reveal the relationships between mitigating systems [@gregory_b_baecher_risk_2004].
+ETA can be either quantitative or qualitative. It is used to identify  possible outcomes of an event and their probabilities aiming to reveal the relationships between mitigating systems [@gregory_b_baecher_risk_2004].
 
-### FTA
+### Fault Tree Analysis - FTA
+
+In Fault Tree Analysis boolean AND/OR logic is used to map out a fault tree and the interrelation of faults throughout the system [@stamatelatos_fault_2002]. This involves a large scale effort for analysing all faults, and potential faults throughout the different elements of the system as a whole.
 
 Tartakovsky suggested that FTA could be applied to groundwater by relating the occurrence of the system failure to the failures of its constitutive parts (see figure below). Examples being, aquifer contamination, the occurrence of a spill, or the failure of a remediation effort [@tartakovsky_probabilistic_2007].
 
 ![Fault tree for a possible aquifer contamination. @tartakovsky_probabilistic_2007, Fig.1](tartakovsky_FTA_2007.jpg)
-
-A Boolean AND/OR logic is used within the FTA to map out a fault tree and the interrelation of faults [@stamatelatos_fault_2002].
 
 ### Requirements - PRA
 
@@ -467,11 +467,11 @@ This type of approach makes for a different concept of Work Breakdown Structure 
 
 If such a WBS procedure was undertaken by a business consultant it could typically culminate in a data dictionary as the deliverable product. In the case of CSG in Queensland, the deliverables were a data dictionary and database file format for transferring data to the regulator [@dnrm_storing_2015].^[These formed the backbone of the data capture element of the policy framework for establishing baselines.] However when considering the requirements for a risk governance system the tasks of integrating unstructured data with ARM and multiple data models of legacy vendor-systems, provides for a novel engineering concept that is more reactive by design, accommodating data unstructured by any particular legacy data model.
 
-Hence as Shin and Kim observe, the challenge now is how to migrate data from the legacy RDBMS systems to NoSQL systems but also adapting software applications to communicate properly with the new database model [@shin_utilization_2015]. In some cases this will not be possible due to the age of the legacy systems, and in this context new typically web-based technologies can meet these requirements. In particular, NoSQL, Bigdata systems, like MongoDB, and data-driven scripting solutions such as fastn.js (a local software solution produced in Queensland). These technologies have sufficient flexibility so as to be able to accommodate further requirements for monitoring technical risk. 
+Hence as Shin and Kim [@shin_utilization_2015] observe, the challenge now is how to migrate data from the legacy RDBMS systems to NoSQL systems but also adapting software applications to communicate properly with the new database model. In some cases this will not be possible due to the age of the legacy systems, and in this context new typically web-based technologies can meet these requirements. In particular, NoSQL, Bigdata systems, like MongoDB, and data-driven scripting solutions such as fastn.js (a local software solution produced in Queensland). These technologies have sufficient flexibility so as to be able to accommodate further requirements for monitoring technical risk. 
 
 To accommodate the requirement for migrating from a RDBMS data mode to a NoSQL system, Shin and Kim produced a NoSQLayer to perform all data migration [@shin_utilization_2015]. Whilst this is appropriate for a 1..1 migration (1 data model to 1 NoSQL system), the migration becomes more complex when it is an n..1 migration. That is there are many database models to be migrated to one NoSQL system. This is the case with the regulatory environment in QLD regarding CSG data. As a result, translation and meta-translation layers are required for model-matching and translation-matching. In this thesis this is explored with the benefit of recently developments in server-side javaScript (Node.js).
 
-In reactive engineering, changes in data requirements will automatically propagate throughout the User Interface [@czaplicki_asynchronous_2013, @wikipedia_reactive_2015, @facebook_javascript_2015]. When the the product has emergent data and UI requirements built into the design the traditional WBS isn't necessarily a good fit for the development method. This thesis addresses the same problem, however it is more complex given the additional requirement for a meta-translation between data models of the legacy systems. The prospect of these systems is that they are both flexible, but don't require the same level of resources that were required by the legacy systems in order to produce a system that meets user requirements.
+In reactive engineering, changes in data requirements will automatically propagate throughout the User Interface [@czaplicki_asynchronous_2013, @wikipedia_reactive_2015, @facebook_javascript_2015]. When the the product has emergent data and UI requirements built into the design the traditional WBS isn't necessarily a good fit for the development method. This thesis addresses the same problem, however it is more complex given the additional requirement for a meta-translation between data models of the legacy systems. The prospect of these systems is that they are both flexible, but don't require the same level of resources that were required by the legacy systems in order to produce a risk governance system that meets user requirements. 
 
 ### Industry experience^[The author has had the privilege to have work with one of the Queensland CSG companies where he acted as a technical database expert. From those experiences the following technical observations are made.]
 
@@ -487,7 +487,7 @@ This model had challenges in meeting many of the higher level requirements noted
 * not limiting data operations to jurisdiction
 * adding new and unstructured data elements to the applications data model
 
-The requirement for capturing unstructured data is a challenge that has been met by recent database technologies. Unstructured data is data that does not have a pre-defined data model. This is typically referred to emergent data requirements. It is typically text-heavy, but may contain data such as dates, numbers, and facts as well. In fact, many of the legacy, vendor-based water database applications were not designed to accommodate the data requirements and needed enhancements typically in the range of $100-300k, not including installation or administration staff salaries which can be in the order of $100-200k annually.
+The requirement for capturing unstructured data is a challenge that has been met by recent database technologies. Unstructured data is data that does not have a pre-defined data model. This is typically referred to emergent data requirements. It is typically text-heavy, but may contain data such as dates, numbers, and facts as well. In fact, in the author's experience, many of the legacy, vendor-based water database applications were not designed to accommodate the data requirements and needed enhancements typically in the range of $100-300k, not including installation or administration staff salaries which can be in the order of $100-200k annually.
 
 In a number of industry-based community of experts meetings, the CSG database technicians met to discuss and identify difficulties that were common amongst all of the CSG proponents. These ranged from the actual data transfer technology (Dropbox/DVD/etc.), novel water quality parameter names and data standards. Without going through each company's experience in detail, in general it can be said that whilst legacy database technologies work well for relational data, the data compliance requirements for Coal Seam Gas proponents typically need to capture large amounts of unstructured data from the field that is not only associated with water data but with environmental compliance also.
 

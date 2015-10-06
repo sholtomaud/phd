@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html$if(lang)$ lang="$lang$"$endif$>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+$for(author-meta)$
+  <meta name="author" content="$author-meta$">
+$endfor$
+$if(date-meta)$
+  <meta name="dcterms.date" content="$date-meta$">
+$endif$
+  <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  
+  <style> 
+    body{
+      /*font-family: Consolas, monaco, monospace;*/
+      font-family: Verdana,Helvetica,Arial,sans-serif;
+      padding: 30px;
+      margin-top: 40px;
+      margin-left: 180px;
+      margin-right: 180px;
+    }
+
+    h1, h2, h3, h4{
+      color: #3366CC;
+      font-family: "Trebuchet MS", Helvetica, sans-serif  ;
+      
+    }
+
+    .caption{
+      font-family: "Times New Roman";
+      font-style: italic;
+      font-size: 13px;
+    }
+
+    table {
+      /*width: 100%;*/
+    }
+
+    table, th, td {
+       font-size: 13px;
+       border: 1px solid #3366CC;
+       border-collapse: collapse;
+       font-family: "Arial";
+       padding: 5px;
+    }
+
+    th{
+       font-weight: bold;
+    }
+
+    .tblBorders{
+      border: 1px solid #3366CC;
+       border-collapse: collapse;
+       
+    }
+
+    th td:first-child { width: 180px; }
+    
+  </style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+$if(quotes)$
+  <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
+$endif$
+$if(highlighting-css)$
+  <style type="text/css">
+$highlighting-css$
+  </style>
+$endif$
+$for(css)$
+  <link rel="stylesheet" href="$css$">
+$endfor$
+$if(math)$
+  $math$
+$endif$
+$for(header-includes)$
+  $header-includes$
+$endfor$
+</head>
+<body>
+$for(include-before)$
+$include-before$
+$endfor$
+$if(title)$
+<header>
+<h1 class="title">$title$</h1>
+$if(subtitle)$
+<h1 class="subtitle">$subtitle$</h1>
+$endif$
+$for(author)$
+<h2 class="author">$author$</h2>
+$endfor$
+$if(date)$
+<h3 class="date">$date$</h3>
+$endif$
+</header>
+$endif$
+$if(toc)$
+<nav id="$idprefix$TOC">
+$toc$
+</nav>
+$endif$
+$body$
+$for(include-after)$
+$include-after$
+$endfor$
+</body>
+</html>

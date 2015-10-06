@@ -43,7 +43,7 @@ These topics and tasks will be the subject of 5 articles and one literature revi
 
 |#    |Task                      |Y1Q1 |Y1Q2 |Y1Q3 |Y1Q4 |Y2Q1 |Y2Q2 |Y2Q3 |Y2Q4 |Y3Q1 |Y3Q2 |Y3Q3 |Y3Q4 |
 |:----|--------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|0.   | 6 Month Review |RD   |RD   |X,SC |   |     |     |     |     |     |     |     |     |
+|0.   | 6Mth Rev. |RD   |RD   |X,SC |   |     |     |     |     |     |     |     |     |
 |1.   | Platform MVP             |RD   |RD   |RD   |POC  |     |     |     |     |     |     |     |     |
 |2.   | Articles                 |     |     |     |     |     |     |     |     |     |     |     |     |
 |2.1  | Lit Rev*				 |B,R  |R    |D1   |D2   |S1   |R1,F |     |     |     |     |     |     |

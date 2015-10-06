@@ -13,7 +13,7 @@ Doctoral Thesis by Sholto Maud
 
 # List of Contents
 
-0. [Chapter 0 - Prefacee](chapter0.md)
+0. [Chapter 0 - Preface](chapter0.md)
 1. [Chapter 1 - Literature Review](chapter1.md)
 2. [Chapter 2 - Risk Assessment Methods](chapter2.md)
 3. [Chapter 3 - Risk Management Methods](chapter3.md)

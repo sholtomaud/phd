@@ -1,5 +1,5 @@
 ---
-title:  "Literature Review - Data capture and Visualising Risk in Unconventional Energy Production"
+title:  "Generating Data Capture and Visualisation Requirements for Unconventional Energy Risk Governance"
 date:   2015-03-10 13:12:00
 author: Sholto Maud
 status: Pre-confirmation status
@@ -26,44 +26,52 @@ Within the context of these goals, the purpose of this literature review then is
 * Able to accommodate data analysis of large data sets (BigData)
 * Off-line field data entry
 * Data-driven UI
-* Visualisation of risks
+* Visualisation and data reporting of risks  
 
 # Introduction
 
-In the last few years unconventional energy (UE) ^[Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations (CSG), along with what is known as "tight gas" [@taylor_australias_2012, p.7].], including unconventional natural gas development (UNGD) [@werner_environmental_2015] production, has been considered a significant potential economic resource for Australia. However it is a potential that faces significant resource, market and environmental challenges [@mcdine_east_2015].
+In the last few years unconventional energy (UE) ^[Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations (CSG), along with what is known as "tight gas" [@taylor_australias_2012, p.7].], including unconventional natural gas development (UNGD) [@werner_environmental_2015] production, has been considered a significant potential economic resource for Australia. However it is a potential that faces significant resource, market, governance and environmental challenges [@mcdine_east_2015]. The potential benefits therefore need to be placed within a diverse array of risk contexts. 
 
-The potential benefits need to be placed within both financial and environmental risk contexts. The current economic context^[Recent market conditions of low oil prices and market failures in China have, for example, raised doubts over future CSG expansions and greenfields projects [@mchugh_lower_2015]. The CSG yearly reports all note the sensitivity of cash flows to global oil prices: "significant fall in oil price, if sustained at current levels, will result in lower growth in cash flow and earnings than previously expected" [@origin_energy_full_2015], "Sales revenue fell 19% on the corresponding quarter, affected by the lower realised oil price" [@santos_second_2015], "Revenue and other operating income decreased 19% to $2 557 million, reflecting significantly lower commodity prices, especially oil and liquids"[@bg-group_second_2015].] has created financial pressure to reduce costs associated with environmental risk compliance frameworks. As Brockett notes, industry has on-going calls for regulatory reforms to remove unnecessary costs whilst maintaining robust environmental protection and other obligations [@brockett_streamline_2014]. 
+The current economic context for example,^[Recent market conditions of low oil prices and market failures in China have, for example, raised doubts over future CSG expansions and greenfields projects [@mchugh_lower_2015]. The CSG yearly reports all note the sensitivity of cash flows to global oil prices: "significant fall in oil price, if sustained at current levels, will result in lower growth in cash flow and earnings than previously expected" [@origin_energy_full_2015], "Sales revenue fell 19% on the corresponding quarter, affected by the lower realised oil price" [@santos_second_2015], "Revenue and other operating income decreased 19% to $2 557 million, reflecting significantly lower commodity prices, especially oil and liquids"[@bg-group_second_2015].] has created a financial risk requiring CSG proponents to reduce costs associated with non-core activities. Environmental risk compliance is often regarded as a nice-to-have, a non-core to the activity of extracting value from energy reserves, and as Brockett notes, this creates industry calls for regulatory reforms to remove unnecessary costs whilst maintaining robust environmental protection and other obligations [@brockett_streamline_2014]. There are then, many different views on the risks posed by and to CSG operations [@hunter_regulation_2011]. 
 
-There are then, many different views on the risks posed by and to CSG operations. Environmental, hydrogeological, financial, economic and social risks make the topic of CSG regulation contested [@hunter_regulation_2011]. In this context this review does not seek to express an opinion on the riskiness of CSG operations, but rather to gather the requirements for a system that can reduce costs of capturing, monitoring, and governing risk data.
+In this context this review does not seek to express an opinion on the riskiness of CSG operations, but rather to gather the requirements for a system that can reduce costs of capturing, monitoring, and governing risk data.
 
 Of the challenges facing the UE industry the Committee for Economic Development of Australia (CEDA) report notes that property rights and water management are key issues [@taylor_australias_2012, p.5]. To address these issues various experts have recommended that UE companies and government agencies need to develop a robust independent risk management framework aimed at preventing potentially irreversible damage to environmental and hydrological systems [@beckers_groundwater_2013, @howe_framework_2010, @hunter_draft_2013, @davies_managing_2015]. These recommendations come in response to both legislative duplication, but also in response to computer and database systems that have grown incrementally in an ad-hoc manner without consideration for what might be called whole-of-system data requirements [@brockett_streamline_2014, @williams_unconventional_2012, p.5].
 
-In Australia, the National Harmonized Regulatory Framework [@scer_national_2013], together with a number of subsequent reports attempted to address how all of the elements might fit together [@dnrm_coal_2013, @dnrm_activity_2013, @dnrm_storing_2015, @beckers_groundwater_2013, @qwc_underground_2012]. However experience shows that there are still some significant gaps in the system design. These are reviewed below to generate requirements specified in these publications with the aim of producing cost reductions for hydrogeological and environmental compliance.
+In Australia, the National Harmonized Regulatory Framework [@scer_national_2013], together with a number of subsequent reports address the issues of what all the elements are, and how all the elements might fit together [@dnrm_coal_2013, @dnrm_activity_2013, @dnrm_storing_2015, @beckers_groundwater_2013, @qwc_underground_2012]. However experience shows that there are still some significant gaps in the system design. These are reviewed below in the context of risk governance to generate requirements specified in these publications with the aim of producing cost reductions for hydrogeological and environmental compliance.
 
 # Method
 
-The approach used here is to review the received literature with the aim to establish the technical requirements of a Risk Governance System (RGS), and evaluate some technologies which present viable solutions to meet these  requirements. As a result of this method each section will be summarized with a table documenting level 1-3 requirements derived from the literature. Level 1 requirements are top-level feature requirements. An example might be, "user interface must accept user inputs". Level 3 requirements are at the schema level defining which schema a field or column might occur in. Level 4 & 5 requirements decompose into the attributes and properties of a field (date, string, etc). Levels 4 & 5 are not deemed necessary for the purposes of a literature review.
+The approach used here is to review the received literature with the aim to establish the technical requirements of a Risk Governance System (RGS), and evaluate some technologies which present viable solutions to meet these  requirements. As a result of this method each section will be summarized with a table documenting level 1-3 requirements derived from the literature. Level 1 requirements are top-level feature requirements. An example might be, "user interface must accept user inputs". Level 3 requirements are at the schema level defining which schema a field or column might occur in. Level 4 & 5 requirements decompose into the attributes and properties of a field (date, string, etc). Levels 4 & 5 are not deemed necessary for the purposes of a literature review. The term 'ability to store and track' is used in the requirements to mean a) that there needs to be a column or field in the database which will be able to store a value, b) that the value may change with time and the database needs to accommodate such.  
 
 # Brief History 
  
 In environmental policy, Ferguson et al argue that the use of risk is relatively recent. The aim of it's introduction was to avoid conflation of political and management goals with environmental objectives by providing an objective and scientific method [@ferguson_risk_1998, p.7]. Citing Grier, Covello and Mumpower claim that the concept of quantitative risk assessment first entered intellectual thought in the 4th century AD through Amobius's theological consideration of the risks posed to one's soul after death [@covello_risk_1985]. Covello and Mumpower say the 18th century saw a flourishing of probability risk analysis with a modern prototype developed by LaPlace in application to smallpox vaccination and morbidity probabilities, however before this there was almost no history of quantitative probability theory. 
 
-In subsurface hydrology, Tartakovsky claims that probabilistic risk analysis (PRA) had not been used until 2007 [@tartakovsky_assessment_2013, p.248]. However, for all stakeholders, the notion of risk is not limited to quantitative methods. As Slovic [-@slovic_perception_1987] noted there is also concept of perceived "riskiness" which can mean more to a stakeholder than a unidimensional measure of expected fatalities or failures. Riskiness, it might be said, is in the eye of the stakeholder, and as such open to many subjective factors which may, or may not be related to the best effort to quantize risk. 
+In subsurface hydrology, Tartakovsky claims that probabilistic risk analysis (PRA), such as Fault Tree Analysis (FTA), had not been used until 2007 [@tartakovsky_assessment_2013, p.248]. However, for all stakeholders, the notion of risk is not limited to quantitative methods. As Slovic [-@slovic_perception_1987] noted there is also concept of perceived "riskiness" which can mean more to a stakeholder than a unidimensional measure of expected fatalities or failures. Riskiness, it might be said, is in the eye of the stakeholder, and as such open to many subjective factors which may, or may not be related to the best effort to quantize risk. 
 
 # Governance and Risk
 
-For Renn and Walker, risk governance involves the translation of governance  to the context of risk, especially where the nature of the risk requires the collaboration of, and co-ordination between a range of different stakeholders [@renn_global_2008]. Unconventional Energy production provides such a context.
+The need for CSG to operate in an unconventional context has brought renewed focus on issues relating to risk governance. Underlying the concept of risk governance is the recognition that, in it's totality, risk management and assessment is not limited to any one entity. Rather, risk operates in the context of plural values and distributed authority, requiring the collaboration of, and co-ordination between, a range of different stakeholders [@renn_global_2008, @irgc_introduction_2012]. Control of hydraulic fracturing is an example. It occurs across multiple jurisdictions, where tenements don't necessarily align with natural hyrdo-environmental boundaries [@campin_environmental_2015, table 11]. 
 
-Risk governance thus extends beyond the three conventionally recognised elements of risk analysis (risk assessment, risk management and risk communication) to include, 
+biogeochemical processes .  would have an effect on a wide range of ecosystem services, including climate regulation, food and raw material production, soil formation, water supply and flood control.   
+
+
+
+
+Risk governance thus extends beyond conventionally recognised elements of risk analysis to include, 
   
   ... matters of institutional design and role, organisational capacity, stakeholder involvement, collaborative decision making and political accountability on the part of public bodies and corporate responsibility on the part of private enterprises. It also includes the requirement on the part of government, commercial and civil society actors for the development and use of scientific knowledge within the risk governance process.[@renn_global_2008]
 
 The International Risk Governance Council (IRGC) argues that governance mechanisms evolve much more slowly than the processes currently driving technological, environmental and social change [@irgc_what_2015]. The IRGC sees the consequence of this evolution mismatch that policy makers have become conscious of the importance of risk communication and of meeting public expectations. 
 
+Within the recognition of trans-national environmental systems, there is a question of the extent of systems under Governance. Common to systemic approaches is the notion that modeling complex relationships between environmental consequences and their potential incentives is extremely important.
 
 ## Motivation
 
-This literature review and subsequent systems engineering of a risk governance system is motivated by the prospect that such an engineering effort can enable governance mechanisms to evolve in a timely way to meet the rate of change of the technological, env and social contexts that governance operates within.
+The present research is focused on addressing the challenges of risk governance with recent technologies of BigData, NoSQL, and data-driven interfaces for data collection which provide rapid deployment and analysis capabilities. Renn and Walker term this a "comprehensive technology" that aims to integrate risk assessment into decision-making [-@renn_global_2008, p.17].
+
+The subsequent task of systems engineering a risk governance system is motivated by the prospect that such an engineering effort can enable governance mechanisms to evolve in a timely way to meet the rate of change of the technological, environmental and social contexts that governance operates within.
 
 # Generating requirements for risk governance
 
@@ -157,10 +165,10 @@ In the Healthy Headwaters report Act 5, several topics were not included in the 
 |level | requirement                        | met by |    
 |------|:---------------------------------| ------------------|
 | 3    | Able to store post-event sampling protocol data | `schema: site && results`  |
-| 3    | Able to store trigger thresholds used to initiate a make-good | `schema: site && results` |
+| 3    | Able to store trigger thresholds used to initiate a make-good | `schema: site && samples` |
 | 3    | Able to store make-good agreements | `schema: site && impacts` |
 | 3    | Able to store and track approvals | `schema: site && approvals` |
-| 3    | Able to store and track chemical samples | `schema: results` |
+| 3    | Able to store and track chemical samples | `schema: samples` |
 | 3    | Able to store and track risk control measures  | `schema: risk` |
 | 3    | Able to weight risk  | `schema: risk` |
 | 3    | Able to store endorsed product protocol and tests  | `schema: risk` |
@@ -169,7 +177,8 @@ In the Healthy Headwaters report Act 5, several topics were not included in the 
 
 ## Water Monitoring Strategy (WMS)
 
-The WMS used in the Surat Underground Water Impact Report [@qwc_underground_2012] report had six objectives for a water monitoring strategy which are relevant to this project. 
+The WMS used in the Surat Underground Water Impact Report aimed to establish background trends to enable further levels of analysis capture below.
+[@qwc_underground_2012]. 
 
 ### Requirements - WMS 
 
@@ -185,8 +194,6 @@ The WMS used in the Surat Underground Water Impact Report [@qwc_underground_2012
 
 # Approaches to Risk
 
-risk-related patterns, which are based on the properties of the source of risk; on the other hand situation-related patterns
-
 The concept of risk and risk management can hold different significance depending on worldview, perception and requirements. It can be perceived as acceptable or unacceptable, where the risk of an event for one person can outweigh any potential gains from that event as seen in the eyes of another person. Many approaches use methods for both/either qualitative and quantitative assessments, the latter of which can become increasingly complex when more details are included. However for both qualitative and quantitative methods the general Risk ($\mathit{\bar{R}}$) is defined as a combination of Consequence ($\mathit{C}$) and the Probability of some event X ($\mathit{P}(\mathit{X})$) [@ferguson_risk_1998, @qwc_underground_2012, p.Apx-92], expressed through the formula:
 
 $$ \begin{aligned}
@@ -196,7 +203,7 @@ $$ {#eq:risk}
 
 The precautionary principle also falls under this general method with consideration given to the potential impact or consequence, likelihood, and  the costs of regulatory action, and the opportunity cost of not proceeding [@scer_national_2013, p.14].
 
-The concept of "riskiness", however, is an exception to this methodology, and whilst a procedural framework might start with suspicions about the riskiness of a system [@ferguson_risk_1998], perceived riskiness might be more related to a mismatch between expectations and perceptions than the likelihood of an impact [@williams_social_2013, @moffat_paths_2014]. Perceived riskiness may operate as a surrogate for concerns that may not have a connection to a quantitative risk assessment, but are related to prior political or personal misgivings [@slovic_perception_1987, @kahan_motivated_2013]. Hence, whilst risk might be calculated as a probability risk perception can play a critical factor in influencing any decisions made. 
+The concept of "riskiness", however, is an exception to this methodology, and whilst a procedural framework might start with suspicions about the riskiness of a system [@ferguson_risk_1998], perceived riskiness might be more related to a mismatch between expectations and perceptions than the likelihood of an impact [@williams_social_2013, @moffat_paths_2014]. Perceived riskiness may operate as a surrogate for concerns that may not have a connection to a quantitative risk assessment, but are related to prior political or personal misgivings [@slovic_perception_1987, @kahan_motivated_2013, @renn_global_2008]. Hence, whilst risk might be calculable, risk perception can play a critical factor in influencing any decisions made and the success or failure of an operation or project. 
 
 ## Perceived Riskiness and Social License to Operate - SLO
 
@@ -217,11 +224,19 @@ Whilst polls at a local council level can be an effective way of evaluating comm
 
 Qualitative assessments are the most basic types of risk assessment, and are typically based on expert opinion where risk is assigned in relative terms based on the expert's estimation [@beckers_groundwater_2013]. Baker et al. note that this method of assessment is inclined to be subjective and so suggest that they may lead to inconsistencies and non-repeatable outcomes [@baker_techniques_1998]. Independent validation may therefore be needed to guard against bias [@pwc_practical_2008].
 
-To qualitatively assess a risk, organizations can use a combination of ordinal, internal, and ratio scales, with a resulting risk matrix. Price Waterhouse Coopers [@pwc_practical_2008] define these as follows,
+To qualitatively assess a risk, organizations can use a combination of ordinal, interval, and ratio scales, with a resulting risk matrix. Price Waterhouse Coopers [@pwc_practical_2008] define these as follows,
 
 * Ordinal scales are a rank order of importance between low to high
 * Interval scales are numerically equal distant, where 1 is the lowest risk and 3 the highest, however 3 is not a 3 times greater risk than 1
 * Ratio scales are numerically equal distant however they have a “true zero” where 3 *IS* 3 times 1
+
+### Requirements - SLO
+
+| level | requirement                        | met by |    
+|------|:---------------------------------| ------------------|
+| 3    | Able to store ordinal, interval and ratio scales| `schema: risk` |
+| 3    | Able to store metadata associated with an assessment | `schema: risk` |
+| 3    | Able to generate risk matrix | algorithm & UI |
 
 ## Springs
 
@@ -235,15 +250,33 @@ In addition to documenting risks associated with springs, the underground water 
 
 | level | requirement                        | met by |    
 |------|:---------------------------------| ------------------|
-| 3    | Able to acquire & store spring likelihood & consequence | `risk: site` |
+| 3    | Able to acquire & store spring likelihood & consequence | `schema: risk` |
 | 3    | Able to acquire & store cultural heritage at springs | `schema: site` |
 | 3    | Able to acquire & store flora & fauna (e.g. weeds) | `schema: ecology` |
 | 3    | Able to acquire & store data on spring-aquifer connectivity | `schema: site && aquifer` |
 | 3    | Able to acquire & store data on ecosystems  | `schema: ecology` |
 
+
+## Soils - Multi-Criteria Analysis Shell for Spatial Decision Support (MCAS-S) 
+
+In 2013 the Multi-Criteria Analysis Shell for Spatial Decision Support (MCAS-S Development Partnership was formed to develop and support the MCAS-S software. In 2014 the Australian Bureau of Agricultural and Resource Economics and Sciences (ABARES) published version 3.1 of the MCAS-S software [@abares_multi-criteria_2014].
+
+MCAS-S uses ordinal scales to help stakeholders make decision around trade-offs through both spatial Multi-Criteria Analysis [@abares_multi-criteria_2014, p.12] and Analytical Heirarchy Process (AHP). Combined, these techniques aim to enable users to establish soils at risk by ranking the importance of input layers through pair-wise weightings [@ibid, p.52].
+
+As with the Land Use system noted below, MCAS-S is an existing project with different technology and scope to the current project. However for a whole-of-system approach, where the risk-interdependence of water, soils & ecology are included within the problem scope, there is a question as to the type of integration or migration which might be involved with such a system. At a governance level whether agencies should move away from legacy file-based destkop technologies to cloud and bigdata approaches.
+
+In addition to the above consideration, whilst the MCAS-S includes rainfall in analyses, something not covered in the documentation is the relationships between data-modles for soil and water quality sampling. Soil sampling of pits can typically be 3-dimensional, with samples taken at the corners of a rectangular pit [@pattison_soil_2010]. Traditional surfacewater and groundwater sampling systems assume that there is a depth, and one-lat-long point per sample at site, however soils will typically have several lat-longs and elevations per sample at a site. This  requirement would see the legacy water samples data model enhance with 3D location components per sample.  
+
+### Requirements - Soils
+
+| level | requirement                        | met by |    
+|------|:---------------------------------| ------------------|
+| 3    | Able to acquire & store 3D soils data | `schema: site && soils && samples` |
+| 3    | Able to acquire & store MCAS-S & AHP data | `schema: soils` |
+
 ## Groundwater Model and Multi-Criteria Analysis of Risk 
 
-Activity-5 of the Healthy Headwaters report attempts to provide an approach to quantitative risk assessments for the purposes of evaluating impacts from CSG [@dnrm_activity_2013-1]. The report used a hybrid of Groundwater Modelling  and quantitative methods known as MCA.  This method used Weights ($\mathit{Wt}$) to value perceived relative importance, with the weighting done by a panel of experts. Vulnerability and consequence Ranks ($\mathit{Rnk}$) are based on properties of the attributes ($\mathit{a}$) for example the  magnitude of draw-down, and can vary spatially ($\mathit{x,y,z}$) where:
+Activity-5 of the Healthy Headwaters report attempts to provide an approach to quantitative risk assessments for the purposes of evaluating impacts from CSG [@dnrm_activity_2013-1]. The report used a hybrid method which combined expert assessment along with numeric groundwater modelling and quantitative methods known as MCA.  This method used Weights ($\mathit{Wt}$) to value perceived relative importance, with the weighting done by a panel of experts. Vulnerability and consequence Ranks ($\mathit{Rnk}$) are based on properties of the attributes ($\mathit{a}$) for example the  magnitude of draw-down, and can vary spatially ($\mathit{x,y,z}$) where:
 
 $$ \begin{aligned}
      \mathit{Vulnerability} = \sum_{a} \mathit{V}(\mathit{x},\mathit{y},\mathit{z})_{a} = \sum_{a} \mathit{W} \mathit{t}_{a} \bullet \mathit{Rnk}(\mathit{x},\mathit{y},\mathit{z})_{a} \\
@@ -280,41 +313,84 @@ Key recommendations for future work were to enable sensitivity analysis (SA) of 
 | 3    | Able to store SA of various parameters | `schema: risk` |
 | 3    | Able to store attributes as GeoJSON | `schema: risk` |
 | 3    | Able to store attributes for source, pathway and receptor | `schema: risk` |
-| 3    | Able to store and calculate  MCA equations | `schema: risk` |
+| 3    | Able to store and calculate  MCA equations | `schema: risk` && algorithms |
 | 3    | Able to store variety of vulnerability and risk assessment methods | `schema: risk` |
-| 3    | Able to store and track attributes as timeseries | `schema: risk` |
 | 3    | Able to store and track attribute weights for perceived relative importance | `schema: risk` |
 | 3    | Able to store and track properties of risk attributes | `schema: risk` |
+| 3    | Able to store and track attributes as timeseries | `schema: risk` |
 
 ## Quantitative Risk Assessment 
 
+In contrast to qualitative risk assessment methods, quantitative methods can be very sophisticated and expensive. They are often based on numerical models with physically-based equations and probability distribution of adverse effects [@dnrm_activity_2013-1]. To reiterate the method given above, the concept for this review is not to give detailed (level 5) requirements for all these models, but rather to generate (level 3) requirements that can be further decomposed in subsequent work, buts also potentially requirements that take the output from existing models.
+
 ## Probabilistic Risk Assessment - (PRA)
 
-In contrast to the GMMCA approach used in Activity-5 detailed above, civil and systems engineers have adopted a probabilistic approach to risk assessment (PRA) [@tartakovsky_probabilistic_2007, @lester_site-specific_2007, @gregory_b_baecher_risk_2004]. In PRA, the selection of the likelihood function may be done by different methods [@stamatelatosmichael_probabilistic_2011, p.5-11]:
+Civil and systems engineers often adopt a probabilistic approach to risk assessment (PRA) [@tartakovsky_probabilistic_2007, @lester_site-specific_2007, @gregory_b_baecher_risk_2004]. Within this context, Gregory and Baecher identify the principal methods of risk assessment as failure modes and effects analysis (FMEA), event tree analysis (ETA) and  fault tree analysis (FTA) [-@gregory_b_baecher_risk_2004, see also @nasa_nasa_2007, @stamatelatos_fault_2002, @stamatelatosmichael_probabilistic_2011, @goodarzi_introduction_2013, @mays_water_2010].
 
-* Poisson - counts of failures during operation
-* Bernoulli - counts of failures on system demands
-* Expert estimate - a best estimate (based on MIL-STD-217) where the lognormal distribution is a common likelihood function.
+In PRA, the selection of the likelihood function may be done by different methods such as Poisson (counts of failures during operation), Bernoulli (counts of failures on system demands), or expert estimate - a best estimate (based on MIL-STD-217) where the lognormal distribution is a common likelihood function [@stamatelatosmichael_probabilistic_2011, p.5-11].
 
+### FMEA 
 
+FMEA includes variants known as as Failure Modes Effects and Criticality Analysis (FMECA) and Hazard and Operability (HAZOP). These approaches de-aggregate fundamental elements of a system to identify failure modes, and then study the effects of the failure mode on other components and the system as a whole [@gregory_b_baecher_risk_2004, p.12].
+
+### ETA
+
+ETA can in fact be either quantitative or qualitative. It is used to identify  possible outcomes of an event and their probabilities aiming to reveal the relationships between mitigating systems [@gregory_b_baecher_risk_2004].
+
+### FTA
+
+Tartakovsky suggested that FTA could be applied to groundwater by relating the occurrence of the system failure to the failures of its constitutive parts (see figure below). Examples being, aquifer contamination, the occurrence of a spill, or the failure of a remediation effort [@tartakovsky_probabilistic_2007].
+
+![Fault tree for a possible aquifer contamination. @tartakovsky_probabilistic_2007, Fig.1](tartakovsky_FTA_2007.jpg)
+
+A Boolean AND/OR logic is used within the FTA to map out a fault tree and the interrelation of faults [@stamatelatos_fault_2002].
 
 ### Requirements - PRA
 
+There are already software systems that accommodate PRA types of analysis. The problem from a risk governance point of view is how to interface and integrate with such systems. Level 3 requirements might be reduced to the following: 
+
 | level | requirement                        | met by |    
 |------|:---------------------------------| ------------------|
-| 3    | Able to store and track likelihoods |  `schema: impacts` |
-| 3    | Able to store and track failures |  `schema: impacts` |
-| 3    | Able to store and track boolean relations of potential faults | `schema: impacts` |
+| 3    | Able to store and track likelihoods |  `schema: risk` |
+| 3    | Able to store and track failure modes |  `schema: risk` |
+| 3    | Able to store and track effects & effect between system components |  `schema: risk` |
+| 3    | Able to store and track failures |  `schema: risk` |
+| 3    | Able to store and track boolean relations of potential faults | `schema: risk` |
 
 ## Markov Chain Monte Carlo and Bayesian Risk (MCMC)
 
-In financial engineering Markov Chain Monte Carlo and Bayesian Statistics are applied to risk estimations, where,  "MCMC methods are indirect sampling strategies, based on the simulation of a Markov process, whose long-run state density is the target density" [@brandimarte_handbook_2014, p.631]. MCMC methods involve a system of linear equations. 
+In financial engineering Markov Chain Monte Carlo and Bayesian Statistics are applied to risk estimations, where MCMC methods are sampling strategies based on the simulation of a Markov process [@brandimarte_handbook_2014, p.631]. Brandimarte summarised MCMC with following generic equation: 
+
+$$ \begin{aligned}
+     \mathit{posterior} \propto \mathit{prior} \times \mathit{likelihood} \\
+   \end{aligned}
+$$ {#eq:mcmc}
+
+Brandimarte further developed the methods and algorithms involved in conducting Bayesian Risk analysis, using the R statistics language, raising the question of how to best integrate with legacy statistics languages and models.
 
 ### Requirements - MCMC
 
 | level | requirement                        | met by |    
 |------|:---------------------------------| ------------------|
-| 3    | Ability to accommodate MCMC linear equations | `schema: risk` && algorithm webservices |
+| 3    | Ability to store and track MCMC linear Bayesian equations | `schema: risk` && algorithm webservices |
+| 3    | Ability to integrate with existing statistical software (python, R) | integration with modelling services |
+
+## Australian Land Use Trade-off model (LUTO)
+
+CSG is in competition with other land uses and agriculture for 
+a fixed land supply, and so there is a risk of trading off value for other land uses. Connor et al conclude that resistance from such disaffected local areas may prevent considerable large-scale policy benefits, and therefore that localised assessment of mitigation and adaptation options along with  opportunity to expand agricultural area need to be captured [@connor_modelling_2015].
+
+As noted above with soils, the existece of systesms in this domain raises the 'migrate or integrate' quesion whether LUTO systems and methods can or should be integrated with a big data system or migrated accross is a question for further consideration. Nevertheless The following minimal set of requirements have been captures in the case that LUTO parameters would need to be captured within the system.  
+
+### Requirements - LUTO
+
+| level | requirement                        | met by |    
+|------|:---------------------------------| ------------------|
+| 3    | Able to store and track land use  | `schema: ecology` |
+| 3    | Able to store and track SLO  | `schema: ecology` |
+| 3    | Able to store and track risk mitigation  | `schema: risk` |
+| 3    | Able to store and track risk adaption  | `schema: risk` |
+| 3    | Able to store and track land expansion options  | `schema: ecology` |
 
 ## Ecosystem Services Risk - (ESR)
 
@@ -327,35 +403,26 @@ In 1973 Gosselink et al [@gosselink_value_1973] argued that conventional real es
 | 3    | Able to store and track real estate dollar value |  `schema: land`  |
 | 3    | Able to store and track pre-market ecosystem dollar value |  `schema: ecology`  |
 
-## Australian Land Use Trade-off model (LUTO)
+## Aquifer Risk
 
-CSG is in competition with other land uses and agriculture for 
-a fixed land supply, and so there is a risk of trading off value for other land uses. Connor et al [@connor_modelling_2015]
+The Centre for Water in the Minerals Industry (CWiMI) assessed risk to regional aquifers. The attributes tracked by CWiMI were, the vertical distance $\mathit{d}$ between aquifer and coal, the amount of water in the aquifer and the ability of hydraulic conductivity $\mathit{K}$. 
 
+Normalisation of hydrological risk to an aquifer $\mathit{R}_{\mathit{a}}$ was done by relating the coal seam $\mathit{c}$ and aquifer $\mathit{a}$, with the following formula: 
 
+$$ \begin{aligned}
+     \mathit{R}_{\mathit{a}} =  [ ( \phi  \times \mathit{T})_{\mathit{c}}  \times \mathit{K}_{\mathit{c}} \times \mathit{C}] \times [(\phi \times \mathit{T})_{\mathit{a}} \times \mathit{K}_{\mathit{a}} \times (1/\mathit{d})^{2} ] \times \mathit{h} \times \mathit{F} \\
+   \end{aligned}
+$$ {#eq:aquifer_normalised_risk}
 
-### Requirements - LUTO
+In addition, DNRM Activity-5 identified 7 attributes for tracking risk factors; Drawdown, Gas migration potential, Geological pathways (formation overlap and orientation), Wellbore pathways (bore depth and age), Aquifer storage (available head), Groundwater users (bore density, allocation volumes and purpose),  Spring conservation, location rankings and source aquifer. 
 
-
-| level | requirement                        | met by |    
-|------|:---------------------------------| ------------------|
-| 3    | Able to track land use  | `schema: land` |
-
-
-
-## Hazards - Attributes and for Risk Factors
-
-DNRM Activity-5 used the Australian / New Zealand Standard for Risk Management [@standards_australia_australian_2004] and identified 7 attributes for tracking risk factors; Drawdown, Gas migration potential, Geological pathways (formation overlap and orientation), Wellbore pathways (bore depth and age), Aquifer storage (available head), Groundwater users (bore density, allocation volumes and purpose),  Spring conservation, location rankings and source aquifer. 
-
-
-
-### Requirements - Hazards
+### Requirements - AR
 
 | level | requirement                        | met by |    
 |------|:---------------------------------| ------------------|
-| 3    | Water use intensity ranking values |   |
 | 3    | Able to store and track risk factor attributes |  `schema: risk`  |
 | 3    | Able to store and track sources, receptors & hazard impacts |  `schema: risk`  |
+| 3    | Able to store and track aquifer risk |  `schema: risk`  |
 
 ## Enterprise Risk Management - ERM
 
@@ -374,63 +441,15 @@ ERM uses quantitative probabilistic and non-probabilistic techniques with measur
 | 3    | Able to store & track economic capital |  `schema: risk`  |
 | 3    | Able to store & track bore license value |  `schema: risk`  |
 
-## Hydrological & Systems Engineering Risk (HSRA)
-
-In hydrosystems engineering risk is considered in terms of reliability and failure. A reliability analysis aims to find the time ($\mathit{t}$), when a system is likely to fail. The next step is to introduce and quantify the probability of the risk. Resistance (*r*) and load (*l*) are two central concepts to the definition of risk and reliability in this context. ^[Mays notes that structural engineers might be more familiar with the concepts of *strength* and *stress* respectively.] Resistance is defined as the ability of a system component to meet it's designed purpose without failure when subjected to an external load. Load might be a mechanical or other forcing stress [@gregory_b_baecher_risk_2004].
-
-In this context, risk is then defined as the probability of the load exceeding the resistance - the probability of failure. Reliability is the inverse. That is, the probability of the resistance exceeding the load - the probability of survival [@mays_water_2010, p.387]. Where $\mathit{r}$ = resistance and $\mathit{l}$ = load, reliability ( $\mathit{R}$ ) is then defined as: 
-
-$$ 
-\mathit{R} = \mathit{P}( \mathit{r} > \mathit{l} ) = \mathit{P}( \mathit{r} - \mathit{l} > 0 ) 
-$$ \eqref{eq:probability}
-
-And risk $\mathit{ \bar{R} }$, is then defined as:
-
-$$ 
-    \mathit{\bar{R}} = 1 - \mathit{R} 
-$$ \eqref{eq:reliability}
-
-The principal methods of risk assessment are failure modes and effects analysis (FMEA), event tree analysis (ETA) and  fault tree analysis (FTA) [@nasa_systems_2007, @stamatelatos_fault_2002, @stamatelatos_probabilistic_2011, @gregory_b_baecher_risk_2004, @goodarzi_introduction_2013, @mays_water_2010].
-
-### Failure modes, effects and criticality analysis
-
-### Event Tree Analysis
-
-### Fault Tree Analysis
-
-Fault tree analysis is typically undertaken using Boolean logic to generate a probability of failure of a system. As a high level introduction to FTA, Stamatelatos et al depict the interrelationship of eight steps involved in FTA through the following non-linear diagram [@stamatelatos_fault_2002]. The top event defines the failure mode of the system that will be analyzed, for example, benign shut-down of an engine.
-
-![@stamatelatos_fault_2002 Fig.3.1](FTA.jpg)
-
-Tartakovsky suggested that FTA could be applied to groundwater by relating the occurrence of the system failure to the failures of its constitutive parts (see figure below). Examples being, aquifer contamination, the occurrence of a spill, or the failure of a remediation effort [@tartakovsky_probabilistic_2007].
-
-![Fault tree for a possible aquifer contamination. @tartakovsky_probabilistic_2007, Fig.1](tartakovsky_FTA_2007.jpg)
- 
-
-
-### Requirements - HRA
-
-| level | requirement                        | met by |    
-|------|:---------------------------------| ------------------|
-| 3    | Able to store & track resistance & load |  `schema: risk`  |
-| 3    | Able to store & track Residual Risk |  `schema: risk`  |
-| 3    | Able to store & track Risk response |  `schema: risk`  |
-| 3    | Able to store & track probabilistic variables |  `schema: risk`  |
-| 3    | Able to store & track economic capital |  `schema: risk`  |
-| 3    | Able to store & track bore license value |  `schema: risk`  |
-
-
 # System Engineering
 
-## Scope
+## Engineering Scope
 
-Fergusson's figure given above can be used to depict the main scope for the systems engineering effort.
+In reviewing the level 1-3 system requirements, it appears that there are a number of different world views which tend to reflect the interests of different stakeholders. In terms of Systems Engineering, requirements are usually generated from a user. However in the case of the literature above, authors did not typically frame the discussion in terms of user requirements, but in terms of stakeholder interests, compliance risks and Social License to Operate. 
 
-![Research Scope](research_scope.jpg)
+If a 'user' is understood as a stakeholder, then the stakeholder requirements above can be defined as user requirements. However this alignment itself creates another requirement concerning the issue of how to manage users in terms of public and private permissions. 
 
-As shown, both data capture and visualisation define the scope. Within this scope five  different users classes (or stakeholder types) can be identified:
-
-**Stakeholder Types**
+**User Roles**
 
 * Regulator
 * Proponent/Lease holder
@@ -438,9 +457,7 @@ As shown, both data capture and visualisation define the scope. Within this scop
 * Landholder
 * Public
 
-Service providers can be understood as companies or individuals that provide field or laboratory data to a stakeholder (proponent, regulator, landholder, etc). Regulators can be at any level of governance, local, State, federal. These different user classes are defined within the system by permissions to see, enter and edit data. 
-
-These permissions have not been identified in any of the requirements generated above. The process of identifying appropriate permissions may be accommodated either through a consultative process with the different stakeholders, or engineered into a high-level administrative user class who is able to define permissions for all stakeholders dynamically.
+Service providers can be understood as companies or individuals that provide field or laboratory data to a stakeholder (proponent, regulator, landholder, etc). Regulators can be at any level of governance, local, State, federal. These different user classes are defined within the system by permissions to see, enter and edit data. These permissions have not been identified in any of the requirements generated above. The process of identifying appropriate permissions may be accommodated either through a consultative process with the different stakeholders, or engineered into a high-level administrative user class who is able to define permissions for all stakeholders dynamically.
 
 ## Work Breakdown Structure (WBS)
 
@@ -448,64 +465,17 @@ In identifying the requirement for a risk governance system above the next quest
 
 This type of approach makes for a different concept of Work Breakdown Structure (WBS) as a means of organizing system development [@lightsey_systems_2001, p.85]. Typically the WBS is used to define the total system, to display it as a product-oriented family tree composed of hardware and software. Until relatively recently, data planning part of the WBS was conducted under the assumption of an RDBS (relational database management system), with a desktop-server model of deployment. This required careful planning of data model, schemas, fields and validation requirements. 
 
-If such a WBS procedure was undertaken by a business consultant it could typically culminate in a data dictionary as the deliverable product. In the case of CSG in Queensland, the deliverables were a data dictionary and database file format for transferring data to the regulator [@dnrm_storing_2015].^[These formed the backbone of the data capture element of the policy framework for establishing baselines.]
+If such a WBS procedure was undertaken by a business consultant it could typically culminate in a data dictionary as the deliverable product. In the case of CSG in Queensland, the deliverables were a data dictionary and database file format for transferring data to the regulator [@dnrm_storing_2015].^[These formed the backbone of the data capture element of the policy framework for establishing baselines.] However when considering the requirements for a risk governance system the tasks of integrating unstructured data with ARM and multiple data models of legacy vendor-systems, provides for a novel engineering concept that is more reactive by design, accommodating data unstructured by any particular legacy data model.
 
-A risk governance system is a complex system, however the requirements for integrating ARM and multiple data models of legacy vendor-systems, as noted above, provide for a novel engineering concept that is more reactive by design, accommodating data unstructured by any particular legacy data model.
-
-In reactive engineering, changes in data requirements will automatically propagate throughout the User Interface [@czaplicki_asynchronous_2013, @wikipedia_reactive_2015, @facebook_javascript_2015]. When the the product has emergent data and UI requirements built into the design the traditional WBS isn't necessarily a good fit for the development method. 
-
-Hence as Shin and Kim observe, the challenge now is how to migrate data from the legacy RDBMS systems to NoSQL systems but also adapting software applications to communicate properly with the new database model [@shin_utilization_2015]. In some cases this will not be possible due to the age of the legacy systems, and in this context new typically web-based technologies can meet these requirements. In particular, NoSQL, Bigdata systems, like MongoDB, and data-driven scripting solutions such as fastn.js (a local software solution produced in Queensland). These technologies have sufficient flexibility so as to be able to accommodate further requirements for monitoring both technical risk and SLOR. 
+Hence as Shin and Kim observe, the challenge now is how to migrate data from the legacy RDBMS systems to NoSQL systems but also adapting software applications to communicate properly with the new database model [@shin_utilization_2015]. In some cases this will not be possible due to the age of the legacy systems, and in this context new typically web-based technologies can meet these requirements. In particular, NoSQL, Bigdata systems, like MongoDB, and data-driven scripting solutions such as fastn.js (a local software solution produced in Queensland). These technologies have sufficient flexibility so as to be able to accommodate further requirements for monitoring technical risk. 
 
 To accommodate the requirement for migrating from a RDBMS data mode to a NoSQL system, Shin and Kim produced a NoSQLayer to perform all data migration [@shin_utilization_2015]. Whilst this is appropriate for a 1..1 migration (1 data model to 1 NoSQL system), the migration becomes more complex when it is an n..1 migration. That is there are many database models to be migrated to one NoSQL system. This is the case with the regulatory environment in QLD regarding CSG data. As a result, translation and meta-translation layers are required for model-matching and translation-matching. In this thesis this is explored with the benefit of recently developments in server-side javaScript (Node.js).
 
+In reactive engineering, changes in data requirements will automatically propagate throughout the User Interface [@czaplicki_asynchronous_2013, @wikipedia_reactive_2015, @facebook_javascript_2015]. When the the product has emergent data and UI requirements built into the design the traditional WBS isn't necessarily a good fit for the development method. This thesis addresses the same problem, however it is more complex given the additional requirement for a meta-translation between data models of the legacy systems. The prospect of these systems is that they are both flexible, but don't require the same level of resources that were required by the legacy systems in order to produce a system that meets user requirements.
 
-, the entire structure of the original database is maintained and being all data stored as a NoSQL model.
+### Industry experience^[The author has had the privilege to have work with one of the Queensland CSG companies where he acted as a technical database expert. From those experiences the following technical observations are made.]
 
-This thesis addresses the same problem, however it is more complex given the additional requirement for a meta-translation between data models of the legacy systems.
-
-The promise of these systems is that they are both flexible, but don't require the same level of resources that were required by the legacy systems in order to produce a system that meets user requirements.
-
-### Requirements - WBS
-
-|level | requirement                        | met by |    
-|------|:---------------------------------| ------------------|
-| 3    | Able to accommodate multiple data models and large (big-data) datasets | NoSQL application |
-| 3    | Able to accommodate emergent requirements from ARM  | NoSQL application |
-| 1    | Data-driven reactive user interface   | data-driven ui scripting library (fastn.js/Angular.js/reactive.js) |
-
-## Data planning and collection for unstructured data ^[The author has had the privilege to have work with one of the Queensland CSG companies where he acted as a technical database expert. From those experiences the following technical observations are made.]
-
-### Industry experience
-
-In a number of industry-based community of experts meetings, the CSG database technicians met to discuss and identify difficulties that were common amongst all of the CSG proponents. These ranged from the actual data transfer technology (Dropbox/DVD/etc.), novel water quality parameter names and data standards. Without going through each company's experience in detail, in general it can be said that whilst legacy database technologies work well for relational data, the data compliance requirements for Coal Seam Gas proponents typically need to capture large amounts of unstructured data from the field that is not only associated with water data but with environmental compliance also.
-
-the inflexibility of data models becomes a con with 
-unstructured data and large data sets.
-
-
-
-The research project was directly motivated from these experiences, with the aim to evaluate new technologies in their capacity to meet the technical requirements, social license to operate and environmental compliance obligations in the Unconventional Energy Industry.
-
-Other issues faced during the author's industry experience were around off line data capture from forms in remote locations. Data from different laboratories, along with the visualisation of risk.
-
-Typically the types of database applications available for a CSG company to accommodate groundwater data requirements are off-the-shelf systems which use a variety of relational databases. 
-
-The requirements for handling unstructured data and massive storage have shown limitations to the traditional relational database models. These are the types of documents which are required in the Unconventional Energy Industry, to capture:
-
-the inflexibility, technical limitations, are costly and time consuming to enhance, making them ill-equipped to meet the emergent requirements of the Unconventional Energy production sector. Emergent database requirements tend to be the norm rather than the exception in unconventional energy contexts. 
-
-The legacy systems don't have the requisite variety in their ability to store data required for compliance purposes. This problem is not unique to unconventional energy production and has also been observed in a disaster management context. As Shin and Kim note, NoSQL systems have been designed to meet this business needs to accommodate very large unstructured data sets [@shin_utilization_2015]. Again, during the author's employment within the CSG industry, the ICT team, along with the author, identified several emerging NoSQL technologies which appeared to satisfy the technical solutions for the problems noted above. Among these technologies were MongoDB, and Hadoop.
-
-
-The research scope for this project has been identified through three  domains: 
-
-* Hazard or risk
-* Data capture
-* Communication (identified through professional experience)
-
-Within these domains the author has direct industry experience with data capture and communication and these experiences are used to 
-
-With respects to the data planning phase depicted in Fergusson et al, for water resources data and CSG and unconventional energy production, the main planning strategy used by the regulator was for the regulator to make a compliance requirement for the collection of data. As noted by [@qwc_underground_2012], CSG proponents were deemed responsible for implementing various components of the WMS, such as; 
+As noted by [@qwc_underground_2012], CSG proponents were deemed responsible for implementing various components of the WMS, such as; 
 
 * overseeing the collection of data in the field and laboratory
 * either by contractors or in-house
@@ -517,23 +487,30 @@ This model had challenges in meeting many of the higher level requirements noted
 * not limiting data operations to jurisdiction
 * adding new and unstructured data elements to the applications data model
 
-The requirement for capturing unstructured data is a challenge that has been met by recent database technologies. Unstructured data is data that does not have a pre-defined data model. This is typically referred to emergent data requirements. It is typically text-heavy, but may contain data such as dates, numbers, and facts as well. In fact, many of the legacy, vendor-based water database applications were not designed to accommodate the data requirements and needed enhancements typically in the range of $100,000-300,000, not including installation.
+The requirement for capturing unstructured data is a challenge that has been met by recent database technologies. Unstructured data is data that does not have a pre-defined data model. This is typically referred to emergent data requirements. It is typically text-heavy, but may contain data such as dates, numbers, and facts as well. In fact, many of the legacy, vendor-based water database applications were not designed to accommodate the data requirements and needed enhancements typically in the range of $100-300k, not including installation or administration staff salaries which can be in the order of $100-200k annually.
+
+In a number of industry-based community of experts meetings, the CSG database technicians met to discuss and identify difficulties that were common amongst all of the CSG proponents. These ranged from the actual data transfer technology (Dropbox/DVD/etc.), novel water quality parameter names and data standards. Without going through each company's experience in detail, in general it can be said that whilst legacy database technologies work well for relational data, the data compliance requirements for Coal Seam Gas proponents typically need to capture large amounts of unstructured data from the field that is not only associated with water data but with environmental compliance also.
+
+The current research project was directly motivated from these experiences, with the aim to evaluate new technologies in their capacity to meet the technical requirements, social license to operate and environmental compliance obligations in the Unconventional Energy Industry. Other issues faced during the author's industry experience were around off line data capture from forms in remote locations. Data from different laboratories, along with the visualisation of risk.
+
+Typically the types of database applications available for a CSG company to accommodate groundwater data requirements are off-the-shelf systems which use a variety of relational databases. The requirements for handling unstructured data and massive storage have shown limitations to the traditional vendor-based relational database models. They have inflexibility, technical limitations, are costly and time consuming to enhance, making them ill-equipped to meet the emergent requirements of the Unconventional Energy production sector. Emergent database requirements tend to be the norm rather than the exception in unconventional energy contexts. 
+
+The legacy systems don't have the requisite variety in their ability to store data required for compliance purposes. This problem is not unique to unconventional energy production and has also been observed in a disaster management context. As Shin and Kim note, NoSQL systems have been designed to meet this business needs to accommodate very large unstructured data sets [@shin_utilization_2015]. Again, during the author's employment within the CSG industry, the ICT team, along with the author, identified several emerging NoSQL technologies which appeared to satisfy the technical solutions for the problems noted above (among these technologies were MongoDB, and Hadoop).
 
 In addition to the basic regulatory requirements to transfer and collect data, companies themselves had internal requirements to create internal reporting and monitoring tools which could help in the operational matters and in communicating with stakeholders. 
 
-In particular, a company may have interest to estimate the NPV of an unconventional resource in the context of a high-risk operating environment with potential for revocation of social license through impacts on the livelihoods of local communities, or through compliance risks and impacts on the environment. These types of risks typically cross several departments within a company making customised database integration a key, but costly exercise. It was found that the legacy system, whilst flexible and powerful, was unable to meet all of the company's requirements. 
+In particular, a company may have interest in using risk data from groundwater and environmental compliance in their ERM. These types of risks typically cross several departments within a company making customised database integration a key, but costly exercise. From industry experience it was found that the legacy system, whilst flexible and powerful, were unable to meet all of the company's and regulators requirements. 
 
-During the author's employment a legacy data system was used in the attempt to meet the regulatory requirements to capture and transfer baseline, and on-going water monitoring data to the regulator. The system was not designed with the flexibility to accommodate the unstructured data requirements, and several issues emerged which made integration between other internal systems a complex and costly project. 
-
-
-### Requirements - Data capture
+### Requirements - WBS
 
 |level | requirement                        | met by |    
 |------|:---------------------------------| ------------------|
+| 3    | Able to store and track user permissions | `schema: user` |
+| 3    | Able to accommodate multiple data models and large (big-data) datasets | NoSQL translation layer |
+| 1    | Able to accommodate emergent requirements from ARM  | NoSQL application |
+| 1    | Data-driven reactive user interface   | data-driven ui scripting library (fastn.js/Angular.js/reactive.js) |
 | 1    | Able to add unstructured data on add-hoc basis | NoSQL application |
 | 1    | Data transfer not limited to jurisdiction | cloud-based web application |
-
-
 
 ## Risk Visualisation and Communication (RVC)
 
@@ -555,23 +532,17 @@ high levels of transparency for the maintenance of "reliable, complete, current 
 
 # Conclusion
 
-In reviewing the literature to generate system requirements, it appears that there are a number of different world views which might be loosely associated with different schemas. These world views tend to reflect the interests of different stakeholders. 
-
-In terms of Systems Engineering, requirements are usually generated from a user. However in the case of the literature above, authors did not typically frame the discussion in terms of user requirements, but in terms of stakeholder interests. If the user is understood as a stakeholder, then the stakeholder requirements above can be defined as user requirements. However, as addressed in the systems engineering section below, this alignment itself creates another requirement concerning the issue of how to manage users. 
-
-This literature review aimed to gather requirements for a system of risk Governance by addressing current literature and methods of risk analysis and governance. At a high level it can be said that there are a large and complex number of requirements. The requirements are varied and dynamic such that they change over time with emergent requirements generated as new information and data is collected and new questions are generated.
+This literature review aimed to gather requirements for a system of risk Governance by addressing current literature and methods of risk analysis and governance. At a high level it can be said that there are a large and complex number of requirements, and these requirements are varied and dynamic such that they change over time with emergent requirements generated as new information and data is collected and new questions generated.
 
 That the dynamic nature of social license to operate and perceived risk, seems to mean that risk governance is not a "one-shot" assessment system. This is to say that one cannot just do an expert "risk assessment", and then expect operations to have achieved an on-going social licence for an operational life-cycle, or to have achieved environmental compliance. 
 
-Rather, at any point in the life-cycle of an operation, social licence can be withdrawn regardless of an initial risk impact assessment. Hence, risk needs to be an on-going monitoring mechanism. This seems to generate a requirement for conceiving risks as time-series parameters, with assessment and monitoring over time. 
+Rather, at any point in the life-cycle of an operation, social licence can be withdrawn regardless of an initial risk impact assessment. Hence, risk needs to be an on-going monitoring mechanism. This seems to generate a requirement for conceiving risks as time-series parameters, with assessment and monitoring over time.  
 
-As noted above, industry experience shows that few pre-existing vendor-based legacy systems meet all data requirements. However BigData, along with NoSQL technologies are well-positioned to be able to meet the requirement of accommodating unstructured data, together with data transfer requirements from the regulators in the form of pre-existing data dictionaries, pre-existing data models of vendor-based legacy systems, and the requirement for a dynamic data-model which is responsive to changing requirements. 
+As noted above, industry experience shows that few pre-existing vendor-based andlegacy systems do not meet all data requirements for a holistic notion of risk governance which covers all areas and approaches which are applicable to UE risk. This raises an engineering question captured under the phrase 'migrate or integrate'.
 
-Perhaps final question is around off-line data entry for a mobile workforce together with data-driven UIs which can meet a dynamic and immediate release cycle at low or no cost. This is rather than be constrained to a pre-existing data model or costly release cycle from legacy systems. 
+BigData, along with NoSQL technologies are well-positioned to be able to meet the requirement for accommodating unstructured data, together with data transfer requirements from the regulators in the form of pre-existing data dictionaries, pre-existing data models and the requirement for a dynamic data-model which is responsive to changing requirements. 
 
-This notion of risk as a time-series parameter, entails that the parameter itself can be perceived and interpreted which may raise other risks and misinterpretations, however the absence of the parameter. From this conception of risk, the requirement for a visualisation system can be derived, and the development of such a tracking system is the focus of the research component of this PhD project.
-
-In summary, level 1-3 requirements were derived from the cited literature. It is anticipated that further decomposition into level 4-5 requirements will be undertaken in subsequent research, together with research into novel data-driven UI, and interfacing such with dynamic data models.
+However future work will not only be to synthesis and uniquify high level requirements to eliminate duplication, and then decompose the unique requirement set into technical, level 4 and level 5 requirements, but also to determin the stratgey for a hole-of-system solution.
  
 # References
 

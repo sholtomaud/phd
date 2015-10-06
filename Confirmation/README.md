@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "School of Earth Sciences Confirmation Document"
-date:   2015-03-10 13:12:00
+title:  "Sustainable Minerals Institute Confirmation Document"
+date:   2015-10-10 
 author: Sholto Maud
 
 output: 
@@ -12,9 +12,11 @@ output:
 #### Candidate's name
 Mr Sholto Maud
 
-#### Advisors 
+#### Supervisors 
 Professor Sue Vink
 Professor Jim Underschulz
+
+#### Advisors 
 Professor Tina Hunter
 
 #### Student number: 
@@ -24,19 +26,23 @@ Professor Tina Hunter
 #### FOR Code: 
 
 ### Project title
-#### Visualisation of Groundwater Risk for Unconventional Energy production   
+#### Data Capture and Visualisation for Unconventional Energy Risk Governance
 
 ### Summary of Project
- A rigorous management framework has been proposed by various NGO, state, commonwealth and industry bodies for the effective management of groundwater risk in unconventional energy production. The study aims to 1) clarify the legislative, calculative and technical requirements for such a system, and 2) undertake a minimal viable product (MVP) development and seek commercial partners to take MVP to production. This will be achieved through review of the legislative, mathematical/engineering and data systems literature together with concurrent code development and collaboration with Government and Corporate entities. The concurrent code development will employ the reactive responsive development philosophy which has been enabled with new data technologies.
+NGO, State, National, Commonwealth and industry bodies have proposed different components of a management framework aiming to effectively govern risks in unconventional energy production. This study aims to 1) clarify the legislative, calculative and technical requirements for such a system, and 2) investigate new technologies which may reduce the cost and time-to-market to meet such requirements. To this extent, the goal is to develop a minimal viable product (MVP) meeting the requirements identified in 1). This will be achieved through review of the legislative, mathematical/engineering and data systems literature together with concurrent code development and collaboration with Government and Corporate entities. The concurrent code development will employ the reactive responsive development philosophy, and the requirements and legislative review will be taken under a broader concept of 'Risk Governance'.
 
 ### Economic, environmental and/or social benefits
 
-Perhaps the most significant, non-operational issue faced by any large-scale unconventional energy production are those of social and political license. To be seen to be doing the right thing. However it is also a matter of actually doing the right thing, and being able to manage any issues which may occur when an accident happens. The overlaps here are between effective governance, effective management and effective communication of risks, risk mitigations and make good activities. This process involves collecting a large amount of data on the operational activities, and any impacts of those activities. Data systems are an inevitable component of such a management framework, and today, web-maps and charts are perhaps the most easy way to communicate data. The project aims to integrate all these stakeholders in a way which enables effective communication through maps and charts, thereby mitigating risks, and the economic consequences of such risks should an impairment occur. The intention is that all stakeholders will no-long be flying blind due to failures in data models in the industry.
+The main potential benefits identified with this project are A) cost reductions, B) communicative transparency, and C) effective governance.  
 
+A) In identifying recent and emerging technology, it is anticipated that a data capture and visualisation system can be developed and maintained at minimal costs (potentially orders of magnitude) and greater functionality with less time-to-market compared to alternative technology and development models.  
+B) Perhaps the most significant, non-operational issue faced by any large-scale unconventional energy production are those of social and political license. "To be seen to be doing the right thing" regarding obligations to the community and environment. By capturing stakeholder requirements, the proposed data system aims to enable stakeholders to see what is being done.
+
+C) Effective risk governance is not just a matter of perception, but also a matter of actually doing the right thing, and being able to manage any issues which may occur when an accident or failure happens. Hence the data system aims to increase the ability to effectively govern, but also investigate the question of what effective risk governance is for stakeholders, and integrate this back into the system.
 
 # Keywords
 
-Groundwater, Risk, Platform, Coal seam water, Coal seam gas
+Groundwater, Risk, Platform, Coal seam water, Coal seam gas, Unconventional Energy 
 
 # Project Outcomes
 
@@ -44,27 +50,31 @@ Groundwater, Risk, Platform, Coal seam water, Coal seam gas
 
 There are two high level project outcomes targeted. 
 
-1. Risk Governance Methodological Innovation 
-2. Technical Innovation in using bigdata and webservice technologies for data analysis and presentation 
+1. Effective Risk Governance Innovation 
+2. Investigate whether technical innovation can be made using bigdata technologies for data capture, analysis and visualisation 
 
-These are broken down into more specific project goals below, however it is planned to undertake the thesis by letters, so each chapter will be a discrete article adressing aspects of the low-level goals.
+These high level outcomes are broken down into more specific project goals below, however it is planned to undertake the thesis by letters, so each chapter will be a discrete article addressing aspects of the low-level goals.
 
 ### Low Level Goals
 
-```
-* A method for integrating uncertainty into groundwater risk assessment 
-* A method for turning risk & reliability into timeseries, with associated concept of dynamic risk 
-* A method for assessing 'risk density'
+#### Methodological Goals
+
+In order to meet the objectives noted above, it is anticipated that the thesis will involved the investigation of novel methodologies. Whilst the target area is initially limited to Groundwater Level, it is anticipated that any innovations might be generalised.
 
 ```
+* A method for turning risk & reliability into time series
+* A method for forecasting potential impacts
+* A method for evaluating effectiveness of risk governance
+```
+
+#### Technical Goals
 
 Notwithstanding any emergent gaps or requirements emanating from the technical review, the technical goals are:
 
 ```
-* BigData (MongoDB) integration of different data models of Hydstra & GWDB together with WQ data
-* Mobile app forms for data acquisition
-* Visualisation and analysis with D3.js and GeoJSON-like technologies.
-
+* Technology for integration of different data models, Hydstra & GWDB, Equis etc., into a cloud-based unstructured BigData system (e.g. MongoDB, Cassandra, etc.)
+* Data capture through desktop and mobile app forms
+* Visualisation and risk data analysis with D3.js and Leaflet.js technologies
 ```
 
 # Plan

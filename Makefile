@@ -19,7 +19,7 @@ prepareDOCX: write
 
 
 
-write: html docx
+write: html docx pdf
 
 docx: 
 	pandoc "./Literature Review/litrev.md" -f markdown -t docx --filter pandoc-eqnos  -s -S --chapters --number-offset 0 --number-sections --table-of-contents --template ./pandoc/template.html  ~/.pandoc/templates/word/document.xml --biblio ./reference/Latest.bib --csl ./reference/chicago-author-date.csl -o "./Literature Review/litrev.docx" --mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
@@ -28,7 +28,8 @@ html:
 	pandoc "./Literature Review/litrev.md" -f markdown -t html --filter pandoc-eqnos -s -S --chapters --number-offset 0 --number-sections --table-of-contents --template ./pandoc/template.html  ~/.pandoc/templates/word/document.xml --biblio ./reference/Latest.bib --csl ./reference/chicago-author-date.csl -o "./Literature Review/litrev.html" --mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML 
 
 pdf:
-	pandoc -f markdown -t pdf -s -S  --biblio ./reference/Library.bib --csl ./reference/chicago-author-date.csl -o "./Literature Review/litrev.pdf"
+	pandoc "./Literature Review/litrev.md" -f markdown -t latex --filter pandoc-eqnos -s -S --chapters --number-offset 0 --number-sections --table-of-contents --biblio ./reference/Latest.bib --csl ./reference/ieee-with-url.csl -o "./Literature Review/litrev.pdf" --mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML 
+	#pandoc -f markdown -t pdf -s -S  --biblio ./reference/autotest.bib --csl ./reference/chicago-author-date.csl -o "./Literature Review/litrev.pdf"
 
 
 	
@@ -37,4 +38,4 @@ cleanup:
 
 
 test: 
-	pandoc -s -S --biblio ./reference/Library.bib --csl ./reference/chicago-author-date.csl -o "./Literature Review/litrev.html"
+	pandoc -s -S --biblio ./reference/autotest.bib --csl ./reference/chicago-author-date.csl -o "./Literature Review/litrev.html"

@@ -1,7 +1,7 @@
-# Big Data Systems for Visualisation Risk Governance
+# Big Data Systems for Visualising Risk Governance
 ### With application to Unconventional Energy Production and Water Resources
 
-Pre-Confirmation Doctoral Canditure by Sholto Maud
+Pre-Confirmation Doctoral Candidature by Sholto Maud
 
 # INTRODUCTION AND CONTEXT
 There are many database models in the water industry, both vendor-based and in-house. These different models provide an integration challenge when aiming to provide higher level services such as risking services. A translation is needed to bring different models them together into one system which can enable risk governance services. 
@@ -91,7 +91,7 @@ X = Due date
 |1 | [Literature Review](chapter1.md) |
 |2 | [Between Risk Assessment and Risk Governance (theoretical article)](chapter2.md) |
 |3 | [Risk Governance Systems in Unconventional Energy](chapter3.md) |
-|4 | [Meta tranlsations: Accomodating multiple data models  with NoSQL db services](chapter4.md) |
+|4 | [Meta translations: Accommodating multiple data models  with NoSQL db services](chapter4.md) |
 |5 | [Technical Solutions to Unconventional Energy & Groundwater Monitoring Risk Governance: Applied Case Study](chapter5.md) |
 |6 | [Conclusions](chapter6.md) |
 
@@ -102,7 +102,7 @@ The following skills will be required for the successful completion of the proje
 * Big Data (MongoDB + Hadoop)
 * Data analysis (R)
 * Node.js/Go
-* Data driven js forms
+* Data driven interfaces
 * DevOps
 
 # BARRIERS TO SUCCESS

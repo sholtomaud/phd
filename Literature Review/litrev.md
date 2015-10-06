@@ -15,7 +15,7 @@ tags:
 
 # Abstract
 
-A review was conducted of literature aimed to gather requirements for a system of risk governance involved with groundwater and Coal Seam Gas operations. The review covers the current concepts and models regarding the governance of risk within Australia, and found that there are many different approaches to risk that are relevant to a governance system. 
+A review was conducted of literature with the aim of gathering requirements for a system of risk governance applied to groundwater and Coal Seam Gas operations. The review covers both current concepts and models regarding the governance of risk within Australia, and also the type of technology and development methods which might be used to accommodate the identified requirements. It was found that there are many different approaches to risk that are relevant to a governance system, increasing the complexity of development and that traditional methods of system development are costly and may not meet requirements.   
 
 # Purpose and Goals
 
@@ -537,6 +537,8 @@ This literature review aimed to gather requirements for a system of risk Governa
 That the dynamic nature of social license to operate and perceived risk, seems to mean that risk governance is not a "one-shot" assessment system. This is to say that one cannot just do an expert "risk assessment", and then expect operations to have achieved an on-going social licence for an operational life-cycle, or to have achieved environmental compliance. 
 
 Rather, at any point in the life-cycle of an operation, social licence can be withdrawn regardless of an initial risk impact assessment. Hence, risk needs to be an on-going monitoring mechanism. This seems to generate a requirement for conceiving risks as time-series parameters, with assessment and monitoring over time.  
+
+<!-- It was found that there are many different approaches to risk that are relevant to a governance system, increasing the complexity of development and that traditional methods of system development are costly and may not meet requirements. -->
 
 As noted above, industry experience shows that few pre-existing vendor-based and legacy systems do not meet all data requirements for a holistic notion of risk governance which covers all areas and approaches which are applicable to UE risk. This raises an engineering question captured under the phrase 'migrate or integrate'.
 

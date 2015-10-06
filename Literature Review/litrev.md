@@ -54,6 +54,27 @@ In subsurface hydrology, Tartakovsky claims that probabilistic risk analysis (PR
 
 The need for CSG to operate in an unconventional context has brought renewed focus on issues relating to risk governance. Underlying the concept of risk governance is the recognition that, in it's totality, risk management and assessment is not limited to any one entity. Rather, risk operates in the context of plural values and distributed authority, requiring the collaboration of, and co-ordination between, a range of different stakeholders [@renn_global_2008, @irgc_introduction_2012]. Control of hydraulic fracturing is an example. It occurs across multiple jurisdictions, where tenements don't necessarily align with natural hyrdo-environmental boundaries [@campin_environmental_2015, table 11]. 
 
+
+## Types of Risk
+
+In the context of Oil and Gas production, Barker et al [@barker et al_assessing_1998], distinguish between two high level risk types: technical and non-technical risks. 
+
+#### Technical Risk
+
+Technical risks are identified as those such reservoir porosity and permeability which directly impact production. 
+
+#### Non-technical Risk - SH&E
+Non-technical risks are defined as safety, health and environmental (SH&E) risks which indirectly impact production. 
+
+Barker et al identify total SH&E risk and the total costs to mitigate these as issues of concern to a proponent [@barker et al_assessing_1998]. They identify a model which allows  users to enter a range of estimated dollar costs to mitigate the risks across different SH&E categories [@barker et al_assessing_1998]. The mitigation costs for each category are then summed to calculate the total cost value, which can be plotted as cumulative frequency plots as a SH&E risk portfolio.
+
+#### Percieved Risk
+
+Until recently these risks would typically be managed in-house, within a corporate entity according to relevant regulatory standards. 
+
+
+
+
 biogeochemical processes .  would have an effect on a wide range of ecosystem services, including climate regulation, food and raw material production, soil formation, water supply and flood control.   
 
 
@@ -207,7 +228,7 @@ The concept of "riskiness", however, is an exception to this methodology, and wh
 
 ## Perceived Riskiness and Social License to Operate - SLO
 
-The notion of perceived riskiness (which is also called non-technical risk) has led to the concept of Social License to Operate (SLO) [@williams_social_2013, @gunningham_social_2004, @moffat_paths_2014]. SLO is the proposition that a society of stakeholders is able to grant or withdraw support for a company and its operations, and this in turn can present a significant risk to both companies, governments and community stakeholders. Research conducted by Siegrist et al [-@siegrist_trust_2012] found a positive relationship between procedural fairness and public acceptance, and this has also been identified as critical to enabling trust [@turner_social_1991]. To quantify trust, Moffat and Zhang identify six key variables: Contact quantity, Contact quality, Procedural fairness, Social infrastructure impact, Trust and Acceptance [@moffat_paths_2014].^[They hypothesized that trust is a critical pathway for the acceptance of an operation. In this hypothesis is contained a further corollary that procedures perceived as fair and contact that contains a forum in which concerns can be voiced, will enhance trust, thereby reducing the risk of a SLO withdrawal [@moffat_paths_2014]].
+The notion of perceived riskiness has led to the concept of Social License to Operate (SLO) [@williams_social_2013, @gunningham_social_2004, @moffat_paths_2014]. SLO is the proposition that a society of stakeholders is able to grant or withdraw support for a company and its operations, and this in turn can present a significant risk to both companies, governments and community stakeholders. Research conducted by Siegrist et al [-@siegrist_trust_2012] found a positive relationship between procedural fairness and public acceptance, and this has also been identified as critical to enabling trust [@turner_social_1991]. To quantify trust, Moffat and Zhang identify six key variables: Contact quantity, Contact quality, Procedural fairness, Social infrastructure impact, Trust and Acceptance [@moffat_paths_2014].^[They hypothesized that trust is a critical pathway for the acceptance of an operation. In this hypothesis is contained a further corollary that procedures perceived as fair and contact that contains a forum in which concerns can be voiced, will enhance trust, thereby reducing the risk of a SLO withdrawal [@moffat_paths_2014]].
 
 Whilst polls at a local council level can be an effective way of evaluating community sentiment or perceptions towards a development such as CSG [@luke_developing_2013], these are typically one-shot mechanisms. Social media today, like facebook and twitter, provide a risk mechanism for assessing social risk  [@williamson_assessing_2015], which some consider has become a primary corporate risk [@pekka_aula_social_2010]. The dynamic nature of sentiment risk in turn makes it able to be tracked as a time series [@oconnor_tweets_2010, @thelwall_sentiment_2014].
 

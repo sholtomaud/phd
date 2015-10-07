@@ -31,20 +31,20 @@ Mr Sholto Maud
 
 # Project title
 
-#### Data Capture, Reporting and Visualisation for Unconventional Energy Risk Governance
+#### BigData Capture, Reporting and Visualisation for Unconventional Energy Risk Governance
 
 # Summary of Project
 
-NGO, State, National, Commonwealth and industry bodies have proposed different components of a management framework aiming to effectively govern risks in unconventional energy production. This study aims to 1) clarify the legislative, calculative and technical requirements for such a system, and 2) investigate new technologies which may reduce the cost and time-to-market to meet such requirements. To this extent, the goal is to develop a minimal viable product (MVP) meeting the requirements identified in 1). This will be achieved through review of the legislative, mathematical/engineering and data systems literature together with concurrent code development and collaboration with Government and Corporate entities. The concurrent code development will employ the reactive responsive development philosophy, and the requirements and legislative review will be taken under a broader concept of 'Risk Governance'.
+NGO, State, National, Commonwealth and industry bodies have proposed different components of a management framework aiming to effectively govern risks in unconventional energy production. This project aims to 1) clarify the legislative, calculative and technical requirements for such a system, and 2) investigate new technologies which may reduce the cost and time-to-market to meet such requirements. To this extent, the goal is to develop a minimal viable product (MVP) meeting the requirements identified in 1). This will be achieved through review of the legislative, mathematical/engineering and data systems literature together with concurrent code development and collaboration with Government and Corporate entities. The concurrent code development will employ the reactive responsive development philosophy, and the requirements and legislative review will be taken under a broader concept of 'Risk Governance'.
 
 # Economic, environmental and/or social benefits
 
 The main potential benefits identified with this project are A) cost reductions, B) communicative transparency, and C) effective governance.  
 
-A) In identifying recent and emerging technology, it is anticipated that a data capture and visualisation system can be developed and maintained at minimal costs (potentially orders of magnitude) and greater functionality with less time-to-market compared to alternative technology and development models.  
-B) Perhaps the most significant, non-operational issue faced by any large-scale unconventional energy production are those of social and political license. "To be seen to be doing the right thing" regarding obligations to the community and environment. By capturing stakeholder requirements, the proposed data system aims to increase transparency for stakeholders so they can see what is being done.
+A. In identifying recent and emerging technology, it is anticipated that a data capture and visualisation system can be developed and maintained at minimal costs (potentially orders of magnitude) and greater functionality with less time-to-market compared to alternative technology and development models.  
+B. Perhaps the most significant, non-operational issue faced by any large-scale unconventional energy production are those of social and political license. "To be seen to be doing the right thing" regarding obligations to the community and environment. By capturing stakeholder requirements, the proposed data system aims to increase transparency for stakeholders so they can see what is being done.
 
-C) Effective risk governance is not just a matter of perception, but also a matter of actually doing the right thing, and being able to manage any issues which may occur when an accident or failure happens. Hence the data system aims to increase the ability to govern effectively. The research will therefore investigate the question of how effective risk governance is measured and assessed by stakeholders, and integrate this back into the system.
+C. Effective risk governance is not just a matter of perception, but also a matter of actually doing the right thing, and being able to manage any issues which may occur when an accident or failure happens. Hence the data system aims to increase the ability to govern effectively. The research will therefore investigate the question of how effective risk governance is measured and assessed by stakeholders, and integrate this back into the system.
 
 # Keywords
 

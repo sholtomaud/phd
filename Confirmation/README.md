@@ -35,16 +35,30 @@ Mr Sholto Maud
 
 # Summary of Project
 
-NGO, State, National, Commonwealth and industry bodies have proposed different components of a management framework aiming to effectively govern risks in unconventional energy production. This project aims to 1) clarify the legislative, calculative and technical requirements for such a system, and 2) investigate new technologies which may reduce the cost and time-to-market to meet such requirements. To this extent, the goal is to develop a minimal viable product (MVP) meeting the requirements identified in 1). This will be achieved through review of the legislative, mathematical/engineering and data systems literature together with concurrent code development and collaboration with Government and Corporate entities. The concurrent code development will employ the reactive responsive development philosophy, and the requirements and legislative review will be taken under a broader concept of 'Risk Governance'.
+Various NGO, State, National, Commonwealth and industry bodies have proposed different components of a management framework aiming to effectively govern risks in unconventional energy production. Under the broad concept of 'Risk Governance', this RhD project aims to 1) clarify the legislative, calculative and technical requirements for such a risk governance system, and 2) investigate new technologies which may reduce the cost and time-to-market to meet such requirements up to the point of a Minimum Viable Product (MVP).  This will be achieved through review of the legislative, mathematical/ engineering and data systems literature together with concurrent code development. It will include collaboration with Government and Corporate entities, employing a reactive development philosophy to respond to changing or emerging requirements.
+
+# Research problem 
+
+1. Many data models and data formats that need to be integrated
+2. Many data, compliance & reporting requirements for Unconventional Energy
+3. Previous approaches costly
+4. Effective Risk Governance compromised by 1-3 
+5. Are there technologies and methods that can help resolve these issues in a costly and timeliness manner?
+
+# Problem resolution
+
+1. Clarify the scope of legislative, calculative and technical requirements for risk governance system that satisfies stakeholder requirements, and 
+2. Investigate new technologies (BigData, NoSQL, Data-driven UIs) which may reduce the cost and time-to-market to meet such requirements up to the point of a Minimum Viable Product (MVP).
 
 # Economic, environmental and/or social benefits
 
-The main potential benefits identified with this project are A) cost reductions, B) communicative transparency, and C) effective governance.  
+The main potential benefits identified with this project are A) cost reductions, B) increases in communicative transparency, and C) improvement in effective governance.  
 
-A. In identifying recent and emerging technology, it is anticipated that a data capture and visualisation system can be developed and maintained at minimal costs (potentially orders of magnitude) and greater functionality with less time-to-market compared to alternative technology and development models.  
-B. Perhaps the most significant, non-operational issue faced by any large-scale unconventional energy production are those of social and political license. "To be seen to be doing the right thing" regarding obligations to the community and environment. By capturing stakeholder requirements, the proposed data system aims to increase transparency for stakeholders so they can see what is being done.
+A. In identifying recent and emerging technology, it is anticipated that a data capture and visualisation system can be developed and maintained at minimal costs (potentially orders of magnitude compared to other approaches) and greater functionality, with less time-to-market compared to alternative technology and development models.
 
-C. Effective risk governance is not just a matter of perception, but also a matter of actually doing the right thing, and being able to manage any issues which may occur when an accident or failure happens. Hence the data system aims to increase the ability to govern effectively. The research will therefore investigate the question of how effective risk governance is measured and assessed by stakeholders, and integrate this back into the system.
+B. One of the most significant, non-operational, issues faced by any large-scale unconventional energy production is that of social and political license. "To be seen to be doing the right thing" regarding obligations to the community and environment. Using a broad definition of "stakeholder" to include public entities, requirements will be captured that aim to increase the transparency for stakeholders so they can see what is being done.
+
+C. Effective risk governance is not just a matter of perceptions, but also a matter of actually doing the right thing, and being able to manage any issues which may occur when an accident or failure happens. Hence the data system aims to increase the ability to govern effectively. The research will therefore investigate the question of how effective risk governance is measured and assessed by stakeholders, and integrate this back into the system.
 
 # Keywords
 

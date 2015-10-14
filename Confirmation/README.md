@@ -31,11 +31,11 @@ Mr Sholto Maud
 
 # Project title
 
-#### BigData Capture, Reporting and Visualisation for Unconventional Energy Risk Governance
+#### Data-driven Systems for Global Risk Governance of Unconventional Energy: Information System Requirements and Development with application to Groundwater Resources
 
 # Summary of Project
 
-Various NGO, State, National, Commonwealth and industry bodies have proposed different components of a management framework aiming to effectively govern risks in unconventional energy production. Under the broad concept of 'Risk Governance', this RhD project aims to 1) clarify the legislative, calculative and technical requirements for such a risk governance system, and 2) investigate new technologies which may reduce the cost and time-to-market to meet such requirements up to the point of a Minimum Viable Product (MVP).  This will be achieved through review of the legislative, mathematical/ engineering and data systems literature together with concurrent code development. It will include collaboration with Government and Corporate entities, employing a reactive development philosophy to respond to changing or emerging requirements.
+In response to the potential hazards posed by unconventional energy production, various NGO, State, National Commonwealth and industry bodies have proposed different components of a management framework aiming to effectively govern the risks. Concerned with the effective management of these hazards, and motivated by the concept of 'Global Risk Governance', this RhD project aims to 1) clarify the information system requirements for such a risk governance system, 2) investigate new technologies which may reduce the development cost and time-to-market for meeting such requirements, and 3) understand the technical effort required by developing a Minimum Viable Product. 
 
 # Research problem 
 

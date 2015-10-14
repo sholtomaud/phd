@@ -11,15 +11,14 @@ parseRequirements: write
 	parse-req $(file)
 
 
-prepareHTML: prepareDOCX
+prepareHTML: write
 	cp -f images/*.* ./
 
 prepareDOCX: write
 	cp -f images/*.* "./Literature Review/"
 
 
-
-write: html docx pdf
+write: html 
 
 docx: 
 	pandoc "./Literature Review/litrev.md" -f markdown -t docx --filter pandoc-eqnos  -s -S --chapters --number-offset 0 --number-sections --table-of-contents --template ./pandoc/template.html  ~/.pandoc/templates/word/document.xml --biblio ./reference/Latest.bib --csl ./reference/chicago-author-date.csl -o "./Literature Review/litrev.docx" --mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
@@ -30,7 +29,6 @@ html:
 pdf:
 	pandoc "./Literature Review/litrev.md" -f markdown -t latex --filter pandoc-eqnos -s -S --chapters --number-offset 0 --number-sections --table-of-contents --biblio ./reference/Latest.bib --csl ./reference/ieee-with-url.csl -o "./Literature Review/litrev.pdf" --mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML 
 	#pandoc -f markdown -t pdf -s -S  --biblio ./reference/autotest.bib --csl ./reference/chicago-author-date.csl -o "./Literature Review/litrev.pdf"
-
 
 	
 cleanup: 

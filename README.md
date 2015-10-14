@@ -1,12 +1,14 @@
-# Data-driven Systems for Global Risk Governance of Unconventional Energy: Information System Requirements and Development with application to Groundwater Resources
+# Data-driven Systems for Global Risk Governance of Unconventional Energy
+
+### Generating Visualisation Information System Requirements and Development with application to Groundwater Resources
 
 #### Doctoral Candidate 
 Mr Sholto Maud
 
-# INTRODUCTION AND CONTEXT
+## Introduction And Context
 There are many database models in the water industry, both vendor-based and in-house. These different models provide an integration challenge when aiming to provide higher level services such as risking services. A translation is needed to bring different models them together into one system which can enable a portfolio of effective risk governance services. 
 
-# AIMS AND OBJECTIVES
+## Aims And Objectives
 The thesis is at the highest level an investigation into both system engineering and system design to accommodate the objective of integrating multiple data models for the purpose of risk governance in the unconventional energy industry.
 
 The aims within this objective is to enable web services for risk governance portfolio for stakeholders. The types of risk under interest are: cumulative, ecoservices, compliance, financial with the potential for expansion. Within the goals the aims are to generate: 
@@ -17,15 +19,15 @@ The aims within this objective is to enable web services for risk governance por
 * Global risk governance portfolio
 * 2D maps for proof of concept demonstration
 
-### Research Question
+## Research Question
 Can we use big data and data-driven interfaces to leverage global risk governance requirements for water and unconventional energy production at reduced cost?
 
-### Hypotheses
+## Hypotheses
 
 * That with NoSQL we can integrate different data models at reduced cost
 * That data-driven interfaces can meet stakeholder requirements more effectively
 
-# RESEARCH PLAN
+## Research Plan
 
 As an investigation into both system engineering and design the research plan will cover both regulatory and information topics and practical tasks of development. Theoretical topics include Risk Assessment and how Assessment relates to Risk Governance in the unconventional energy industry. Practical tasks will involve coding and deployment of Minimum Viable Products. The main methods used in the practical aspect of the plan will be kind of reactive development. 
 
@@ -78,18 +80,7 @@ SC = Successful Completion
 |R2 | Revise from reviewer feedback |
 |F  | Final Submission |
 
-#### List of Chapter Contents
-|Chapter | Title |
-|:---|:--------------------------|
-|0 | [Preface](chapter0.md) |
-|1 | [Literature Review](chapter1.md) |
-|2 | [Translation Systems for the purposes of Risk Governance](./Chapter2/chapter2.md) |
-|3 | [Methodologies of Risk Governance for Unconventional Energy Production: Dynamic risk and the versioning Model](./Chapter3/chapter3.md) |
-|4 | [Meta translations: Accommodating multiple data models with unstructured persistence](./Chapter4/chapter4.md) |
-|5 | [Technical Solutions to Unconventional Energy & Groundwater Monitoring Risk Governance: Applied Case Study](chapter5.md) |
-|6 | [Conclusions](chapter6.md) |
-
-# RESOURCES & SKILLS 
+## Resources & Skills 
 The following skills will be required for the successful completion of the project:
 * NoSQL
 * Understanding of Effective Risk Governance Model
@@ -99,10 +90,20 @@ The following skills will be required for the successful completion of the proje
 * Data driven interfaces
 * DevOps
 
-# BARRIERS TO SUCCESS
+# Barriers To Success
 The main barriers to success will be skill & system development within timelines. Developing techniques for handling non-standardised data formats are significant challenges along with  engagement with Government agencies that are the source of these data model variability. Technical expertise will be developed during the course of the project to accommodated any skill gaps in Node.js and NoSQL systems.
 
-# CONTRIBUTIONS TO KNOWLEDGE (THE TATEMENT OF ORIGINALITY)
+# Contributions To Knowledge (Statement Of Originality)
 
 The project will contribute further understanding around the applicability of unstructured persistence and data-driven interfaces to the regulation of hydrology & hydrogeology. It will establish more specific knowledge around the cost and potential for resource efficiencies that might be obtained in the use of such technologies.
 
+## List of Chapters
+|Chapter | Title |
+|:---|:--------------------------|
+|0 | [Preface](chapter0.md) |
+|1 | [Literature Review](chapter1.md) |
+|2 | [Translation Systems for the purposes of Risk Governance](./Chapter2/chapter2.md) |
+|3 | [Methodologies of Risk Governance for Unconventional Energy Production: Dynamic risk and the versioning Model](./Chapter3/chapter3.md) |
+|4 | [Meta translations: Accommodating multiple data models with unstructured persistence](./Chapter4/chapter4.md) |
+|5 | [Technical Solutions to Unconventional Energy & Groundwater Monitoring Risk Governance: Applied Case Study](chapter5.md) |
+|6 | [Conclusions](chapter6.md) |

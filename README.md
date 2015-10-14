@@ -102,10 +102,10 @@ The project will contribute further understanding around the applicability of un
 ## List of Chapters
 |Chapter | Title |
 |:---|:--------------------------|
-|0 | [Preface](chapter0.md) |
-|1 | [Literature Review](chapter1.md) |
-|2 | [Translation Systems for the purposes of Risk Governance](./Chapter2/chapter2.md) |
-|3 | [Methodologies of Risk Governance for Unconventional Energy Production: Dynamic risk and the versioning Model](./Chapter3/chapter3.md) |
-|4 | [Meta translations: Accommodating multiple data models with unstructured persistence](./Chapter4/chapter4.md) |
-|5 | [Technical Solutions to Unconventional Energy & Groundwater Monitoring Risk Governance: Applied Case Study](chapter5.md) |
-|6 | [Conclusions](chapter6.md) |
+|0 | [Preface](./Chapters/0/chapter.md) |
+|1 | [Literature Review](./Chapters/1/chapter.md) |
+|2 | [Translation Systems for the purposes of Risk Governance](./Chapters/2/chapter.md) |
+|3 | [Methodologies of Risk Governance for Unconventional Energy Production: Dynamic risk and the versioning Model](./Chapters/3/chapter.md) |
+|4 | [Meta translations: Accommodating multiple data models with unstructured persistence](./Chapters/4/chapter4.md) |
+|5 | [Technical Solutions to Unconventional Energy & Groundwater Monitoring Risk Governance: Applied Case Study](./Chapters/5/chapter.md) |
+|6 | [Conclusions](./Chapters/6/chapter.md) |

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Integration Systems for the purposes of Risk Governance"
+title:  "Translation Systems for the purposes of Risk Governance"
 date:   2015-03-10 13:12:00
 author: Sholto Maud
 output: 

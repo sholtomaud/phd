@@ -83,9 +83,9 @@ SC = Successful Completion
 |:---|:--------------------------|
 |0 | [Preface](chapter0.md) |
 |1 | [Literature Review](chapter1.md) |
-|2 | [Between Risk Assessment and Risk Governance (theoretical article)](chapter2.md) |
-|3 | [Risk Governance Systems in Unconventional Energy](chapter3.md) |
-|4 | [Meta translations: Accommodating multiple data models  with NoSQL db services](chapter4.md) |
+|2 | [Translation Systems for the purposes of Risk Governance](./Chapter2/chapter2.md) |
+|3 | [Methodologies of Risk Governance for Unconventional Energy Production: Dynamic risk and the versioning Model](./Chapter3/chapter3.md) |
+|4 | [Meta translations: Accommodating multiple data models with unstructured persistence](./Chapter4/chapter4.md) |
 |5 | [Technical Solutions to Unconventional Energy & Groundwater Monitoring Risk Governance: Applied Case Study](chapter5.md) |
 |6 | [Conclusions](chapter6.md) |
 

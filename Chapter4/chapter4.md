@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Meta translations: Accommodating multiple data models with NoSQL db services"
+title:  "Meta translations: Accommodating multiple data models with unstructured persistence"
 date:   "to appear"
 author: Sholto Maud
 output: 

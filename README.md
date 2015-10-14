@@ -1,9 +1,6 @@
-# Confirmation Document 
-
 ## Title
 
-### BigData and data-driven Systems for Visualising Risk Governance
-#### With application to Unconventional Energy Production and Water Resources
+### Data-driven Systems for Global Risk Governance of Unconventional Energy: Information System Requirements and Development with application to Groundwater Resources
 
 ## Doctoral Candidate 
 
@@ -13,37 +10,28 @@ Mr Sholto Maud
 There are many database models in the water industry, both vendor-based and in-house. These different models provide an integration challenge when aiming to provide higher level services such as risking services. A translation is needed to bring different models them together into one system which can enable risk governance services. 
 
 # RESEARCH QUESTION
-Can we use big data, and data-driven interfaces to leverage risk governance requirements for water and unconventional energy production at reduced cost?
+Can we use big data, and data-driven interfaces to leverage global risk governance requirements for water and unconventional energy production at reduced cost?
 
 #### Hypotheses:
 * That with NoSQL we can integrate different data models at reduced cost
-* That with Node.js we can easily generate data-driven interfaces & risking services
+* That data-driven can met stakeholder-interface requirements more effectively
 
 # AIMS AND OBJECTIVES
 The thesis is at the highest level an investigation into both system engineering and system design to accommodate the objective of integrating multiple data models for the purpose of risk governance in the unconventional energy industry.
-The aims within this objective is to enable web services for risk governance of Capital (eco/water/financial) for legislators, stakeholders and unconventional energy companies. The types of risk under interest are:
-* Cumulative risk
-* Ecoservices risk
-* Legal risk
-* Compliance risk
-* Financial risk
 
-Within the goals under these aims are to generate: 
-* Geopoint services, 2D and 3D, acquiring data from legacy systems
+The aims within this objective is to enable web services for risk governance portfolio for stakeholders. The types of risk under interest are: cumulative, ecoservices, compliance, financial with the potential for expansion. Within the goals the aims are to generate: 
+
+* Geopoint services acquiring data from legacy systems
 * Data models meta-translation service for schema integration
 * Risk acquisition & attribution through forms & calculation services, turning risk into a timeseries
-* Risk governance threshold acquisition and triggers
+* Global risk governance portfolio
 * 2D maps for proof of concept demonstration
 
 # RESEARCH PLAN
 
-As an investigation into both system engineering and design the research plan will cover both theoretical topics, covered in review articles, and practical tasks informed by the theory. 
+As an investigation into both system engineering and design the research plan will cover both regulatory and information topics and practical tasks of development. Theoretical topics include Risk Assessment and how Assessment relates to Risk Governance in the unconventional energy industry. Practical tasks will involve coding and deployment of Minimum Viable Products. The main methods used in the practical aspect of the plan will be kind of reactive development. 
 
-Theoretical topics include Risk Assessment and how Assessment relates to Risk Governance in the unconventional energy industry. This will largely be undertaken through literature review with Gap analysis undertaken to inform the system design for the pratcial, technical component of system engineering.
-
-Practical tasks will involve coding and deployment, requireing best practice in DevOps, Administration and coding BigData, NoSql and meta-translation systems. The main methods used in the practical aspect of the plan are the reactive development method combined with trial and error. The reactive development and trial and error methods are commonplace in various development houses within the I.T. industry providing a viable development program. 
-
-These topics and tasks will be the subject of 5 articles and one literature review, each of which will comprise a chapter in the overall Thesis. Whilst the specific chapter headings and content may be subject to change, the proposed headings, and article titles are signifed with an asterix:
+These topics and tasks will be the subject of 5 articles and one literature review, each of which will comprise a chapter in the overall Thesis. The specific chapter headings and content may be subject to change, but proposed headings, and article titles are designated with an asterisk below:
 
 ## Gantt Chart
 

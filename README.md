@@ -90,10 +90,12 @@ The following skills will be required for the successful completion of the proje
 * Data driven interfaces
 * DevOps
 
-# Barriers To Success
+## Barriers To Success
 The main barriers to success will be skill & system development within timelines. Developing techniques for handling non-standardised data formats are significant challenges along with  engagement with Government agencies that are the source of these data model variability. Technical expertise will be developed during the course of the project to accommodated any skill gaps in Node.js and NoSQL systems.
 
-# Contributions To Knowledge (Statement Of Originality)
+## Contributions To Knowledge 
+
+#### (Statement Of Originality)
 
 The project will contribute further understanding around the applicability of unstructured persistence and data-driven interfaces to the regulation of hydrology & hydrogeology. It will establish more specific knowledge around the cost and potential for resource efficiencies that might be obtained in the use of such technologies.
 

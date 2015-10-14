@@ -1,6 +1,4 @@
-## Title
-
-### Data-driven Systems for Global Risk Governance of Unconventional Energy: Information System Requirements and Development with application to Groundwater Resources
+## Title: Data-driven Systems for Global Risk Governance of Unconventional Energy: Information System Requirements and Development with application to Groundwater Resources
 
 ## Doctoral Candidate 
 

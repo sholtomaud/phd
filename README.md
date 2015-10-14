@@ -1,18 +1,10 @@
-## Title: Data-driven Systems for Global Risk Governance of Unconventional Energy: Information System Requirements and Development with application to Groundwater Resources
+# Data-driven Systems for Global Risk Governance of Unconventional Energy: Information System Requirements and Development with application to Groundwater Resources
 
-## Doctoral Candidate 
-
+#### Doctoral Candidate 
 Mr Sholto Maud
 
 # INTRODUCTION AND CONTEXT
-There are many database models in the water industry, both vendor-based and in-house. These different models provide an integration challenge when aiming to provide higher level services such as risking services. A translation is needed to bring different models them together into one system which can enable risk governance services. 
-
-# RESEARCH QUESTION
-Can we use big data, and data-driven interfaces to leverage global risk governance requirements for water and unconventional energy production at reduced cost?
-
-#### Hypotheses:
-* That with NoSQL we can integrate different data models at reduced cost
-* That data-driven can met stakeholder-interface requirements more effectively
+There are many database models in the water industry, both vendor-based and in-house. These different models provide an integration challenge when aiming to provide higher level services such as risking services. A translation is needed to bring different models them together into one system which can enable a portfolio of effective risk governance services. 
 
 # AIMS AND OBJECTIVES
 The thesis is at the highest level an investigation into both system engineering and system design to accommodate the objective of integrating multiple data models for the purpose of risk governance in the unconventional energy industry.
@@ -24,6 +16,14 @@ The aims within this objective is to enable web services for risk governance por
 * Risk acquisition & attribution through forms & calculation services, turning risk into a timeseries
 * Global risk governance portfolio
 * 2D maps for proof of concept demonstration
+
+### Research Question
+Can we use big data and data-driven interfaces to leverage global risk governance requirements for water and unconventional energy production at reduced cost?
+
+### Hypotheses
+
+* That with NoSQL we can integrate different data models at reduced cost
+* That data-driven interfaces can meet stakeholder requirements more effectively
 
 # RESEARCH PLAN
 
@@ -102,9 +102,7 @@ The following skills will be required for the successful completion of the proje
 # BARRIERS TO SUCCESS
 The main barriers to success will be skill & system development within timelines. Developing techniques for handling non-standardised data formats are significant challenges along with  engagement with Government agencies that are the source of these data model variability. Technical expertise will be developed during the course of the project to accommodated any skill gaps in Node.js and NoSQL systems.
 
-# CONTRIBUTIONS TO KNOWLEDGE (THE STATEMENT OF ORIGINALITY)
+# CONTRIBUTIONS TO KNOWLEDGE (THE TATEMENT OF ORIGINALITY)
 
-The project will contribute further understanding the novel application of BigData, NoSQL, and data-driven interface technologies to hydrology & hydrogeology. It will establish more specific knowledge around the levels of cost and resource efficiencies that might be obtained in the use of such technologies to address stakeholder requirements when compared to legacy systems and development methods. 
-
-# REFERENCES
+The project will contribute further understanding around the applicability of unstructured persistence and data-driven interfaces to the regulation of hydrology & hydrogeology. It will establish more specific knowledge around the cost and potential for resource efficiencies that might be obtained in the use of such technologies.
 

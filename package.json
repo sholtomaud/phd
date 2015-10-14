@@ -1,0 +1,24 @@
+{
+  "name": "phd",
+  "version": "1.0.0",
+  "description": "PhD canditure documents for Sholto Maud",
+  "main": "index.js",
+  "dependencies": {
+    "nodemon": "^1.4.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shotlom/phd.git"
+  },
+  "author": "Sholto Maud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shotlom/phd/issues"
+  },
+  "homepage": "https://github.com/shotlom/phd#readme"
+}

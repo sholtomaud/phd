@@ -34,7 +34,7 @@ Of the challenges facing the UE industry the Committee for Economic Development 
 
 ### The Financial Challenge 
 
-Recent market conditions of low oil prices and market failures in China have, however, raised doubts over future CSG expansions and greenfields projects [@mchugh_lower_2015].^[The CSG yearly reports, for example, all note the sensitivity of cash flows to global oil prices: "significant fall in oil price, if sustained at current levels, will result in lower growth in cash flow and earnings than previously expected" [@origin_energy_full_2015]; "Sales revenue fell 19% on the corresponding quarter, affected by the lower realised oil price" [@santos_second_2015]; "Revenue and other operating income decreased 19% to $2 557 million, reflecting significantly lower commodity prices, especially oil and liquids"[@bg-group_second_2015].] Financial risk has therefore emerged as another key issue.
+Recent market conditions of low oil prices and market failures in China have, however, raised doubts over future CSG expansions and greenfields projects [@mchugh_lower_2015].^[The CSG yearly reports, for example, all note the sensitivity of cash flows to global oil prices: "significant fall in oil price, if sustained at current levels, will result in lower growth in cash flow and earnings than previously expected" [@origin_energy_full_2015]; "Sales revenue fell 19% on the corresponding quarter, affected by the lower realised oil price" [@santos_second_2015]; "Revenue and other operating income decreased 19% to $2 557 million, reflecting significantly lower commodity prices, especially oil and liquids"[@bg-group_second_2015].] Financial risk has therefore emerged as another key issue [@lehner_finance_2014, @brandimarte_handbook_2014].
 
 Multiple competing risks therefore need to be managed by multiple entities within a financial context, and as Brockett notes, this creates industry calls for regulatory reforms to remove unnecessary costs but still pursue robust independent risk management frameworks aimed at preventing potentially irreversible damage to environmental and hydrological systems [@brockett_streamline_2014, @beckers_groundwater_2013, @howe_framework_2010, @hunter_draft_2013, @davies_managing_2015].  
 
@@ -42,7 +42,7 @@ Multiple competing risks therefore need to be managed by multiple entities withi
 
 Partially in response to legislative duplication at the Federal level [@brockett_streamline_2014], the Australian Government initiated the National Harmonized Regulatory Framework (NHRF) [@scer_national_2013], together with a number of subsequent reports plus community feedback. The aim was to address the issues of what all the elements of an UE Risk Governance system are, and how such might fit together [@dnrm_coal_2013, @dnrm_activity_2013, @dnrm_storing_2015, @beckers_groundwater_2013, @qwc_underground_2012, @hunter_tina_global_2015]. 
 
-As Brockett noted, different levels of government responded to these calls for action in varying ways @brocket_streamline_2014]. Queensland, for example, developed the Underground Water Management Framework (UWMF) [@qld_underground_2015] which outlines State-government level components for CSG groundwater regulation. However, whilst this approach of case-by-case regulation may meet State-level regulatory requirements, as Freiberg has suggested [@freiberg_tools_2010-1, p.270], focus on the regulation of a specific issue can leave broader issues unresolved. Indeed the ability of regulatees to employ information systems used to collect data required by regulatory forms (Ibid.) is one of these broader issues.  
+As Brockett noted, different levels of government responded to these calls for action in varying ways @brocket_streamline_2014]. Queensland, for example, developed the Underground Water Management Framework (UWMF) [@qld_underground_2015] which outlines State-government level components for CSG groundwater regulation. However, whilst this approach of case-by-case regulation may meet State-level regulatory requirements, as Freiberg has suggested [@freiberg_tools_2010-1, p.270], focus on the regulation of a specific issue can leave broader issues unresolved. Indeed the ability of regulatees to employ information systems used to collect data required by regulatory forms (Ibid.) is one of these broader issues. 
 
 ### The Information System Challenge
 
@@ -56,10 +56,13 @@ Federally, the National Map [@nicta_national_2015] and Groundwater Explorer [@bo
 
 Unlike other continents, Australia has the benefit of being an island with relatively isolated impacts internationally. Hence the incorporation of Global Risk Governance concepts might appear irrelevant for the Australia regulatory context. So amidst the many challenges why consider Global Risk Governance at all? Wouldn't adding a requirement for meeting Global Risk Governance concepts add further Information System and Financial loads? Indeed, Tomas notes that the Infrastructure for Spatial Information in the European Community (INSPIRE) project required an enormous data harmonisation effort [@tomas_towards_2015]
 
-When transnational corporate entities seek to operate across multiple National boundaries Global Risk Governance becomes attractive when it can reduce the requirement for multiple information systems, or costly enhancements of existing systems to meet new requirements from a difference Governance region.
+The International Risk Governance Council (IRGC) argues that governance mechanisms evolve much more slowly than the processes currently driving technological, environmental and social change [@irgc_what_2015]. The IRGC sees the consequence of this evolution mismatch that policy makers have become conscious of the importance of risk communication and of meeting public expectations. 
 
-kind of regulatory duplication which also operates at the intra-National level.
-However the Global Risk Governance philosophy notes that risks are not necessarily State-based, and globally, there have been many visualisation projects with the goal of monitoring, and managing our planet’s environments^[For simplicity water data is included here under the concept of environmental data]. 
+When transnational corporate entities seek to operate across multiple National boundaries, a globalised approach to risk governance becomes attractive when it can reduce the requirement for multiple information systems, or costly enhancements of existing systems to meet new requirements from a difference Governance region. Risk governance thus extends beyond conventionally recognised elements of risk analysis to include, 
+  
+  ... matters of institutional design and role, organisational capacity, stakeholder involvement, collaborative decision making and political accountability on the part of public bodies and corporate responsibility on the part of private enterprises. It also includes the requirement on the part of government, commercial and civil society actors for the development and use of scientific knowledge within the risk governance process.[@renn_global_2008]
+
+Many of these requirements are identified below in response to the CSG context in Australia, which suggests there is a movement towards the Global Risk Governance agenda.
 
 # Aim
 
@@ -93,74 +96,42 @@ This non-technical aspect of the risk discourse, can be seen as an interest that
 
 Schlager [@schlager_systems_1956], locates the origin of the term "systems engineering" with the Bell Telephone Laboratories. It arose from the need to engineer and manage systems of significant complexity, where it was observed that satisfactory components did not necessarily combine to produce a satisfactory system [@schlager_systems_1956, p.64]. The intent was to provide formal methods of truly engineering system synthesis and optimization using probability and statistics, rather than system development through educated guesswork [@schlager_systems_1956].
 
-It has been applied and formalised in the engineering of space and military systems [@nasa_nasa_2007, @kossiakoff_systems_2002, @lightsey_systems_2001, @clark_system_2009, @rook_controlling_1986, @mooz_4.4.3_2001, @estefan_survey_2007], with cornerstone concepts such as the "V-Model" [@mooz_visualizing_1997], and specialist software packages like Vitech's CORE(TM) has been constructed to facilitate the engineering process [@vitech_core_2015]. 
+It has been applied and formalised in the engineering of space and military systems [@nasa_nasa_2007, @kossiakoff_systems_2002, @lightsey_systems_2001, @clark_system_2009, @rook_controlling_1986, @mooz_4.4.3_2001, @estefan_survey_2007, @stamatelatosmichael_probabilistic_2011, @stamatelatos_fault_2002], with cornerstone concepts such as the "V-Model" [@mooz_visualizing_1997], and specialist software packages like Vitech's CORE(TM) has been constructed to facilitate complex systems engineering process [@vitech_core_2015]. Conversely, the history of code research, or hacking, can often follow a very different path without a systemic method, and approached from the investigative trial and error method.
 
-# Governance and Risk
+# General Legislative Requirements
 
-As eluded to in the introduction above, there are many potential entry points into the discussion of risk. Since this review is concerned with risk governance, and is conducted within Australia, a launching point will The Australian Government Risk Assessment and Management (AGRAM) handbook [@australian_government_risk_2008]. The handbook was created with the aim to apply the  AS/NZS 4360:2004 Risk Management Standard^[AS/NZS 4360:2004 has since been superseded by @standards_australia_as/nzs_2009] to the context of mining. Whilst Leitch's subsequent critique [@leitch_iso_2010] of this standard questioned the effectiveness of following the standard itself^[Leitch's critique was of the improved AS/NZS ISO 31000, and argued that the standard was unclear, lead to illogical decisions, was impossible to comply with, and was not mathematically based.], the AGRAM handbook follows the generally accepted definition of risk  ($\mathit{\bar{R}}$), as a combination of Consequence ($\mathit{C}$) and the Probability of some event X ($\mathit{P}(\mathit{X})$) [@australian_government_risk_2008, p.4, @ferguson_risk_1998, @qwc_underground_2012, p.Apx-92], expressed through the formula: 
+## Water Monitoring Strategy Adaptive Risk Management & (WMS-ARM) 
 
-$$ \begin{aligned}
-     \mathit{ \bar{R} } = \mathit{P}(\mathit{X}) \bullet \mathit{C} \\
-   \end{aligned}
-$$ {#eq:risk}
+The Water Monitoring Strategy (WMS) used in the Surat Underground Water Impact Report aimed to establish background trends to enable further levels of analysis, and improve knowledge around the connectivity between aquifers [@qwc_underground_2012]. 
 
-Hazard, is delineated from risk, such that hazards refer to the inherent properties of the risk agent, and risks describe the potential effects of a hazard and it's probability [@australian_government_risk_2008]. The AGRAM handbook also notes that risk management is a complex mix of multiple views, values, perceptions and qualitative or quantitative approaches, and in this way begins to anticipates concepts used by the IRGC which include cumulative risk and global risk governance [@australian_government_risk_2008, @aven_risk_2010, @irgc_introduction_2012]. 
+At the legislative level, Randall proposed a model called the screening, pre-release testing and post-release surveillance (STS) model [@randall_coal_2012]. Randall's model includes a depiction of the precautionary principle and accords with the HRF's emphasis on adaptive risk management (ARM) [@scer_national_2013] as part of a hierarchy of risk control measures that apply to all aspects of the development of natural gas from coals seams.
 
-### Risk in Unconventional Energy
+For ARM, on-going monitoring and communication is what makes the risk management adaptive: as soon as any impact is detected, appropriate action can be taken [@scer_national_2013]. However Swayne [@swayne_regulating_2012], argues the QLD experience shows that ARM needs both KPI's, and to be integrated into statutory provisions with an appropriate decision-making framework. Moreover, Swayne maintains that such a framework needs the flexibility to enable system changes in response to the improved knowledge of impacts [@swayne_regulating_2012].
 
-The need for UE to operate in an unconventional resource context has brought focus on the newer concepts of risk governance mentioned above. Control of hydraulic fracturing is an example. It can occur across multiple jurisdictions, where tenements don't necessarily align with natural hyrdo-environmental boundaries [@campin_environmental_2015, table 11], and from the socio-cultural perspective, given the contested nation of Unconventional Energy there is a requirement to provide public access to risk information to reduce uncertainties [@goldstein_regulatory_2013]. 
+For Boudicca [@boudicca_lock_2013], any risk assessment model needs to include a definition of ‘unacceptable impacts’, whereby projects deemed as having unacceptable impacts should be prohibited. Furthermore, verification of impacts should not rely on in-house representatives, but rather, only on “independent third-party professional[s]” [@boudicca_lock_2013].
 
-## Types of Risk
+### Requirements - WMS 
 
-The receptors of risks 
-
-## Types of Risk Assessment
-
-In the context of Oil and Gas production, Barker et al [@barker et al_assessing_1998], distinguish between two high level risk types: technical and non-technical risks, which can effect ecological systems, surface and groundwater systems, air quality.
-
-### Technical Risks
-
-Returning to AGRAM, the handbook documents several different types of risk assessment. Technical risk assessment (TRA), such reservoir porosity and permeability which directly impact production. Informal risk assessment (IRA)which is a general identification and communication of hazards and risks in a task by applying a way of thinking, often with no documentation. Job safety and hazard analysis (JSA) which is a task-focused identification of hazards and controls culminating in a standard work practice or procedure. Energy barrier analysis (EBA) which determines phases of events and control mechanisms for such.Preliminary hazard analysis/hazard analysis/workplace risk assessment and control (PHA/HAZAN/WRAC) which aims to identify a priority risk issues/events, using qualitative or semi-qualitative risk analysis methods, often to help determine the need for further detailed study. Hazard and operability study (HAZOP/HACCP) defined as a systematic identification of hazards in process design. Fault tree analysis (FTA), in which a detailed analysis of contributors to a major unwanted event are identified, potentially using quantitative risk analysis methods. Failure modes, effects and criticality analysis (FMECA) which aims to determine component reliability, and the risk of failure. 
-
-
-
-#### Non-technical Risk - SH&E
-Non-technical risks are defined as safety, health and environmental (SH&E) risks which indirectly impact production. Barker et al identify total SH&E risk and the total costs to mitigate these as issues of concern to a proponent [@barker_assessing_1998]. They identify a model which allows  users to enter a range of estimated dollar costs to mitigate the risks across different SH&E categories [@barker et al_assessing_1998]. The mitigation costs for each category are then summed to calculate the total cost value, which can be plotted as cumulative frequency plots as a SH&E risk portfolio.
-
-#### Perceived Risk
-
-Until recently these risks would typically be managed in-house, within a corporate entity according to relevant regulatory standards. 
-
-
-However, for all stakeholders, the notion of risk is not limited to quantitative methods. As Slovic [-@slovic_perception_1987] noted, recently there has also been recognition of the concepts of social risk, and perceived "riskiness" which can mean more to a stakeholder than a unidimensional measure of expected fatalities or failures.
-
- notwithstanding the best scientific and historical efforts to quantize risk, "riskiness", it might therefore be said, is in the eye of the stakeholder, and as such open to many subjective factors. 
-
-
-
-biogeochemical processes .  would have an effect on a wide range of ecosystem services, including climate regulation, food and raw material production, soil formation, water supply and flood control.   
-
-
-
-
-Risk governance thus extends beyond conventionally recognised elements of risk analysis to include, 
-  
-  ... matters of institutional design and role, organisational capacity, stakeholder involvement, collaborative decision making and political accountability on the part of public bodies and corporate responsibility on the part of private enterprises. It also includes the requirement on the part of government, commercial and civil society actors for the development and use of scientific knowledge within the risk governance process.[@renn_global_2008]
-
-The International Risk Governance Council (IRGC) argues that governance mechanisms evolve much more slowly than the processes currently driving technological, environmental and social change [@irgc_what_2015]. The IRGC sees the consequence of this evolution mismatch that policy makers have become conscious of the importance of risk communication and of meeting public expectations. 
-
-Within the recognition of trans-national environmental systems, there is a question of the extent of systems under Governance. Common to systemic approaches is the notion that modeling complex relationships between environmental consequences and their potential incentives is extremely important.
-
-## Motivation
-
-The present review and research project is motivated not only by these challenges, but also by the prospect not only that new web technologies such as big data, and data-driven interfaces may provide alternative approaches to providing solutions, but also that such soultions might be developed with less effort and fewer developers than traditional approaches.
-
-
-Renn and Walker term this a "comprehensive technology" that aims to integrate risk assessment into decision-making [-@renn_global_2008, p.17].
-
-The subsequent task of systems engineering a risk governance system is motivated by the prospect that such an engineering effort can enable governance mechanisms to evolve in a timely way to meet the rate of change of the technological, environmental and social contexts that governance operates within.
-
-# Generating requirements for risk governance
+|level | requirement                        | met by |    
+|------|:---------------------------------| ------------------|
+| 1    | Able to establish background trends | `schema: timeseries`  |
+| 1    | Able to improve future groundwater flow modelling | `schema: timeseries` & interface with flow models |
+| 1    | Able to improve understanding of connectivity between aquifers | `schema: aquifer`  |
+| 3    | Able to identify changes in aquifer conditions within and near areas of petroleum development | `schema: site && aquifer `  |
+| 3    | Able to identify changes in aquifer conditions near critical groundwater use | `schema: site && aquifer ` |
+| 3    | Able to identify changes in aquifer conditions near springs | `schema: site && aquifer ` |
+| 1    | Able to integrate STS | database + UI |
+| 1    | Able to define trigger thresholds | database + UI |
+| 1    | Able to track risks associated with operations | cloud-based web application |
+| 1    | Able to communicate/visualise risks to stakeholders | cloud-based web application && 2d/3d maps && forms |
+| 3    | Able to describe & track hydraulic fracturing | `schema: site` |
+| 3    | Able to define and track unacceptable env impacts to site | `schema: impacts` |
+| 3    | Able to define and track unacceptable impacts to aquifer | `schema: aquifer` |
+| 3    | Able to define and track unacceptable impacts within catchment | `schema: catchment` |
+| 3    | Verification that appraisals undertaken by independent third party | `schema: appraisals` |
+| 3    | Able to define KPI's for ARM | `schema: appraisals` |
+| 3    | Able to integrate with statutory provisions & reports | `schema: appraisals` |
+| 3    | Flexibility to enable changes in response to the improved knowledge of impacts | `schema: appraisals` |
 
 ## Harmonized Regulatory Framework
 
@@ -217,48 +188,6 @@ Strict liability is the imposition of liability on a party without a finding of 
 | 3    | Able to store produced and consumed water | `schema: timeseries` |
 | 3    | Able to store defined trigger thresholds used to initiate a make-good | `schema: site` |
 
-## Risk Governance - RG
-
- TWG-NZ has defined Natural Risk Zones as areas
-where natural hazards are coincident with populated areas and/or areas of particular environmental/
-cultural or economic value. Risk in this context is defined as:
-Risk = Hazard x Exposure x Vulnerability
-of human health, the environmental, cultural and economic assets in the zone considered. 
-
-Natural Risk Zones data specification is potentially very large, it encompasses
-hazards from floods to geomagnetic storms, and exposed elements from buildings to designated
-environmental features 
-
-
-Generating requirements for a risk-governance system is a complex task. The complexity is generated from the variety of different approaches to risk. Different industries, different departments within one industry, and different academic disciplines can all have different risk evaluation requirements. 
-
-Whilst the domain of interest for this research is initially limited to water, there are downstream effects of water risks. For example, a compliance failure in with respects to water may have a financial impact on a CSG company, thus representing a financial risk. Hence, methods applied in environmental policy might be concerned with hazard impact minimisation [@ferguson_risk_1998], aerospace and systems engineering with fault hazards  [@stamatelatosmichael_probabilistic_2011, @stamatelatos_fault_2002], or financial engineering might be concerned with risks to cashflow and Net Present Value [@lehner_finance_2014, @brandimarte_handbook_2014]. 
-
-At the legislative level, Randall proposed a model called the screening, pre-release testing and post-release surveillance (STS) model [@randall_coal_2012]. Randall's model includes a depiction of the precautionary principle whereby at any phase, prohibition can apply to stop operations due to significant risk. Within the HRF, the precautionary principle in conjunction with adaptive management is part of a hierarchy of risk control measures that apply to all aspects of the development of natural gas from coals seams.
-
-The type of risk model given by Randall forms the basis of what is called *Adaptive Risk Management* (ARM). As noted in the HRF, Queensland applies an adaptive management approach for environmental policy [@scer_national_2013]. Whilst it might be pragmatic to focus on the application of risk within the Queensland Groundwater CSG literature, the approach taken here is to review some aspects of other approaches with aim of potential novel integration in forthcoming works.
-
-For ARM, on-going monitoring and communication is what makes the risk management adaptive: as soon as any impact is detected, appropriate action can be taken . However Swayne argues the QLD experience shows that ARM needs both KPI's, and needs to be integrated into statutory provisions with an appropriate decision-making framework, and that such a framework needs the flexibility to enable system changes in response to the improved knowledge of impacts [@swayne_regulating_2012].
-
-For Boudicca any risk assessment model needs to include a definition of ‘unacceptable impacts’, whereby projects deemed as having unacceptable impacts should be prohibited. Furthermore, verification should not rely on in-house representatives but rather only “independent third-party professional[s]” [@boudicca_lock_2013].
-
-### Requirements - RG 
-
-|level | requirement                        | met by |    
-|------|:---------------------------------| ------------------|
-| 1    | Able to integrate STS | database + UI |
-| 1    | Able to define trigger thresholds | database + UI |
-| 1    | Able to track risks associated with operations | cloud-based web application |
-| 1    | Able to communicate/visualise risks to stakeholders | cloud-based web application && 2d/3d maps && forms |
-| 3    | Able to describe & track hydraulic fracturing | `schema: site` |
-| 3    | Able to define and track unacceptable env impacts to site | `schema: impacts` |
-| 3    | Able to define and track unacceptable impacts to aquifer | `schema: aquifer` |
-| 3    | Able to define and track unacceptable impacts within catchment | `schema: catchment` |
-| 3    | Verification that appraisals undertaken by independent third party | `schema: appraisals` |
-| 3    | Able to define KPI's for ARM | `schema: appraisals` |
-| 3    | Able to integrate with statutory provisions & reports | `schema: appraisals` |
-| 3    | Flexibility to enable changes in response to the improved knowledge of impacts | `schema: appraisals` |
-
 ## Compliance
 
 Campin provides a gap analysis of the Queensland legal framework and regulatory rules applied to the control of hydraulic fracturing across multiple jurisdictions [@campin_environmental_2015, table 11]. Campin notes that the acceptability of risk control measures are defined by the populace, with the weighting of risks and control measures informed by data analysis and an endorsed product protocol.
@@ -280,39 +209,113 @@ In the Healthy Headwaters report Act 5, several topics were not included in the 
 | 3    | Able to analyse risk history | `schema: risk` && BigData analytics |
 | 3    | Stakeholders able to rank acceptability of risk control measures  | `schema: risk` |
 
-## Water Monitoring Strategy (WMS)
+# Generating Requirements for Global Risk Governance
 
-The WMS used in the Surat Underground Water Impact Report aimed to establish background trends to enable further levels of analysis, and improve knowledge around the connectivity between aquifers [@qwc_underground_2012]. 
+As eluded to in the introduction above, there are many potential entry points into the discussion of risk. Since this review is concerned with risk governance, but is conducted within Australia, a launching point will The Australian Government Risk Assessment and Management (AGRAM) handbook [@australian_government_risk_2008]. However the global aspect of risk governance will also be addressed.
 
-### Requirements - WMS 
+The handbook was created with the aim to apply the  AS/NZS 4360:2004 Risk Management Standard^[AS/NZS 4360:2004 has since been superseded by @standards_australia_as/nzs_2009] to the context of mining. Whilst Leitch's subsequent critique [@leitch_iso_2010] of this standard questioned the effectiveness of following the standard itself^[Leitch's critique was of the improved AS/NZS ISO 31000, and argued that the standard was unclear, lead to illogical decisions, was impossible to comply with, and was not mathematically based.], the AGRAM handbook follows the generally accepted definition of risk  ($\mathit{\bar{R}}$), as a combination of Consequence ($\mathit{C}$) and the Probability of some event X ($\mathit{P}(\mathit{X})$) [@australian_government_risk_2008, p.4, @ferguson_risk_1998, @qwc_underground_2012, p.Apx-92], expressed through the formula: 
 
-|level | requirement                        | met by |    
+$$ \begin{aligned}
+     \mathit{ \bar{R} } = \mathit{P}(\mathit{X}) \bullet \mathit{C} \\
+   \end{aligned}
+$$ {#eq:risk}
+
+Hazard, is delineated from risk, such that hazards refer to the inherent properties of a risk agent. Risks, in contrast, describe the potential effects of a hazard and an associated probability of impact occurring [@australian_government_risk_2008]. The AGRAM handbook also notes that risk management is a complex mix of multiple views, values, perceptions and qualitative or quantitative approaches, and in this way begins to anticipates concepts used by the IRGC which include cumulative risk and global risk governance [@australian_government_risk_2008, @aven_risk_2010, @irgc_introduction_2012]. 
+
+## Natural Risk Zones - NRZ
+
+In looking at natural phenomena, [@harrison_data_2013] introduce the concept of Natural Risk Zones (NRZ). That is, areas, or zones, where natural hazards coincide with areas of value. This might be because they are populated, or have environmental/cultural or economic value. 
+
+A NRZ is potentially very large and includes many types of hazards. It is depicted in the image below.
+
+![Natural Risk Zones [@harrison_data_2013]](Harrison2013_Fig1_NaturalRiskZoneModel.png)
+
+Risk in this context is expanded to include Hazard ($\mathit{H}$ - a dangerous phenomenon), Exposure ($\mathit{E}$ - elements present in hazard zones) and Vulnerability ($\mathit{V}$ - characteristics of asset that make it susceptible) [@harrison_data_2013]^[Harrison note that confusion can arise due to different uses of terms. For example, the terms, 'vulnerability' and 'exposure' are sometimes interchanged.]. Risk is then defined as:
+
+$$ \begin{aligned}
+     \mathit{ \bar{R} } = \mathit{H}) \bullet \mathit{E} \bullet \mathit{V} \\
+   \end{aligned}
+$$ {#eq:naturalrisk}
+
+This is a slightly different use of terms compared to [@howe_framework_2010], which uses Effect and Likelihood instead of Hazard and Vulnerability.
+
+$$ \begin{aligned}
+     \mathit{ \bar{R} } = \mathit{Ef}) \bullet \mathit{E} \bullet \mathit{L} \\
+   \end{aligned}
+$$ {#eq:naturalrisk2}
+
+## Risk in Unconventional Energy
+
+The need for UE to operate in an unconventional resource context has brought focus on the newer concepts of risk governance mentioned above. Control of hydraulic fracturing is an example. It can occur across multiple jurisdictions, where tenements don't necessarily align with natural hyrdo-environmental boundaries [@campin_environmental_2015, table 11], and from the socio-cultural perspective, given the contested nation of Unconventional Energy there is a requirement to provide public access to risk information to reduce uncertainties [@goldstein_regulatory_2013]. 
+
+## Key Risks for Groundwater
+
+Key risks identified for CSG that may contribute to the direct or cumulative risk to groundwater resources are: water extraction and de-pressurisation of coal; the potential for fracture propagation; the introduction of fracturing chemicals; poor well construction and issues arising from decommissioning; land subsidence (compaction); gas migration; produced water management; contamination from surface activities; or land use changes due to coal seam gas operations [@dnrm_activity5_2013]. As noted in the Australian Government Water Management handbook, production that involves water is not only contained to groundwater, but may have surfacewater and production facility consequences, with water quality variation, oversupply, and effect on source environment of concern [@australian_water_2008]
+
+# Approaches to Risk Assessment
+
+In the context of Oil and Gas production, Barker et al [@barker et al_assessing_1998], distinguish between two high level risk types: technical and non-technical risks, which can effect ecological systems, surface and groundwater systems, air quality. Technical approaches may employ some type of quantitative Probabilistic Risk Assessment (PRA). In traditional PRA, the selection of the likelihood function may be done by different methods such as Poisson (counts of failures during operation), Bernoulli (counts of failures on system demands), or expert estimate - a best estimate (based on MIL-STD-217) where the lognormal distribution is a common likelihood function [@stamatelatosmichael_probabilistic_2011, p.5-11].
+
+For the purpose of this review, the technical/non-technical distinction is made loosely. It is not the intent to provide a systematic treatment or mapping of how each method may overlap or dovetail into another. The approaches to risk reviewed below are selected with the aim of generating requirements, with no regard to producing a unique consistent, perfect set of requirements. Novel approaches arising out of groundwater studies have therefore been documented below without accounting for their place in the risk analysis landscape.
+
+## Technical Risks & Probabilistic Risk Assessment - (PRA)
+
+Quantitative, PRA methods are the traditional types, and can be very sophisticated and expensive. They are often based on numerical models with physically-based equations and probability distribution of adverse effects [@dnrm_activity_2013-1]. 
+
+Returning to the AGRAM handbook, several different types of traditional risk assessment are documented. Technical risk assessment (TRA), such reservoir porosity and permeability which directly impact production. Informal risk assessment (IRA) which is a general identification and communication of hazards and risks in a task by applying a way of thinking, often with no documentation. Job safety and hazard analysis (JSA) is a task-focused identification of hazards and controls culminating in a standard work practice or procedure. 
+
+Energy barrier analysis (EBA) which determines phases of events and control mechanisms for such. Preliminary hazard analysis/hazard analysis/workplace risk assessment and control (PHA/HAZAN/WRAC) which aims to identify a priority risk issues/events, using qualitative or semi-qualitative risk analysis methods, often to help determine the need for further detailed study. Hazard and operability study (HAZOP/HACCP) are defined as a systematic identification of hazards in process design. 
+
+Failure modes, effects and criticality analysis (FMECA) which aims to determine component reliability, and the risk of failure. FMEA can include variants known as as Failure Modes Effects and Criticality Analysis (FMECA) and Hazard and Operability (HAZOP). These approaches de-aggregate fundamental elements of a system to identify failure modes, and then study the effects of the failure mode on other components and the system as a whole.
+
+Fault tree analysis (FTA), in which a detailed analysis of contributors to a major unwanted event are identified, potentially using quantitative risk analysis methods. In Fault Tree Analysis boolean AND/OR logic is used to map out a fault tree and the interrelation of faults throughout the system. This involves a large scale effort for analysing all faults, and potential faults throughout the different elements of the system as a whole [@australian_government_risk_2008].^[see also , @gregory_b_baecher_risk_2004, see also @nasa_nasa_2007, @stamatelatos_fault_2002, @tartakovsky_probabilistic_2007, @lester_site-specific_2007, @gregory_b_baecher_risk_2004, @stamatelatosmichael_probabilistic_2011, @goodarzi_introduction_2013, @mays_water_2010].]
+
+Tartakovsky also suggested that FTA could be applied to groundwater by relating the occurrence of the system failure to the failures of its constitutive parts (see figure below). Examples being, aquifer contamination, the occurrence of a spill, or the failure of a remediation effort [@tartakovsky_probabilistic_2007].
+
+![Fault tree for a possible aquifer contamination. @tartakovsky_probabilistic_2007, Fig.1](tartakovsky_FTA_2007.jpg)
+
+### Requirements - PRA
+
+There are already software systems that accommodate PRA types of analysis. The problem from a risk governance point of view is how to interface and integrate with such systems. Level 3 requirements might be reduced to the following: 
+
+| level | requirement                        | met by |    
 |------|:---------------------------------| ------------------|
-| 1    | Able to establish background trends | `schema: timeseries`  |
-| 1    | Able to improve future groundwater flow modelling | `schema: timeseries` & interface with flow models |
-| 1    | Able to improve understanding of connectivity between aquifers | `schema: aquifer`  |
-| 3    | Able to identify changes in aquifer conditions within and near areas of petroleum development | `schema: site && aquifer `  |
-| 3    | Able to identify changes in aquifer conditions near critical groundwater use | `schema: site && aquifer ` |
-| 3    | Able to identify changes in aquifer conditions near springs | `schema: site && aquifer ` |
+| 3    | Able to store and track likelihoods |  `schema: risk` |
+| 3    | Able to store and track failure modes |  `schema: risk` |
+| 3    | Able to store and track effects & effect between system components |  `schema: risk` |
+| 3    | Able to store and track failures |  `schema: risk` |
+| 3    | Able to store and track boolean relations of potential faults | `schema: risk` |
 
+# Non-technical Risk - SH&E
 
-# Approaches to Risk
+Non-technical risks are broadly defined as safety, health and environmental (SH&E) risks which indirectly impact production, or the ability to produce [@barker_assessing_1998]. The precautionary principle also falls under this general method with consideration given to the potential impact or consequence, likelihood, and  the costs of regulatory action, and the opportunity cost of not proceeding [@scer_national_2013, p.14].
 
-The concept of risk and risk management can hold different significance depending on worldview, perception and requirements. It can be perceived as acceptable or unacceptable, where the risk of an event for one person can outweigh any potential gains from that event as seen in the eyes of another person. Many approaches use methods for both/either qualitative and quantitative assessments, the latter of which can become increasingly complex when more details are included. 
+## Perceived Risk - PR
 
-The precautionary principle also falls under this general method with consideration given to the potential impact or consequence, likelihood, and  the costs of regulatory action, and the opportunity cost of not proceeding [@scer_national_2013, p.14].
+For all stakeholders, the notion of risk is not limited to quantitative methods. As Slovic [-@slovic_perception_1987] noted, recently there has also been recognition of the concepts of social risk, and perceived "riskiness" which can mean more to a stakeholder than a unidimensional measure of expected fatalities or failures.
 
-The concept of "riskiness", however, is an exception to this methodology, and whilst a procedural framework might start with suspicions about the riskiness of a system [@ferguson_risk_1998], perceived riskiness might be more related to a mismatch between expectations and perceptions than the likelihood of an impact [@williams_social_2013, @moffat_paths_2014]. Perceived riskiness may operate as a surrogate for concerns that may not have a connection to a quantitative risk assessment, but are related to prior political or personal misgivings [@slovic_perception_1987, @kahan_motivated_2013, @renn_global_2008]. Hence, whilst risk might be calculable, risk perception can play a critical factor in influencing any decisions made and the success or failure of an operation or project. 
+Perceived riskiness might be more related to a mismatch between expectations and perceptions than the likelihood, or severity of an impact [@ferguson_risk_1998, @williams_social_2013, @moffat_paths_2014]. It may operate as a surrogate for concerns that may not have a connection to a quantitative risk assessment, but are related to prior political or personal misgivings [@slovic_perception_1987, @kahan_motivated_2013, @renn_global_2008]. Hence, whilst risk might be calculable, risk perception can play a critical factor in influencing any decisions made and the success or failure of an operation or project. 
 
-## Perceived Riskiness and Social License to Operate - SLO
+### Perceived Riskiness and Social License to Operate - SLO
 
-The notion of perceived riskiness has in part led to the concept of Social License to Operate (SLO) [@williams_social_2013, @gunningham_social_2004, @moffat_paths_2014]. SLO is the proposition that a society of stakeholders is able to grant or withdraw support for a company and its operations, and this in turn can present a significant risk to both companies, governments and community stakeholders. 
+The notion of perceived riskiness has synergies with the concept of Social License to Operate (SLO) [@williams_social_2013, @gunningham_social_2004, @moffat_paths_2014]. SLO is the proposition that a society of stakeholders is able to grant or withdraw support for a company and its operations, and this in turn can present a significant risk to both companies, governments and community stakeholders. 
 
 Research conducted by Siegrist et al [-@siegrist_trust_2012] found a positive relationship between procedural fairness and public acceptance, and this has also been identified as critical to enabling trust [@turner_social_1991]. To quantify trust, Moffat and Zhang identify six key variables: Contact quantity, Contact quality, Procedural fairness, Social infrastructure impact, Trust and Acceptance [@moffat_paths_2014].^[They hypothesized that trust is a critical pathway for the acceptance of an operation. In this hypothesis is contained a further corollary that procedures perceived as fair and contact that contains a forum in which concerns can be voiced, will enhance trust, thereby reducing the risk of a SLO withdrawal [@moffat_paths_2014]].
 
 Whilst polls at a local council level can be an effective way of evaluating community sentiment or perceptions towards a development such as CSG [@luke_developing_2013], these are typically one-shot mechanisms. Social media today, like facebook and twitter, provide a risk mechanism for assessing social risk  [@williamson_assessing_2015], which some consider has become a primary corporate risk [@pekka_aula_social_2010]. The dynamic nature of sentiment risk in turn makes it able to be tracked as a time series [@oconnor_tweets_2010, @thelwall_sentiment_2014].
 
-### Requirements - SLO
+### Outrage Risk, or Risk to Reputation - RtR
+
+Related to PR is risk to reputation. In can be related to most of the other risk categories. The AGRAM handbook, suggests that effective risk management can have a positive impact on an operation’s reputation and subsequent sustainability [@australian_government_risk_2008]. In this sense is has similarities to SLO. 
+
+To provide a somewhat quantitative analysis of RtR, Sandman [@sandman_risk_1987], identified a number of 'outrage factors' ($\mathit{O}$) as intrinsic to the notion of risk. In this context risk is then defined as:
+
+$$ \begin{aligned}
+     \mathit{ \bar{R} } = \mathit{H}) + \mathit{O} \\
+   \end{aligned}
+$$ {#eq:outragerisk}
+
+### Requirements - SLO & PR
 
 | level | requirement                        | met by |    
 |------|:---------------------------------| ------------------|
@@ -321,37 +324,7 @@ Whilst polls at a local council level can be an effective way of evaluating comm
 | 3    | Able to store and track level of trust [@williams_social_2013, Tbl 2.1] | `schema: risk` |
 | 3    | Able to store and track procedural fairness ranking | `schema: risk` |
 
-## Risk to Reputation
-
-Risk to reputation is in some respects a flow-on consequence from most of the other risk categories. 
-
-Effective risk management is likely to have a positive impact on an operation’s reputation, offering new opportunities for growth, sustained activity and access to new markets.
-Poor risk management—or a lack of identification and analysis of the potential consequences—
-may impact negatively on reputation and can lead to the premature cessation of mining and
-mineral processing activities if reputation is damaged to the extent that the local community,
-government and/ or stakeholders take action against the company.
-In the context of product marketing, responsible producers also value the mantle of
-‘supplier-of-choice’ which reflects positively on the whole company and not just upon a
-specific mining operation.
-Positive reputation can be built and enhanced by performing well in the eyes of stakeholders,
-but this can only be achieved through effective risk communication (see Chapter 8). The
-technical approach to risk assessment is to determine the probability of a risk and its
-consequence. For many environmental, social and sustainability issues, however, this
-approach to risk fails to recognise the views of stakeholders and can often lead to significant
-controversy—one side says it’s perfectly safe while another says it’s too risky. 
-
-In a similar approach to perceived risk Sandman [@sandman_risk_1987], identified a number of 'outrage factors' as intrinsic to the notion of risk.
-
-developed an approach to risk communication
-whereby he defines risk by combining ‘hazard’ with what he terms ‘outrage’, to give:
-Risk = Hazard + Outrage
-
-The Sandman approach is based on an understanding of the psych
-
-[@australian_risk_2008]
-
-
-## Qualitative Risk Assessment 
+## Qualitative Risk Assessment - QUALRA
 
 Qualitative assessments are the most basic types of risk assessment, and are typically based on expert opinion where risk is assigned in relative terms based on the expert's estimation [@beckers_groundwater_2013]. Baker et al. note that this method of assessment is inclined to be subjective and so suggest that they may lead to inconsistencies and non-repeatable outcomes [@baker_techniques_1998]. Independent validation may therefore be needed to guard against bias [@pwc_practical_2008].
 
@@ -361,7 +334,7 @@ To qualitatively assess a risk, organizations can use a combination of ordinal, 
 * Interval scales are numerically equal distant, where 1 is the lowest risk and 3 the highest, however 3 is not a 3 times greater risk than 1
 * Ratio scales are numerically equal distant however they have a “true zero” where 3 *IS* 3 times 1
 
-### Requirements - SLO
+### Requirements - QUALRA
 
 | level | requirement                        | met by |    
 |------|:---------------------------------| ------------------|
@@ -393,7 +366,7 @@ The potential impact of UE production on soil has been recently publicised with 
 
 In 2013 the Multi-Criteria Analysis Shell for Spatial Decision Support (MCAS-S Development Partnership was formed to develop and support MCAS-S software. In 2014 the Australian Bureau of Agricultural and Resource Economics and Sciences (ABARES) published version 3.1 of the MCAS-S software [@abares_multi-criteria_2014]. MCAS-S uses ordinal risk scales to help stakeholders make decision around risk trade-offs through both spatial Multi-Criteria Analysis [@abares_multi-criteria_2014, p.12] and the Analytical Heirarchy Process (AHP). Combined, these techniques aim to enable users to establish soils at risk by ranking the importance of input layers through pair-wise weightings [@ibid, p.52].
 
-In addition to the above consideration, whilst the MCAS-S includes rainfall in analyses, something not covered in the documentation is the relationships between data-models for soil, UE impacts and water quality sampling. Soil sampling of pits can typically be 3-dimensional, with samples taken at the corners of a rectangular pit [@pattison_soil_2010]. Traditional surfacewater and groundwater sampling systems assume that there is a depth, and one-lat-long point per sample at site, however soils will typically have several lat-longs and elevations per sample at a site. This  requirement would see the legacy water samples data model enhance with 3D location components per sample.
+In addition to the above consideration, whilst the MCAS-S includes rainfall in analyses, something not covered in the documentation is the relationships between data-models for soil, UE impacts, and soils laboratory samples. Soil sampling of pits can typically be 3-dimensional, with samples taken at the corners of a rectangular pit [@pattison_soil_2010]. Traditional surfacewater and groundwater sampling systems can assume that there is a depth, and one-lat-long point per sample at site. However soils will typically have several lat-longs and elevations per sample at a site. This  requirement would see the legacy water samples data model enhance with 3D location components per sample.
 
 ### Requirements - Soils
 
@@ -405,7 +378,9 @@ In addition to the above consideration, whilst the MCAS-S includes rainfall in a
 
 ## Groundwater Model and Multi-Criteria Analysis of Risk 
 
-Activity-5 of the Healthy Headwaters report attempts to provide an approach to quantitative risk assessments for the purposes of evaluating impacts from CSG [@dnrm_activity_2013-1]. The report used a hybrid method which combined expert assessment along with numeric groundwater modelling and quantitative methods known as MCA.  This method used Weights ($\mathit{Wt}$) to value perceived relative importance, with the weighting done by a panel of experts. Vulnerability and consequence Ranks ($\mathit{Rnk}$) are based on properties of the attributes ($\mathit{a}$) for example the  magnitude of draw-down, and can vary spatially ($\mathit{x,y,z}$) where:
+Notwithstanding Maathuis's [@maathuis_groundwater_2006, p.17] suggestion that there is no universally accepted vulnerability mapping method, Activity-5 of the Healthy Headwaters report notes several methods which attempts to provide an approach to quantitative inputs into the vulnerability component of risk assessments for the purposes of evaluating impacts from CSG [@dnrm_activity_2013-1, pp.154-9]. 
+
+The report settled on a hybrid method which combined expert assessment along with numeric groundwater modelling and quantitative methods known as MCA.  This method used Weights ($\mathit{Wt}$) to value perceived relative importance, with the weighting done by a panel of experts. Vulnerability and consequence Ranks ($\mathit{Rnk}$) are based on properties of the attributes ($\mathit{a}$) for example the  magnitude of draw-down, and can vary spatially ($\mathit{x,y,z}$) where:
 
 $$ \begin{aligned}
      \mathit{Vulnerability} = \sum_{a} \mathit{V}(\mathit{x},\mathit{y},\mathit{z})_{a} = \sum_{a} \mathit{W} \mathit{t}_{a} \bullet \mathit{Rnk}(\mathit{x},\mathit{y},\mathit{z})_{a} \\
@@ -448,43 +423,6 @@ Key recommendations for future work were to enable sensitivity analysis (SA) of 
 | 3    | Able to store and track properties of risk attributes | `schema: risk` |
 | 3    | Able to store and track attributes as timeseries | `schema: risk` |
 
-## Quantitative Risk Assessment 
-
-In contrast to qualitative risk assessment methods, quantitative methods can be very sophisticated and expensive. They are often based on numerical models with physically-based equations and probability distribution of adverse effects [@dnrm_activity_2013-1]. To reiterate the method given above, the concept for this review is not to give detailed (level 5) requirements for all these models, but rather to generate (level 3) requirements that can be further decomposed in subsequent work, buts also potentially requirements that take the output from existing models.
-
-## Probabilistic Risk Assessment - (PRA)
-
-Civil and systems engineers often adopt a probabilistic approach to risk assessment (PRA) [@tartakovsky_probabilistic_2007, @lester_site-specific_2007, @gregory_b_baecher_risk_2004]. Within this context, Gregory and Baecher identify the principal methods of risk assessment as failure modes and effects analysis (FMEA), event tree analysis (ETA) and  fault tree analysis (FTA) [-@gregory_b_baecher_risk_2004, see also @nasa_nasa_2007, @stamatelatos_fault_2002, @stamatelatosmichael_probabilistic_2011, @goodarzi_introduction_2013, @mays_water_2010].
-
-In PRA, the selection of the likelihood function may be done by different methods such as Poisson (counts of failures during operation), Bernoulli (counts of failures on system demands), or expert estimate - a best estimate (based on MIL-STD-217) where the lognormal distribution is a common likelihood function [@stamatelatosmichael_probabilistic_2011, p.5-11].
-
-### Failure Modes and Effects Analysis - FMEA 
-
-FMEA includes variants known as as Failure Modes Effects and Criticality Analysis (FMECA) and Hazard and Operability (HAZOP). These approaches de-aggregate fundamental elements of a system to identify failure modes, and then study the effects of the failure mode on other components and the system as a whole [@gregory_b_baecher_risk_2004, p.12].
-
-### Event Tree Analysis - ETA
-
-ETA can be either quantitative or qualitative. It is used to identify  possible outcomes of an event and their probabilities aiming to reveal the relationships between mitigating systems [@gregory_b_baecher_risk_2004].
-
-### Fault Tree Analysis - FTA
-
-In Fault Tree Analysis boolean AND/OR logic is used to map out a fault tree and the interrelation of faults throughout the system [@stamatelatos_fault_2002]. This involves a large scale effort for analysing all faults, and potential faults throughout the different elements of the system as a whole.
-
-Tartakovsky suggested that FTA could be applied to groundwater by relating the occurrence of the system failure to the failures of its constitutive parts (see figure below). Examples being, aquifer contamination, the occurrence of a spill, or the failure of a remediation effort [@tartakovsky_probabilistic_2007].
-
-![Fault tree for a possible aquifer contamination. @tartakovsky_probabilistic_2007, Fig.1](tartakovsky_FTA_2007.jpg)
-
-### Requirements - PRA
-
-There are already software systems that accommodate PRA types of analysis. The problem from a risk governance point of view is how to interface and integrate with such systems. Level 3 requirements might be reduced to the following: 
-
-| level | requirement                        | met by |    
-|------|:---------------------------------| ------------------|
-| 3    | Able to store and track likelihoods |  `schema: risk` |
-| 3    | Able to store and track failure modes |  `schema: risk` |
-| 3    | Able to store and track effects & effect between system components |  `schema: risk` |
-| 3    | Able to store and track failures |  `schema: risk` |
-| 3    | Able to store and track boolean relations of potential faults | `schema: risk` |
 
 ## Markov Chain Monte Carlo and Bayesian Risk (MCMC)
 
@@ -570,15 +508,23 @@ ERM uses quantitative probabilistic and non-probabilistic techniques with measur
 | 3    | Able to store & track economic capital |  `schema: risk`  |
 | 3    | Able to store & track bore license value |  `schema: risk`  |
 
+
+## Risk Portfolio
+
+Barker et al identify total SH&E risk and the total costs to mitigate these as issues of concern to a proponent [@barker_assessing_1998]. They identify a model which allows users to enter a range of estimated dollar costs to mitigate the risks across different SH&E categories [@barker et al_assessing_1998]. The mitigation costs for each category are then summed to calculate the total cost value, which can be plotted as cumulative frequency plots as a SH&E risk portfolio.
+
+### Requirements - Risk Portfolio
+
+| level | requirement                        | met by |    
+|------|:---------------------------------| ------------------|
+| 3    | Able to track and report on risk portfolio |  `schema: risk`  |
+
+
 # System Engineering
 
-The types of risk and risk assessment noted above give an indication of the many types of data that might be required for a comprehensive risk assessment framework. 
+The types of risk and risk assessment noted above give an indication of the many types of data that might be required for a comprehensive risk assessment framework. Renn and Walker term this a "comprehensive technology" that aims to integrate risk assessment into decision-making [-@renn_global_2008, p.17]. 
 
-In terms of systems programming languages, there are too many to review here. The choice of language to develop in will often be driven by requirements, but also legacy considerations, and a coder's language familiarity or specialisation. 
-
-As noted by Cozzi [@cozzi_webgl_2015], the requirement of web-enabled 3D visualisation has introduced many coders to WebGL, and languages like Python and javaScript. Indeed, as Amato and Ring [@amato_ring_getting_2015] have noted, with the emergence of Asynchronous Module Definition (AMD), and technologies like Node.js and browserify, javaScript has become a language worthy of both server, and client-side production applications. 
-
- 
+In terms of systems programming languages, there are too many to review here. The choice of language to develop in will often be driven by requirements, but also legacy considerations, and a coder's language familiarity or specialisation. As noted by Cozzi [@cozzi_webgl_2015], the requirement of web-enabled 3D visualisation has introduced many coders to WebGL, and languages like Python and javaScript. Indeed, as Amato and Ring [@amato_ring_getting_2015] have noted, with the emergence of Asynchronous Module Definition (AMD), and technologies like Node.js and browserify, javaScript has become a language worthy of both server, and client-side production applications and it is the focus for this review.
 
 ## Engineering Scope
 
@@ -600,11 +546,6 @@ In identifying the requirement for a risk governance system above the next quest
 
 If such a WBS procedure was undertaken by a business consultant^[In the professional experience of the author, standard industry practice is for WBS & Requirements Gathering to be outsourced to a business consultant] it could typically culminate in a data dictionary and data format standards as the deliverable products. In the case of CSG in Queensland, the deliverables were a data dictionary and database file format for transferring data to the regulator, forming the backbone of the data capture element of the policy framework for risk management, mitigation and make-good. [@dnrm_storing_2015]. 
 
-A standard approach within organisation, and across entities, is integration and interoperability.  influence the organization’s performance. 
-
-
-
-
 ### Industry Experience Study 1: AWRIS^[The author has had the privilege to have work with Melbourne Water during the development and implementation of the ETL system for transferring hydrological data to the Bureau of Meteorology's AWRIS system.]
 
 Running parallel to the National Harmonized Regulatory Framework noted above, has been the National Enabling Framework (NEF) established by the Commonwealth Scientific and Industrial Research Organisation (CSIRO) and the Australian Bureau of Meteorology (BoM) in 2006 [@commonwealth_awris_2006]. The goal of NEF was to develop information technology that can enable effective management and decisions regarding Australia's water resources and water data [@commonwealth_awris_2006].^[This included various data sets on rainfall, and the water levels of streams, dams and aquifers from State and Local government and non-government entities] 
@@ -616,14 +557,6 @@ It was subsequently identified that across Australia, many different water infor
 The Work Breakdown Structure adopted for the AWRIS project comprised of model-driven^[In the model-driven approach concepts and their relations are captured before implementation. It typically uses Unified Modelling Language (UML) or similar information modelling tools [@lemon_role_2012, @inspire_inspire_2013].] and standards-driven^[Standard data & metadata exchange formats such as the Water Data Transfer Format (WDTF) & Water Markup Language (WaterML & WaterML2) and National Water Quality Data Set (NWQDS) were  developed [@power_maintaining_2011, @ryan_water_2011].] approaches. These aimed to achieve functional interoperability, and synchronization between distributed software packages from different manufacturers in different organisations, involving a series of data transformation steps [@power_maintaining_2011, p.3156].^[The data transformation steps identified are: validation, translation, authorisation, verification and conversion] 
 
 Lemon et al noted that the AWRIS development experience showed that the model-driven approach alone could not solve the interoperability problem because interoperability between multiple data models required the ability to relate one information model to another [@lemon_role_2012, p.142]. Lemon et al suggested that this may be achieved through interoperability contracts between parties, however if such contracts are only between two parties, which has been the case (originator and implementer), "no other party will be able to re-purpose the same information until they also enter into a similar arrangement with the originator" [@lemon_role_2012]. Hence significant weight has been placed on further development of interoperability contracts for the successful coherence of the system (Ibid.).
-
-"In the case of AWRIS 1, clearly defining business and
-system requirements and establishing governance arrangements
-commensurate with the risk profile of the project, would have better
-positioned the Bureau to develop and deliver a system with greater
-functionality within more reasonable timeframes.""
-
-The Water Data Transfer Format is currently used by 66 of the 232 named water organisations. 
 
 #### Leaner, data-driven WBS required
 
@@ -654,39 +587,16 @@ In a number of industry-based community of practice meetings organised by the Au
 
 Like the AWRIS system above, manual data QC transformation needed to be performed on the data, prior to import into the 3D visualisation Water Atlas project maintained by the University of Queensland [@hunter_web-based_2015]. 
 
-### Industry Experience Study 3: ABARES
-
-### Industry Experience Study 4: Grounwater system
-
-
-
-
 ### Alternative approaches
 
 #### Relational and Non-relational Data Systems
 
-The assumption of a relational system presents the challenge of system interoperability, where different end users, in different government and corporate entities, use different systems. 
+The assumption of a relational system presents the challenge of system interoperability, where different end users, in different government and corporate entities, use different systems. As Shin and Kim note, NoSQL systems have been designed to meet this business needs to accommodate very large unstructured data sets [@shin_utilization_2015]. Unstructured data is data that does not have a pre-defined data model. This is typically referred to emergent data requirements. It is typically text-heavy, but may contain data such as dates, numbers, and facts as well.
 
-As Shin and Kim note, NoSQL systems have been designed to meet this business needs to accommodate very large unstructured data sets [@shin_utilization_2015]
+Non-relational database technologies, also known as NoSQL, were developed to better meet the needs of key-value storage of large amounts of record
+[@abramova_experimental_2014]. Stonebraker suggests that enterprises have been slow to deploy NoSQL technologies for various reasons, with some commentators noting that there are only a few problems that require "consistency-relaxed" alternatives  [@stonebraker_sql_2010, @stonebraker_sql_2011, Vyduna in @stonebraker_sql_2011]. 
 
-
-The requirement for capturing unstructured data is a challenge that has been met by recent database technologies. Unstructured data is data that does not have a pre-defined data model. This is typically referred to emergent data requirements. It is typically text-heavy, but may contain data such as dates, numbers, and facts as well.
-
-However, execution of requests can become a lengthy and inefficient process for
-some large databases. Moreover, storing large amounts of data requires servers with larger capacities and
-scalability capabilities. Relational databases have limitations to deal with scalability for large volumes of
-data. On the other hand, non-relational database technologies, also known as NoSQL, were developed to
-better meet the needs of key-value storage of large amounts of record
-[@abramova_experimental_2014]
-
-consistency-relaxed alternatives. 
-
-
-Stonebraker
-
-Stonebraker suggests that enterprises have been slow to deploy NoSQL technologies for various reasons, with some commentators noting that there are only a few problems that require "consistency-relaxed" alternatives  [@stonebraker_sql_2010, @stonebraker_sql_2011, Vyduna in @stonebraker_sql_2011]. The task of meeting multiple stakeholder requirements together with accommodating multiple legacy data models is a problem that can benefit from relaxed consistency.
-
-However when considering the requirements for a risk governance system the tasks of integrating unstructured data with ARM and multiple data models of legacy vendor-systems, provides for a novel engineering concept that is more reactive by design, accommodating data unstructured by any particular legacy data model.
+The task of meeting multiple stakeholder requirements together with accommodating multiple legacy data models is a problem that can benefit from relaxed consistency. However when considering the requirements for a risk governance system the tasks of integrating unstructured data with ARM and multiple data models of legacy vendor-systems provides for a novel engineering concept that is more reactive by design, accommodating data unstructured by any particular legacy data model.
 
 #### SQL to NoSQL
 
@@ -737,13 +647,11 @@ That the dynamic nature of social license to operate and perceived risk, seems t
 
 Rather, at any point in the life-cycle of an operation, social licence can be withdrawn regardless of an initial risk impact assessment. Hence, risk needs to be an on-going monitoring mechanism. This seems to generate a requirement for conceiving risks as time-series parameters, with assessment and monitoring over time.  
 
-<!-- It was found that there are many different approaches to risk that are relevant to a governance system, increasing the complexity of development and that traditional methods of system development are costly and may not meet requirements. -->
-
 As noted above, industry experience shows that few pre-existing vendor-based and legacy systems do not meet all data requirements for a holistic notion of risk governance which covers all areas and approaches which are applicable to UE risk. This raises an engineering question captured under the phrase 'migrate or integrate'.
 
-BigData, along with NoSQL technologies are well-positioned to be able to meet the requirement for accommodating unstructured data, together with data transfer requirements from the regulators in the form of pre-existing data dictionaries, pre-existing data models and the requirement for a dynamic data-model which is responsive to changing requirements. 
+BigData, along with NoSQL technologies appear to be well-positioned to be able to meet the requirement for accommodating unstructured data, together with data transfer requirements from the regulators in the form of pre-existing data dictionaries, pre-existing data models and the requirement for a dynamic data-model which is responsive to changing requirements. 
 
-However future work will not only be to synthesis and uniquify high level requirements to eliminate duplication, and then decompose the unique requirement set into technical, level 4 and level 5 requirements, but also to determin the stratgey for a hole-of-system solution.
+However future work will not only be to synthesis and uniquify high level requirements to eliminate duplication, and then decompose the unique requirement set into technical, level 4 and level 5 requirements, but also to determine the strategy for a whole-of-system solution.
  
 # References
 

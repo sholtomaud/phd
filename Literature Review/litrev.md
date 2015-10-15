@@ -21,50 +21,6 @@ output:
 
 A review was conducted of literature with the aim of gathering requirements for a system of risk governance with application to groundwater and Unconventional Energy production. The review covers both current concepts and models regarding the governance of risk within Australia, and also the type of technology and development methods which might be used to accommodate the identified requirements. It was found that there are many different approaches to risk that are relevant to a governance system, and that these increase the complexity of development and place greater emphasis on data-driven approaches.
 
-# Introduction
-
-In the last few years unconventional energy (UE) ^[Unconventional energy in the Australian context, generally refers to gas held in shale or coal formations (CSG), along with what is known as "tight gas" [@taylor_australias_2012, p.7].], including unconventional natural gas development (UNGD) [@werner_environmental_2015] production, has been considered a significant potential economic resource for Australia. 
-
-However it is a potential that faces significant resource, market, governance and environmental challenges with calls to remove unnecessary costs, whilst maintaining robust environmental risk protection [@brockett_streamline_2014; @appea_cutting_2014; @mcdine_east_2015]. 
-
-At the same time, the understanding of risk itself has evolved to include multi-layered socio-political dimensions, and broadened from a state-centric hierarchical management of threats, towards a global, but distributed, risks governance model inclusive of industry, science and non-governmental organizations [@renn_global_2008; @renn_coping_2011; @figuie_towards_2014]. With this broader conception there may be potentially many different views on the risks posed by and to CSG operations [@hunter_regulation_2011].^[In this context this review does not seek to express an opinion on the riskiness of CSG operations, but rather to gather the requirements for a system that can reduce costs of capturing, monitoring, and governing data involving risks, but increase the governance-ability.]
-
-## The Challenges & Problem Scope
-
-Of the challenges facing the UE industry the Committee for Economic Development of Australia (CEDA) report notes that property rights and water management are key issues [@taylor_australias_2012, p.5]. However there are other key challenges which have arisen subsequent to the CEDA report.
-
-### The Financial Challenge 
-
-Recent market conditions of low oil prices and market failures in China have, however, raised doubts over future CSG expansions and greenfields projects [@mchugh_lower_2015].^[The CSG yearly reports, for example, all note the sensitivity of cash flows to global oil prices: "significant fall in oil price, if sustained at current levels, will result in lower growth in cash flow and earnings than previously expected" [@origin_energy_full_2015]; "Sales revenue fell 19% on the corresponding quarter, affected by the lower realised oil price" [@santos_second_2015]; "Revenue and other operating income decreased 19% to $2 557 million, reflecting significantly lower commodity prices, especially oil and liquids"[@bg-group_second_2015].] Financial risk has therefore emerged as another key issue [@lehner_finance_2014; @brandimarte_handbook_2014].
-
-Multiple competing risks therefore need to be managed by multiple entities within a financial context, and as @brockett_streamline_2014 notes, this creates industry calls for regulatory reforms to remove unnecessary costs but still pursue robust independent risk management frameworks aimed at preventing potentially irreversible damage to environmental and hydrological systems [@beckers_groundwater_2013; @howe_framework_2010; @hunter_draft_2013; @davies_managing_2015].  
-
-### The Regulatory Challenge
-
-Partially in response to legislative duplication at the Federal level [@brockett_streamline_2014], the Australian Government initiated the National Harmonized Regulatory Framework (NHRF) [@scer_national_2013], together with a number of subsequent reports plus community feedback. The aim was to address the issues of what all the elements of an UE Risk Governance system are, and how such might fit together [@dnrm_coal_2013; @dnrm_activity_2013; @dnrm_storing_2015; @beckers_groundwater_2013; @qwc_underground_2012; @hunter_global_2015]. 
-
-As @brockett_streamline_2014 noted, different levels of government responded to these calls for action in varying ways. Queensland, for example, developed the Underground Water Management Framework (UWMF) [@qld_state_government_underground_2015] which outlines State-government level components for CSG groundwater regulation. However, whilst this approach of case-by-case regulation may meet State-level regulatory requirements, as @freiberg_tools_2010 has suggested [p. 270], focus on the regulation of a specific issue can leave broader issues unresolved. Indeed the ability of regulatees to employ information systems used to collect data required by regulatory forms is one of these broader issues. 
-
-### The Information System Challenge
-
-In response to increasing regulatory requirements at many levels of governance, database systems have grown incrementally in an ad-hoc manner without consideration for what might be called whole-of-system data requirements [@rajabifard_spatial_2008; @williams_unconventional_2012; @brockett_streamline_2014; @eddie_jennifer_administration_2014].
-
-In Queensland there have been various information systems developed by different entities, each which attempts to accommodate different regulatory requirements.^[These include, but are not limited to, projects such as the Queensland Department of Natural Resources and Mines Ground Water Database (GWDB) [@dnrm_groundwater_2015], the Queensland Department of Natural Resources Water Entitlements system [@dnrm_water_2015], the Office of Groundwater Impact Assessment database [@mines_office_2015], the University of Queensland's Water Atlas [@hunter_web-based_2015], the Santos Water Portal [@santos_santos_2015], The Queensland Globe [@qld_state_government_queensland_2015], the Bore portal [@mines_bore_2015], The Queensland University of Technology Groundwater Visualisation System [@qut_groundwater_2015; @cox_groundwater_2013].]. Hence, as @tomas_towards_2015 has noted more generally, there are significant amounts and varieties of hydrological data available, presenting many system engineering challenges such as accessibility, consistency, comparability, and quality. Nationally, with over 50 years of uncoordinated hydrological digital data collection in Australia^[With some rainfall observation records dating back to the 1850's], more than 200 different information systems and semantics have emerged at a local level [@maguire_something_2015; @denzer_hydroinformatics:_2012]. Specialist system administrators for these systems have also become required and embedded in government and corporate I.T. departments. 
-
-Federally, the National Map [@nicta_national_2015] and Groundwater Explorer [@bom_australian_2015] systems have been developed, along with the AWRIS system [@bom_australian_2015-1]. Globally, the Digital Earth, Open Digital Earth [@degf_digital_2015; @isde_international_2015; @degf_digital_2015], and Infrastructure for Spatial Information in the European Community (INSPIRE) have attempted ambitious projects to integrate the use of many different digital technologies [@keysers_review_2015; @inspire_inspire_2013]. Within these projects, a common approach is to develop 'enabling platforms', using integration and interoperability tools to achieve required datasets [@commonwealth_of_australia_awris_2006; @rajabifard_spatial_2008; @power_maintaining_2011; @lemon_role_2012; @harrison_data_2013; @inspire_inspire_2013; @tomas_towards_2015; @kadadi_challenges_2014; @hauser_interoperability:_2015]. This has been the approach used in the Australian hydrological industry, and some of the Australian experiences will be addressed in more detail below. 
-
-### The Global Risk Governance Challenge
-
-Unlike other continents, Australia has the benefit of being an island with relatively isolated impacts internationally. Hence the incorporation of Global Risk Governance concepts might appear irrelevant for the Australia regulatory context. So amidst the many challenges why consider Global Risk Governance at all? Wouldn't adding a requirement for meeting Global Risk Governance concepts add further Information System and Financial loads? Indeed, @tomas_towards_2015 notes that the (INSPIRE) project required an enormous data harmonisation effort.
-
-The International Risk Governance Council (IRGC) argues that governance mechanisms evolve much more slowly than the processes currently driving technological, environmental and social change [@irgc_what_2015]. The IRGC sees the consequence of this evolution mismatch that policy makers have become conscious of the importance of risk communication and of meeting public expectations. 
-
-When transnational corporate entities seek to operate across multiple National boundaries, a globalised approach to risk governance becomes attractive when it can reduce the requirement for multiple information systems, or costly enhancements of existing systems to meet new requirements from a difference Governance region. Risk governance thus extends beyond conventionally recognised elements of risk analysis to include, 
-  
-> _matters of institutional design and role, organisational capacity, stakeholder involvement, collaborative decision making and political accountability on the part of public bodies and corporate responsibility on the part of private enterprises. It also includes the requirement on the part of government, commercial and civil society actors for the development and use of scientific knowledge within the risk governance process_. [@renn_global_2008]
-
-Many of these requirements are identified below in response to the CSG context in Australia, which suggests there is a movement towards the Global Risk Governance agenda.
-
 # Aim
 
 The aim of this review is to establish technical requirements of a Risk Governance System (RGS), and evaluate technologies and engineering methods that might be viable solutions to meet these  requirements.
@@ -75,11 +31,11 @@ The approach used here is a requirements-oriented literature review. This approa
 
 Whilst this approach may sacrifice detail in the various reviews, the benefits of a concurrent method is anticipated to be twofold: Firstly, by referring back to the risk literature, there is the opportunity to for a whole-of-system understanding of 'the why', with respects to why the system is being developed, and how such can inform the system engineering process. Secondly, is an understanding of how the limitations of system engineering may inform the ambitions of risk governance. As noted below, disconnects between IT and business representatives responsible for implementation and development can present responsibility, ownership, vision, and, consequently, engineering challenges. It is anticipated that the close affinity between software engineering, review, and requirements generation will enable greater learning from previous attempts to address similar problems, and research how it might can be done differently to improve economic, environmental and/or social benefits. 
 
-# Brief Histories 
+# Historical Introduction
 
 ## Brief History of Risk
 
-The historical lineage of risk might be viewed as stemming from Ancient times with intertwined and overlapping perspectives crossing, philosophy and theology, sociology and equity politics. Aven and Renn [@aven_risk_2010, pp.50-54] make a distinction between two phases in the history of risk analysis. That of the traditional concepts, associated with risk assessment, management and communication, and that of socio-cultural considerations. 
+The historical lineage of risk might be viewed as stemming from Ancient times with intertwined and overlapping perspectives crossing the breadth of human intellectual history [@goodarzi_introduction_2013]. Aven and Renn [@aven_risk_2010, pp.50-54] make a distinction between two phases in the history of risk analysis. That of the traditional concepts, associated with risk assessment, management and communication, and that of socio-cultural considerations. 
 
 Citing Grier, Covello and Mumpower claim that the traditional, quantitative, concept of risk assessment first entered intellectual thought in the 4th century AD, through Amobius's theological consideration of the risks posed to one's soul after death [@covello_risk_1985]. Covello and Mumpower argue that prior to 18th century there was almost no history of quantitative probability theory, but at which point there was a flourishing of probability risk analysis (PRA) with a modern prototype developed by LaPlace in application to smallpox vaccination and morbidity probabilities [@covello_risk_1985]. 
 
@@ -100,6 +56,8 @@ This non-technical aspect of the risk discourse, can be seen as an interest that
 It has been applied and formalised in the engineering of space and military systems [@rook_controlling_1986; @mooz_4.4.3_2001; @lightsey_systems_2001; @kossiakoff_systems_2002; @stamatelatos_fault_2002; @estefan_survey_2007; @nasa_nasa_2007; @clark_system_2009; @stamatelatosmichael_probabilistic_2011], with cornerstone concepts such as the "V-Model" [@mooz_visualizing_1997], and specialist software packages like Vitech's CORE^TM has been constructed to facilitate complex systems engineering process [@vitech_core_2015]. Conversely, the history of code research, or hacking, can often follow a very different path without a systemic method, and approached from the investigative trial and error method.
 
 # General Legislative Requirements
+
+A variety of approaches to legislation of UE have emerged at different levels of government. Documented below are some of those that have been developed in the Australian context.
 
 ## Water Monitoring Strategy Adaptive Risk Management & (WMS-ARM) 
 
@@ -273,7 +231,7 @@ Fault tree analysis (FTA), in which a detailed analysis of contributors to a maj
 
 @tartakovsky_probabilistic_2007 also suggested that FTA could be applied to groundwater by relating the occurrence of the system failure to the failures of its constitutive parts (see figure below). Examples being, aquifer contamination, the occurrence of a spill, or the failure of a remediation effort.
 
-![Fault tree for a possible aquifer contamination. @tartakovsky_probabilistic_2007, Fig.1](tartakovsky_FTA_2007.jpg)
+![Fault tree for a possible aquifer contamination. @tartakovsky_probabilistic_2007, Fig.1](tartakovsky_FTA_2007.png)
 
 ### Requirements - PRA
 
@@ -347,7 +305,7 @@ To qualitatively assess a risk, organizations can use a combination of ordinal, 
 
 An example of ordinal-interval qualitative risk analysis is the underground water, spring impact report. It uses a risk level between 1 (low) and 5 (high) for the assessment of springs. These level assignments were based on the estimated likelihood of a reduction in water flow, and the consequence of such.Likelihood was decomposed into magnitude of the predicted impact of groundwater levels, distance between spring and CSG development and the vertical proximity of the spring's aquifer to coal seam formation. Consequence was decomposed into the conservation ranking, and the distance between the spring and recharge area for the spring^[Distance between the spring and recharge was used as a measure of spring ecology resilience] [@qwc_underground_2012]. The scores for each spring were then plotted in the matrix below to assign the overall risk score. 
 
-![Risk Matrix for Springs [@qwc_underground_2012, Apx-93]](qwc_underground_2012.jpg)
+![Risk Matrix for Springs [@qwc_underground_2012, Apx-93]](qwc_underground_2012.png)
 
 In addition to documenting risks associated with springs, the underground water impact report identified a number of areas that need to be accommodated. Specifically, knowledge gaps around, cultural heritage and fauna assessments, the understanding of connectivity between springs and aquifers, and the ecosystems and species at springs [@qwc_underground_2012]
 

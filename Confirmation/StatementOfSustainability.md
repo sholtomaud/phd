@@ -1,0 +1,3 @@
+# Statement Of Sustainability
+
+The project will contribute further understanding around the applicability of unstructured persistence and data-driven interfaces to the sustainable regulation of hydrology & hydrogeology. It will establish more specific knowledge around the cost and potential for resource efficiencies that might be obtained in the use of such technologies, and enable Sustainability Risk Indices to be incorporated into the Stakeholder Interface.

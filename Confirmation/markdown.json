@@ -1,0 +1,12 @@
+{
+  "build":"./build/README.md",
+  "files":[
+    "./stage/TIMELINE.md",
+    "./stage/DraftThesisOutline.md",
+    "./stage/Introduction.md",
+    "./stage/litrev.md",
+    "./stage/ResearchProposal.md", 
+    "./stage/DataManagementPlan.md",
+    "./stage/StatementOfSustainability.md"
+  ]
+}
